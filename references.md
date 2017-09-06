@@ -1,4 +1,13 @@
 # References
+
+## Publications
+
+Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. "The spread of fake news by social bots." _arXiv preprint arXiv:1707.07592_ (2017). [https://arxiv.org/pdf/1707.07592.pdf]
+
+## News Articles
+
+Coming soon.
+
 ## Encyclopedia Articles
 - Sockpuppetry, social bots and cyborgs
     - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
