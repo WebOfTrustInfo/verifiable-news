@@ -1,5 +1,5 @@
-## Relevant references
-
+# References
+## Encyclopedia Articles
 - Sockpuppetry, social bots and cyborgs
     - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
     - https://en.wikipedia.org/wiki/Social_bot
