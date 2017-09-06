@@ -2,7 +2,6 @@
 
 - Fake identity
     - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
-    - https://en.wikipedia.org/wiki/Wikipedia:Sock_puppetry
     - https://en.wikipedia.org/wiki/Social_bot
     - https://en.wikipedia.org/wiki/Social_media#Cyborgs
 - Fake news
