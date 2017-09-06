@@ -4,6 +4,7 @@
     - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
     - https://en.wikipedia.org/wiki/Wikipedia:Sock_puppetry
     - https://en.wikipedia.org/wiki/Social_bot
+    - https://en.wikipedia.org/wiki/Social_media#Cyborgs
 - Fake news
     - https://en.wikipedia.org/wiki/Fake_news_website
     - https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22
