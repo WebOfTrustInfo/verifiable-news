@@ -1,5 +1,5 @@
-# verifiable-news
-W3C Credentials CG repository for Verifiable Claims as a tool in de-weaponizing disinformation
+# Verifiable News
+W3C Credentials Community Group repository for Credentials and Verifiable Claims as tools in curbing social bots and mitigating the spread of online misinformation and "fake news".
 
 Index:
 - [Kickoff discussion](https://github.com/w3c-ccg/fake-news/blob/master/verifiable_news_kickoff.md) on Verifiable Claims as a solution for fake news
