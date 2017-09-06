@@ -13,6 +13,6 @@
 - Communication, propaganda, and manipulation
     - https://en.wikipedia.org/wiki/Strategic_communication
     - https://en.wikipedia.org/wiki/Propaganda
+    - https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
     - https://en.wikipedia.org/wiki/Media_manipulation
     - https://en.wikipedia.org/wiki/Internet_manipulation
-    - https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
