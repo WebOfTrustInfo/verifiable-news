@@ -1,4 +1,4 @@
-# Bot-enabling software and tools
+# Bot-enabling Software and Tools
 
 This is a partial list of the software and tools which bot owners utilize. This allows us to consider their architectures and features to better understand the situation. 
 
