@@ -9,7 +9,7 @@
     - https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22
 - Social media marketing
     - https://en.wikipedia.org/wiki/Social_media_marketing
-   - https://en.wikipedia.org/wiki/Social_media_optimization
+    - https://en.wikipedia.org/wiki/Social_media_optimization
 - Communication, propaganda, and manipulation
     - https://en.wikipedia.org/wiki/Strategic_communication
     - https://en.wikipedia.org/wiki/Propaganda
