@@ -2,6 +2,8 @@
 
 ## Publications
 
+Bradshaw, Samantha, and Philip N. Howard. "Troops, Trolls and Troublemakers: A Global Inventory of Organized Social Media Manipulation." [http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf]
+
 Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. "The spread of fake news by social bots." _arXiv preprint arXiv:1707.07592_ (2017). [https://arxiv.org/pdf/1707.07592.pdf]
 
 ## News Articles
