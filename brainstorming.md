@@ -26,7 +26,7 @@ The plugins can include forms for users to create, edit, forward/redirect and re
 The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
 
 ### Shareable Factual Claims and OpenGraph
-The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable
+The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
 
 ### Embedding Claims in Posts via Shortcodes
 One way to embed references to local or remote factual claims into blog articles is using shortcodes:
@@ -36,7 +36,7 @@ One way to embed references to local or remote factual claims into blog articles
 `[claim id="http://www.remoteclaim.com/claims/ebfeb1f712ebc6f1c276e12ec21"]`
 
 ### Dependencies
-Factual claims can be used or referenced from articles and have dependency relationships with article objects.
+Factual claims can be used or referenced from articles and have dependency relationships with article objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
 The plugins can process blog article creation, editing and deletion events to process dependency graphs across factual claim producers and consumers. Users can automatically subscribe to remote factual claims’ update events as their blog articles depend on remote factual claims. That is, the plugins can also receive subscription requests and subscription cancelation requests to the update and deletion events of factual claims as other users make use of their factual claims.
 
