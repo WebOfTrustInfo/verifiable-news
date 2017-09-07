@@ -10,9 +10,6 @@
 `http://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
-## Hypertext and Verifiable Claims
-Coming soon.
-
 ## Decentralized Systems and Blogging Platform Plugins
 As we consider citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
 
@@ -25,7 +22,10 @@ The plugins can include forms for users to create, edit, forward/redirect and re
 ### Content Types
 The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
 
-### Shareable Factual Claims and OpenGraph
+### Factual Claims and Schema.org Schemas
+The plugins can embed verifiable claims into hypertext outputs for claims using RDFa or JSON-LD through the `<script>` element.
+
+### Factual Claims and OpenGraph
 The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
 
 ### Embedding Claims in Posts via Shortcodes
