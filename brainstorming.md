@@ -23,7 +23,7 @@ The plugins can include forms for users to create, edit, forward/redirect and re
 The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
 
 ### Factual Claims and Schema.org Schemas
-The plugins can embed verifiable claims into hypertext outputs for claims using RDFa or JSON-LD through the `<script>` element.
+The plugins can embed verifiable claim schema into hypertext outputs using RDFa or as JSON-LD through the `<script>` element.
 
 ### Factual Claims and OpenGraph
 The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
