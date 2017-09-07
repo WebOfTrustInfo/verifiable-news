@@ -16,13 +16,11 @@ Coming soon.
 ## Decentralized Systems and Blogging Platform Plugins
 As we consider citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
 
-### Type Systems
+### Factual Claims as Custom Post Types
 - https://codex.wordpress.org/Post_Types
 
-The plugins can use the type systems of blogging platforms to interoperate with other systems such as those which generate `sitemap.xml` (e.g. https://wordpress.org/plugins/google-sitemap-generator/).
-
 ### Creating, Editing and Revoking Factual Claims
-The plugins can include forms for users to create, edit and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
+The plugins can include forms for users to create, edit, forward/redirect and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 ### Content Types
 The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
@@ -43,5 +41,3 @@ One way to embed references to local or remote factual claims into blog articles
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
 `[claim id="http://www.remoteclaim.com/claims/ebfeb1f712ebc6f1c276e12ec21"]`
-
-Considering such plugins, and considering the possible features of such plugins, we can envision website-based and decentralized solutions which include support for citizen journalists and bloggers.
