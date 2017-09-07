@@ -5,7 +5,7 @@
 - https://w3c.github.io/vc-data-model/
 - https://w3c.github.io/vc-use-cases/
 
-## URI-addressable Claims
+## URI-addressable Factual Claims
 `http://www.journalistblog.com/claim/ebfeb1f712ebc6f1c276e12ec21`
 `http://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
@@ -19,7 +19,7 @@ https://codex.wordpress.org/Post_Types#Custom_Post_Types
 ### Creating, Editing and Revoking Factual Claims
 The plugins can include forms for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
-### Content Types
+### Factual Claims and Content Types
 The plugins can return content for requests for factual claims for the content types of HTML and JSON-LD.
 
 ### Factual Claims and Schema.org Schemas
@@ -28,7 +28,7 @@ The plugins can embed verifiable claim schema into hypertext outputs using RDFa 
 ### Factual Claims and OpenGraph
 The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
 
-### Embedding Claims in Posts via Shortcodes
+### Embedding References to Factual Claims in Posts via Shortcodes
 One way to embed references to local or remote factual claims into blog posts is using shortcodes. The plugins can process the creation, editing and deletion of blog posts to process dependencies on local and remote factual claims. 
 
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
