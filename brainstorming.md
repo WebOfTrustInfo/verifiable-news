@@ -35,6 +35,9 @@ One way to embed references to local or remote factual claims into blog posts is
 
 `[claim id="http://www.remoteclaim.com/claims/ebfeb1f712ebc6f1c276e12ec21"]`
 
+### Modifying the Forms for Creating and Editing Posts so that Users can Add Dependencies to Local and Remote Claims
+Another way to attach posts and claims is to add form elements on the post authoring pages.
+
 ### Dependencies
 Factual claims can be used or referenced from articles and have dependency relationships with article objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
