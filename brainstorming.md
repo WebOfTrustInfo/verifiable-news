@@ -20,7 +20,7 @@ Factual claims can be used or referenced from articles and have dependency relat
 
 `[claim id="http://www.remoteclaim.com/claims/ebfeb1f712ebc6f1c276e12ec21"]`
 
-The plugins can process blog article creation, editing and deletion events to process dependency graphs across factual claims providers, users automatically subscribing to remote factual claims’ update events as their blog articles depend on remote factual claims. That is, the plugins can also receive subscription requests and subscription cancelation requests to the update and deletion events of factual claims as other users make use of their factual claims.
+The plugins can process blog article creation, editing and deletion events to process dependency graphs across factual claim producers and consumers. Users can automatically subscribe to remote factual claims’ update events as their blog articles depend on remote factual claims. That is, the plugins can also receive subscription requests and subscription cancelation requests to the update and deletion events of factual claims as other users make use of their factual claims.
 
 Journalists can receive notifications about their article dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts, they also receive notifications promptly. The plugins can email journalists should their articles depend on factual claims which are updated or deleted.
 
