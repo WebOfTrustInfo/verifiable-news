@@ -29,7 +29,7 @@ The plugins can embed verifiable claim schema into hypertext outputs using RDFa 
 The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
 
 ### Embedding Claims in Posts via Shortcodes
-One way to embed references to local or remote factual claims into blog posts is using shortcodes:
+One way to embed references to local or remote factual claims into blog posts is using shortcodes. The plugins can process the creation, editing and deletion of blog posts to process dependencies on local and remote factual claims. 
 
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
@@ -41,6 +41,6 @@ Another way to attach posts and claims is to add form elements on the post-autho
 ### Dependencies
 Factual claims can be used or referenced from articles and have dependency relationships with article objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
-The plugins can process the creation, editing and deletion of blog posts to process dependencies on local and remote factual claims. The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of their factual claims as remote factual claims.
+The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
 
 Journalists can receive notifications about their post dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts they also receive notifications. The plugins can email journalists should their posts depend on factual claims which are updated or deleted.
