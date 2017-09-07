@@ -7,7 +7,7 @@
 
 ## Decentralized Systems and Blogging Platform Plugins
 
-As we think about citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Wordpress and Drupal plugins) for verifiable factual claims.
+As we think about citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
 
 Such plugins would include a new object type for factual claims and the URI for each factual claim could resemble: 
 http://www.journalistblog.com/claims/ebfeb1f712ebc6f1c276e12ec21 or http://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21.
