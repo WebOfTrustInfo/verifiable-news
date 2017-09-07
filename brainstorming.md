@@ -17,7 +17,7 @@ Coming soon.
 As we consider citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
 
 ### Factual Claims as Custom Post Types
-- https://codex.wordpress.org/Post_Types
+https://codex.wordpress.org/Post_Types#Custom_Post_Types
 
 ### Creating, Editing and Revoking Factual Claims
 The plugins can include forms for users to create, edit, forward/redirect and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
