@@ -12,7 +12,7 @@ As we think about citizen journalists and bloggers, we can consider blogging pla
 Such plugins would include a new object type for factual claims and the URI for each factual claim could resemble: 
 http://www.journalistblog.com/claims/ebfeb1f712ebc6f1c276e12ec21 or http://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21.
 
-The plugins can use the type systems of blogging platforms to interoperate with other systems such as `sitemap.xml` systems. The plugins can return content for requests for factual claims’ for content types HTML and JSON-LD. The plugins can ensure that the factual claims are shareable via OpenGraph data. The plugins can include forms for users to create, edit and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
+The plugins can use the type systems of blogging platforms to interoperate with other systems such as those which generate `sitemap.xml`. The plugins can return content for requests for factual claims’ for content types HTML and JSON-LD. The plugins can ensure that the factual claims are shareable via OpenGraph data. The plugins can include forms for users to create, edit and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 Factual claims can be used or referenced from articles and have dependency relationships with article objects. One way to embed references to local or remote factual claims into blog articles is using shortcodes:
 
