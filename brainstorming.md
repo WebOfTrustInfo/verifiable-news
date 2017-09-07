@@ -29,7 +29,7 @@ The plugins can embed verifiable claims into hypertext outputs for claims using 
 The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
 
 ### Embedding Claims in Posts via Shortcodes
-One way to embed references to local or remote factual claims into blog articles is using shortcodes:
+One way to embed references to local or remote factual claims into blog posts is using shortcodes:
 
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
