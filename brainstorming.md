@@ -25,15 +25,8 @@ The plugins can include forms for users to create, edit, forward/redirect and re
 ### Content Types
 The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
 
-### OpenGraph
-The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable.
-
-### Dependencies
-Factual claims can be used or referenced from articles and have dependency relationships with article objects.
-
-The plugins can process blog article creation, editing and deletion events to process dependency graphs across factual claim producers and consumers. Users can automatically subscribe to remote factual claims’ update events as their blog articles depend on remote factual claims. That is, the plugins can also receive subscription requests and subscription cancelation requests to the update and deletion events of factual claims as other users make use of their factual claims.
-
-Journalists can receive notifications about their article dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts, they also receive notifications promptly. The plugins can email journalists should their articles depend on factual claims which are updated or deleted.
+### Shareable Factual Claims and OpenGraph
+The plugins can ensure that the hypertext for factual claims includes OpenGraph data, making factual claims shareable
 
 ### Embedding Claims in Posts via Shortcodes
 One way to embed references to local or remote factual claims into blog articles is using shortcodes:
@@ -41,3 +34,10 @@ One way to embed references to local or remote factual claims into blog articles
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
 `[claim id="http://www.remoteclaim.com/claims/ebfeb1f712ebc6f1c276e12ec21"]`
+
+### Dependencies
+Factual claims can be used or referenced from articles and have dependency relationships with article objects.
+
+The plugins can process blog article creation, editing and deletion events to process dependency graphs across factual claim producers and consumers. Users can automatically subscribe to remote factual claims’ update events as their blog articles depend on remote factual claims. That is, the plugins can also receive subscription requests and subscription cancelation requests to the update and deletion events of factual claims as other users make use of their factual claims.
+
+Journalists can receive notifications about their article dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts, they also receive notifications promptly. The plugins can email journalists should their articles depend on factual claims which are updated or deleted.
