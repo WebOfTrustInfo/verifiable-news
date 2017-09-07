@@ -1,5 +1,10 @@
 # Brainstorming
 
+## Hyperlinks
+
+- https://w3c.github.io/vc-data-model/
+- https://w3c.github.io/vc-use-cases/
+
 ## Decentralized Systems and Blogging Platform Plugins
 
 As we think about citizen journalists and bloggers, we can consider blogging platform plugins (e.g. Wordpress and Drupal plugins) for verifiable factual claims.
