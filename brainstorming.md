@@ -39,7 +39,7 @@ One way to embed references to local or remote factual claims into blog posts is
 Another way to attach posts and claims is to add form elements on the post-authoring webpages to attach and detach local and remote claims.
 
 ### Dependencies
-Factual claims can be used or referenced from articles and have dependency relationships with article objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
+Factual claims can be used or referenced from posts and have dependency relationships with post objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
 
