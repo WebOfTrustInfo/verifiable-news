@@ -43,4 +43,4 @@ Factual claims can be used or referenced from articles and have dependency relat
 
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
 
-Journalists can receive notifications about their post dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts they also receive notifications. The plugins can email journalists should their posts depend on factual claims which are updated or deleted.
+Journalists can receive notifications about post dependencies should they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the facts, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which are updated or deleted.
