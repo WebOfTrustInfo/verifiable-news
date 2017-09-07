@@ -20,7 +20,7 @@ https://codex.wordpress.org/Post_Types#Custom_Post_Types
 The plugins can include forms for users to create, edit, forward/redirect and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 ### Content Types
-The plugins can return content for requests for factual claims’ for the content types of HTML and JSON-LD.
+The plugins can return content for requests for factual claims for the content types of HTML and JSON-LD.
 
 ### Factual Claims and Schema.org Schemas
 The plugins can embed verifiable claim schema into hypertext outputs using RDFa or as JSON-LD through the `<script>` element.
