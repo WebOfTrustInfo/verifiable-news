@@ -17,7 +17,7 @@ As we consider citizen journalists and bloggers, we can consider blogging platfo
 https://codex.wordpress.org/Post_Types#Custom_Post_Types
 
 ### Creating, Editing and Revoking Factual Claims
-The plugins can include forms for users to create, edit, forward/redirect and revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
+The plugins can include forms for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 ### Content Types
 The plugins can return content for requests for factual claims for the content types of HTML and JSON-LD.
@@ -38,7 +38,7 @@ One way to embed references to local or remote factual claims into blog posts is
 ### Modifying the Webpages for the Authoring of Posts
 Another way to attach posts and claims is to add form elements on the post-authoring webpages to attach and detach local and remote claims.
 
-### Dependencies
+### Dependency Relationships
 Factual claims can be used or referenced from posts and have dependency relationships with post objects. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
