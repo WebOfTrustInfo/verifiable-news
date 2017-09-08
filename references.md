@@ -26,6 +26,7 @@ Coming soon.
 - https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22
 ### Social Media Marketing
 - https://en.wikipedia.org/wiki/Social_media_marketing
+- https://en.wikipedia.org/wiki/Social_media#Bots_and_social_media_marketing
 - https://en.wikipedia.org/wiki/Social_media_optimization
 ### Strategic Communication, Propaganda and Manipulation
 - https://en.wikipedia.org/wiki/Strategic_communication
