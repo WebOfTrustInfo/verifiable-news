@@ -9,6 +9,9 @@ Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and
 Coming soon.
 
 ## Encyclopedia Articles
+### Computational Journalism
+- https://en.wikipedia.org/wiki/Computational_journalism
+- https://en.wikipedia.org/wiki/Computer-assisted_reporting
 ### Sockpuppetry, Social Bots and Cyborgs
 - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
 - https://en.wikipedia.org/wiki/Social_bot
@@ -20,7 +23,7 @@ Coming soon.
 ### Social Media Marketing
 - https://en.wikipedia.org/wiki/Social_media_marketing
 - https://en.wikipedia.org/wiki/Social_media_optimization
-### Communication, Propaganda and Manipulation
+### Strategic Communication, Propaganda and Manipulation
 - https://en.wikipedia.org/wiki/Strategic_communication
 - https://en.wikipedia.org/wiki/Propaganda
 - https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
