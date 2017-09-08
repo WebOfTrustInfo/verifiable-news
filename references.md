@@ -14,6 +14,7 @@ Coming soon.
 - https://en.wikipedia.org/wiki/Social_bot
 - https://en.wikipedia.org/wiki/Social_media#Cyborgs
 ### Fake News
+- https://en.wikipedia.org/wiki/Fake_news
 - https://en.wikipedia.org/wiki/Fake_news_website
 - https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22
 ### Social Media Marketing
