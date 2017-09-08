@@ -9,7 +9,9 @@ Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and
 Coming soon.
 
 ## Encyclopedia Articles
-### Computational Journalism
+### Journalism
+- https://en.wikipedia.org/wiki/Journalism
+- https://en.wikipedia.org/wiki/Citizen_journalism
 - https://en.wikipedia.org/wiki/Computational_journalism
 - https://en.wikipedia.org/wiki/Computer-assisted_reporting
 ### Sockpuppetry, Social Bots and Cyborgs
