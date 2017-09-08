@@ -52,8 +52,11 @@ The blogging platform plugins can include forms and API for users to create, edi
 
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
-### Searching Factual Claims
+### Factual Claims and Search
 Factual claims services can provide search services over collections of aggregated factual claims. 
+
+### Detecting Identical and Similar Factual Claims
+Factual claims services can detect identical and similar factual claims from different users.
 
 ### Factual Claims and Lists of News Articles Utilizing and Corroborating Them
 Factual claims services can list distributed posts and news articles utilizing and corroborating factual claims.
