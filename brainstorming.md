@@ -58,5 +58,5 @@ Factual claims services can provide search services over collections of aggregat
 ### Detecting Identical and Similar Factual Claims
 Factual claims services can detect identical and similar factual claims from different users.
 
-### Factual Claims and Lists of News Articles Utilizing and Corroborating Them
+### News Articles Utilizing and Corroborating Factual Claims
 Factual claims services can provide lists of distributed posts and news articles utilizing and corroborating factual claims.
