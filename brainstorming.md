@@ -62,4 +62,4 @@ Factual claims services can detect identical and similar factual claims from dif
 Factual claims services can provide lists of distributed posts and news articles utilizing and corroborating factual claims.
 
 ### Trending or Popular Factual Claims
-Factual claims services can indicate factual claims which are trending or popular in terms of journalism, for example for fact-checking organizations.
+Factual claims services can indicate factual claims which are trending or popular in terms of journalistic usage or in terms of sharing, for example for fact-checking organizations.
