@@ -45,7 +45,7 @@ The plugins can receive subscription requests and subscription cancelation reque
 
 Journalists can receive notifications about post/claim dependencies as they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the factual claims, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which change.
 
-## Factual Claim Services and Supernodes
+## Factual Claims Services and Supernodes
 
 ### Hosting Factual Claims
 The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims at remote locations. Factual claims services can host factual claims and receive pings when distributed claims are created. Factual claims services can ping lists of services and users whenever factual claims are created, updated or deleted.
