@@ -19,7 +19,7 @@ Coming soon.
 ### Social Media Marketing
 - https://en.wikipedia.org/wiki/Social_media_marketing
 - https://en.wikipedia.org/wiki/Social_media_optimization
-### Communication, Propaganda, and Manipulation
+### Communication, Propaganda and Manipulation
 - https://en.wikipedia.org/wiki/Strategic_communication
 - https://en.wikipedia.org/wiki/Propaganda
 - https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
