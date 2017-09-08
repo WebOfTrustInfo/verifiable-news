@@ -14,6 +14,8 @@ Coming soon.
 - https://en.wikipedia.org/wiki/Citizen_journalism
 - https://en.wikipedia.org/wiki/Computational_journalism
 - https://en.wikipedia.org/wiki/Computer-assisted_reporting
+### Social Media
+- https://en.wikipedia.org/wiki/Social_media
 ### Sockpuppetry, Social Bots and Cyborgs
 - https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
 - https://en.wikipedia.org/wiki/Social_bot
