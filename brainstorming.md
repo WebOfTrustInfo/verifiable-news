@@ -7,6 +7,7 @@
 
 ## URI-addressable Factual Claims
 `http://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
+
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
 ## Decentralized Systems and Blogging Platform Plugins
