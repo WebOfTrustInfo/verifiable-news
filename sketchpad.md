@@ -2,7 +2,7 @@
 {
   "id": "https://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21",
   "type": "FactualClaim",
-  "issuer": "https://www.journalistblog.com/user/1/",
+  "issuer": "https://www.journalistblog.com/user/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": "Lorem ipsum dolor sit amet.",
   "revocation": {
