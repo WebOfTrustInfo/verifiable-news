@@ -17,7 +17,7 @@ We can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plu
 https://codex.wordpress.org/Post_Types#Custom_Post_Types
 
 ### Creating, Editing and Revoking Factual Claims
-The plugins can include forms for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
+The plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 ### Factual Claims and Content Types
 The plugins can return content for requests for factual claims for the content types of HTML and JSON-LD.
@@ -44,3 +44,15 @@ Factual claims can be used or referenced from posts. News articles depend on oth
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
 
 Journalists can receive notifications about post/claim dependencies as they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the factual claims, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which are updated or deleted.
+
+## Factual Claim Services and Supernodes
+
+### Hosting Factual Claims
+The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims at remote locations. Factual claims services can host factual claims and receive pings when distributed claims are created. Factual claims services can ping lists of services and users whenever factual claims are created, updated or deleted.
+`http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
+
+### Searching Factual Claims
+Factual claims services can provide search services over collections of aggregated factual claims. 
+
+### Factual Claims and Lists of News Articles Utilizing and Corroborating Them
+Factual claims services can list distributed posts and news articles utilizing and corroborating factual claims.
