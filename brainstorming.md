@@ -33,7 +33,7 @@ One way to attach posts and local or remote factual claims is to embed reference
 
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
-`[claim id="http://www.remoteclaim.com/claim/ebfeb1f712ebc6f1c276e12ec21"]`
+`[claim id="http://www.remote.com/fact/ebfeb1f712ebc6f1c276e12ec21"]`
 
 ### Modifying the Webpages for the Authoring of Posts
 Another way to attach posts and local or remote factual claims is to add form elements on post-authoring webpages to modify post metadata, attaching and detaching posts and local and remote claims.
