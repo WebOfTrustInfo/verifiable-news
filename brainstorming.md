@@ -6,7 +6,6 @@
 - https://w3c.github.io/vc-use-cases/
 
 ## URI-addressable Factual Claims
-`http://www.journalistblog.com/claim/ebfeb1f712ebc6f1c276e12ec21`
 `http://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
@@ -43,7 +42,7 @@ Factual claims can be used or referenced from posts. News articles depend on oth
 
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
 
-Journalists can receive notifications about post/claim dependencies as they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the factual claims, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which are updated or deleted.
+Journalists can receive notifications about post/claim dependencies as they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the factual claims, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which change.
 
 ## Factual Claim Services and Supernodes
 
