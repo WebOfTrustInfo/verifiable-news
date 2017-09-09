@@ -43,7 +43,7 @@ Another way to attach posts and local or remote factual claims is to add form el
 ### Dependency Relationships
 News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
-The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Journalists can receive notifications about post/claim dependencies as they update their local factual claims. Should remote factual claims used by journalists update or change, they receive notifications. The plugins can email journalists should their news articles depend on factual claims which change.
+The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Journalists can receive notifications about post/claim dependencies as they update their local factual claims. Should remote factual claims used by journalists update or change, the journalists receive notifications. The plugins can email or message journalists should their news articles depend on factual claims which change.
 
 ## Factual Claims Services and Supernodes
 
