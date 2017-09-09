@@ -20,10 +20,10 @@ The plugins can include forms and API for users to create, edit, move/forward/re
 The plugins can return content for requests for factual claims for content types including HTML (`text/html`, `application/xhtml+xml`) and JSON-LD (`application/ld+json`).
 
 ### Factual Claims and Schema.org Schemas
-The plugins can embed factual claim schema into hypertext outputs using RDFa and/or as JSON-LD through the `<script>` element.
+The plugins can embed factual claim schema into hypertext using RDFa and/or as JSON-LD through the `<script>` element.
 
 ### Factual Claims and OpenGraph
-The plugins can ensure that the hypertext for factual claims includes [OpenGraph](http://ogp.me) data, making factual claims shareable on social media.
+The plugins can ensure that the hypertext for factual claims includes [OpenGraph](http://ogp.me) data, enhancing the shareability of factual claims on social media.
 
 ### Embedding References to Factual Claims in Posts via Shortcodes
 One way to attach posts and local or remote factual claims is to embed references to factual claims into blog posts using [shortcodes](https://codex.wordpress.org/Shortcode_API). The plugins can process the creation, editing and deletion of blog posts to process posts' dependencies on local and remote factual claims. 
