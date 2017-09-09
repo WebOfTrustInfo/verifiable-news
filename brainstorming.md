@@ -48,9 +48,11 @@ The plugins can output post metadata into posts, invisibly to readers but visibl
 ### Hosting Factual Claims
 The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims hosted by remote services.
 
-Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)). Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
-
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
+
+### Creating, Editing and Revoking Factual Claims
+
+Factual claims services can receive pings when distributed factual claims are created, edited or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)). Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
 
 ### Searching Factual Claims
 Factual claims services can provide search services over collections of aggregated factual claims. 
