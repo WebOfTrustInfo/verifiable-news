@@ -53,7 +53,7 @@ Factual claims services can receive pings when distributed factual claims are cr
 Factual claims services can provide search services over aggregated collections of factual claims. 
 
 ### Detecting Identical and Similar Factual Claims
-Factual claims services can detect identical and similar factual claims from different users.
+Factual claims services can detect identical and similar factual claims from different users. Factual claims services can merge identical and paraphrased factual claims from different users.
 
 ### News Articles Utilizing and Corroborating Factual Claims
 Factual claims services can provide lists of distributed posts and news articles which utilize factual claims. Factual claims services can provide lists of distributed posts and news articles which corroborate factual claims.
