@@ -19,7 +19,7 @@ Factual claims can be implemented as a [custom post type](https://codex.wordpres
 `https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ### Creating, Editing and Revoking Factual Claims
-The plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
+The plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending))
 
 ### Factual Claims and Content Types
 The plugins can return content for requests for factual claims for content types including HTML and JSON-LD.
@@ -28,7 +28,7 @@ The plugins can return content for requests for factual claims for content types
 The plugins can embed verifiable claim schema into hypertext outputs using RDFa and/or as JSON-LD through the `<script>` element.
 
 ### Factual Claims and OpenGraph
-The plugins can ensure that the hypertext for factual claims includes [OpenGraph](http://ogp.me) data, making factual claims shareable.
+The plugins can ensure that the hypertext for factual claims includes [OpenGraph](http://ogp.me) data, making factual claims shareable on social media.
 
 ### Embedding References to Factual Claims in Posts via Shortcodes
 One way to attach posts and local or remote factual claims is to embed references to factual claims into blog posts using shortcodes. The plugins can process the creation, editing and deletion of blog posts to process posts' dependencies on local and remote factual claims. 
