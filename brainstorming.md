@@ -20,7 +20,7 @@ The plugins can include forms and API for users to create, edit, move/forward/re
 The plugins can return content for requests for factual claims for content types including HTML (`text/html`, `application/xhtml+xml`) and JSON-LD (`application/ld+json`).
 
 ### Factual Claims and Schema.org Schemas
-The plugins can embed verifiable claim schema into hypertext outputs using RDFa and/or as JSON-LD through the `<script>` element.
+The plugins can embed factual claim schema into hypertext outputs using RDFa and/or as JSON-LD through the `<script>` element.
 
 ### Factual Claims and OpenGraph
 The plugins can ensure that the hypertext for factual claims includes [OpenGraph](http://ogp.me) data, making factual claims shareable on social media.
@@ -39,6 +39,9 @@ Another way to attach posts and local or remote factual claims is to add form el
 News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
 The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. The plugins can email or message journalists should their news articles depend on factual claims which change.
+
+#### Indexing Post Metadata
+The plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts for search and retrieval can see how posts and claims relate.
 
 ## Factual Claims Services and Supernodes
 
