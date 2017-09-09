@@ -1,10 +1,5 @@
 # Brainstorming
 
-## Hyperlinks
-
-- https://w3c.github.io/vc-data-model/
-- https://w3c.github.io/vc-use-cases/
-
 ## URI-addressable Factual Claims
 `https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21`
 
