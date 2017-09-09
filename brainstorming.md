@@ -14,13 +14,15 @@
 We can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
 
 ### Factual Claims as Custom Post Types
+Factual claims can be implemented as a custom post type.
+
 https://codex.wordpress.org/Post_Types#Custom_Post_Types
 
 ### Creating, Editing and Revoking Factual Claims
 The plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted.
 
 ### Factual Claims and Content Types
-The plugins can return content for requests for factual claims for the content types of HTML and JSON-LD.
+The plugins can return content for requests for factual claims for content types including HTML and JSON-LD.
 
 ### Factual Claims and Schema.org Schemas
 The plugins can embed verifiable claim schema into hypertext outputs using RDFa and/or as JSON-LD through the `<script>` element.
@@ -39,11 +41,9 @@ One way to attach posts and local or remote factual claims is to embed reference
 Another way to attach posts and local or remote factual claims is to add form elements on post-authoring webpages to modify post metadata, attaching and detaching posts and local and remote claims.
 
 ### Dependency Relationships
-Factual claims can be used or referenced from posts. News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
+News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
-The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims as other users make use of factual claims as remote factual claims.
-
-Journalists can receive notifications about post/claim dependencies as they update their local factual claims and, should remote factual claims used by journalists update or change, as users of the factual claims, they also receive notifications. The plugins can email journalists should their posts depend on factual claims which change.
+The plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Journalists can receive notifications about post/claim dependencies as they update their local factual claims. Should remote factual claims used by journalists update or change, they receive notifications. The plugins can email journalists should their news articles depend on factual claims which change.
 
 ## Factual Claims Services and Supernodes
 
