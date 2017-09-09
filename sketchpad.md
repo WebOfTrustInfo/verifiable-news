@@ -1,3 +1,5 @@
+Here is a sketch of a verifiable claim with a text-based claim:
+
 ```json
 {
   "id": "https://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21",
