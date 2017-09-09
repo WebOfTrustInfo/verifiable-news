@@ -6,9 +6,9 @@
 - https://w3c.github.io/vc-use-cases/
 
 ## URI-addressable Factual Claims
-`http://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
+`https://www.journalistblog.com/fact/ebfeb1f712ebc6f1c276e12ec21`
 
-`http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
+`https://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
 ## Decentralized Systems and Blogging Platform Plugins
 We can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
@@ -35,7 +35,7 @@ One way to attach posts and local or remote factual claims is to embed reference
 
 `[claim id="ebfeb1f712ebc6f1c276e12ec21"]`
 
-`[claim id="http://www.remote.com/fact/ebfeb1f712ebc6f1c276e12ec21"]`
+`[claim id="https://www.remote.com/fact/ebfeb1f712ebc6f1c276e12ec21"]`
 
 ### Modifying the Webpages for the Authoring of Posts
 Another way to attach posts and local or remote factual claims is to add form elements on post-authoring webpages to modify post metadata, attaching and detaching posts and local and remote claims.
@@ -52,7 +52,7 @@ The blogging platform plugins can include forms and API for users to create, edi
 
 Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted. Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted.
 
-`http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
+`https://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
 ### Searching Factual Claims
 Factual claims services can provide search services over collections of aggregated factual claims. 
