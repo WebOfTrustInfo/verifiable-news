@@ -14,7 +14,7 @@ Factual claims can be implemented as a [custom post type](https://codex.wordpres
 `https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ### Creating, Editing and Revoking Factual Claims
-Plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. The plugins can ping lists of services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
+Plugins can include forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. Plugins can ping lists of services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
 
 ### Factual Claims and Content Types
 Plugins can return content for requests for factual claims for content types including HTML (`text/html`, `application/xhtml+xml`) and JSON-LD (`application/ld+json`).
