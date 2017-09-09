@@ -11,7 +11,7 @@
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ## Decentralized Systems and Blogging Platform Plugins
-We can consider blogging platform plugins (e.g. Drupal, Joomla and WordPress plugins) for verifiable factual claims.
+We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/) plugins) for verifiable factual claims.
 
 ### Factual Claims as Custom Post Types
 Factual claims can be implemented as a [custom post type](https://codex.wordpress.org/Post_Types#Custom_Post_Types).
@@ -50,7 +50,7 @@ The plugins can receive subscription requests and subscription cancelation reque
 ### Hosting of Factual Claims
 The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims hosted by remote services.
 
-Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted. Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted.
+Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)). Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
 
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
