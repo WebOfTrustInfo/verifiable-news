@@ -1,4 +1,4 @@
-Here is a sketch of a verifiable claim with a text-based claim:
+Here is a sketch of a verifiable text-based claim:
 
 ```json
 {
