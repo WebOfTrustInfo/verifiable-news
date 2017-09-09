@@ -47,8 +47,10 @@ Journalists can receive notifications about post/claim dependencies as they upda
 
 ## Factual Claims Services and Supernodes
 
-### Hosting Factual Claims
-The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims at remote locations. Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted. Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted.
+### Hosting of Factual Claims
+The blogging platform plugins can include forms and API for users to create, edit and delete/revoke factual claims hosted by remote services.
+
+Factual claims services can host factual claims and/or receive pings when distributed factual claims are created, edited or deleted. Factual claims services can ping lists of other services and users whenever factual claims are created, updated or deleted.
 
 `http://facts.press.org/fact/ebfeb1f712ebc6f1c276e12ec21`
 
