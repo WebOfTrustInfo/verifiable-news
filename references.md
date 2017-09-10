@@ -3,7 +3,7 @@
 ## Publications
 Bradshaw, Samantha, and Philip N. Howard. "Troops, Trolls and Troublemakers: A Global Inventory of Organized Social Media Manipulation." [http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf]
 
-Kümpel, Anna Sophie, Veronika Karnowski, and Till Keyling. "News sharing in social media: A review of current research on news sharing users, content, and networks." Social Media+ Society 1, no. 2 (2015): 2056305115610141. [http://journals.sagepub.com/doi/full/10.1177/2056305115610141 , https://www.researchgate.net/profile/Anna_Kuempel/publication/283180028_News_sharing_in_social_media_A_review_of_current_research_on_news_sharing_users_content_and_networks/links/56a747c708aeded22e36c3a8.pdf]
+Kümpel, Anna Sophie, Veronika Karnowski, and Till Keyling. "News sharing in social media: A review of current research on news sharing users, content, and networks." Social Media+ Society 1, no. 2 (2015): 2056305115610141. [http://journals.sagepub.com/doi/full/10.1177/2056305115610141]
 
 Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. "The spread of fake news by social bots." _arXiv preprint arXiv:1707.07592_ (2017). [https://arxiv.org/pdf/1707.07592.pdf]
 
