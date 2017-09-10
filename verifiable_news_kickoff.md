@@ -22,7 +22,7 @@ Negative claims are trickier, because the author of the claim being disputed has
 
 Realistically in journalism, it's unlikely that formal reasoning can be applied to state a claim is false. So rather than a claim of the form "this article says X and X is false", it's more likely that a claim stating "this article says X and that's a misleading claim" (with references to sources)" would be useful.
 
-## Who are the interesting parties in the system and how would they use claims?
+## Who are the interested parties in the system and how would they use claims?
 
 Significant parties include:
 
