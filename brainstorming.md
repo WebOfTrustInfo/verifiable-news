@@ -66,7 +66,7 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
-### Aggregating Factual Claims into Threads or Narratives
+### Aggregating Factual Claims into Threads, Stories or Narratives
 Factual claims services can aggregate factual claims into threads, stories or narratives.
 
 ### Exporting Collections of Factual Claims into Machine-utilizable Formats
