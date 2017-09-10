@@ -40,7 +40,7 @@ News articles depend on other articles and, pertinent to this discussion, news a
 
 Plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. Plugins can email or message journalists should their news articles depend on factual claims which change.
 
-#### Indexing Post Metadata
+### Indexing Post Metadata
 Plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
 
 ## Factual Claims Services and Supernodes
