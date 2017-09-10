@@ -65,3 +65,9 @@ Factual claims services can indicate which factual claims are trending or popula
 Plugins can provide forms and API for users to create, edit and delete/revoke factual claims hosted or co-hosted by factual claims services.
 
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
+
+### Aggregating Factual Claims into Threads or Narratives
+Factual claims services can aggregate factual claims into _threads_ or _narratives_.
+
+### Exporting Collections of Factual Claims into Machine-utilizable Formats
+Factual claims services can export collections of factual claims into machine-utilizable formats.
