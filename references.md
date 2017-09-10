@@ -5,9 +5,6 @@ Bradshaw, Samantha, and Philip N. Howard. "Troops, Trolls and Troublemakers: A G
 
 Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. "The spread of fake news by social bots." _arXiv preprint arXiv:1707.07592_ (2017). [https://arxiv.org/pdf/1707.07592.pdf]
 
-## News Articles
-Coming soon.
-
 ## Encyclopedia Articles
 ### Journalism
 - https://en.wikipedia.org/wiki/Journalism
