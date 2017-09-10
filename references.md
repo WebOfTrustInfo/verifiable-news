@@ -9,7 +9,7 @@ Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and
 - https://webfoundation.org/2017/03/web-turns-28-letter/
 
 ## Opinion Polls
-- http://www.journalism.org/2016/05/26/news-use-across-social-media-platforms-2016/
+- http://www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/
 - http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/
 - http://www.gallup.com/poll/216320/republicans-democrats-views-media-accuracy-diverge.aspx
 
