@@ -1,5 +1,6 @@
 # Sketchpad
 
+## Verifiable Text-based Claims
 Here is a sketch of a verifiable text-based claim:
 
 ```json
