@@ -6,7 +6,7 @@
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ## Decentralized Systems and Blogging Platform Plugins
-We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/) plugins) for verifiable factual claims.
+We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/) plugins) for decentralized systems of verifiable factual claims.
 
 ### Factual Claims as Custom Post Types
 Factual claims can be implemented as a [custom post type](https://codex.wordpress.org/Post_Types#Custom_Post_Types).
@@ -17,7 +17,7 @@ Factual claims can be implemented as a [custom post type](https://codex.wordpres
 Plugins can provide forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. Plugins can ping lists of services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
 
 ### Factual Claims and Content Types
-Plugins can return content for requests for factual claims for content types including HTML (`text/html`, `application/xhtml+xml`) and JSON-LD (`application/ld+json`).
+Plugins can return content for factual claim requests for content types including HTML (`text/html`, `application/xhtml+xml`) and JSON-LD (`application/ld+json`).
 
 ### Factual Claims and Schema.org Schemas
 Plugins can embed factual claim schema into hypertext using RDFa and/or as JSON-LD through the `<script>` element.
@@ -38,7 +38,7 @@ Another way to attach posts and local or remote factual claims is to add form el
 ### Dependency Relationships
 News articles depend on other articles and, pertinent to this discussion, news articles depend on facts.
 
-Plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. Plugins can email or message journalists should their news articles depend on factual claims which change.
+Plugins can receive subscription requests and subscription cancelation requests with regard to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. Plugins can email or message journalists should their news articles depend on factual claims which change.
 
 ### Indexing Post Metadata
 Plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
