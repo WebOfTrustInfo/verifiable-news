@@ -67,7 +67,7 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ### Discussing Factual Claims
-Factual claims services can provide discussion areas per factual claim.
+Factual claims services can provide discussion areas.
 
 ### Aggregating Factual Claims into Threads, Stories or Narratives
 Factual claims services can aggregate factual claims into threads, stories or narratives.
