@@ -41,7 +41,7 @@ News articles depend on other articles and, pertinent to this discussion, news a
 Plugins can receive subscription requests and subscription cancelation requests to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. Plugins can email or message journalists should their news articles depend on factual claims which change.
 
 #### Indexing Post Metadata
-Plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how posts and factual claims relate.
+Plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
 
 ## Factual Claims Services and Supernodes
 
@@ -67,7 +67,7 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 `https://facts.press.org/facts/ebfeb1f712ebc6f1c276e12ec21`
 
 ### Aggregating Factual Claims into Threads or Narratives
-Factual claims services can aggregate factual claims into _threads_, _stories_ or _narratives_.
+Factual claims services can aggregate factual claims into threads, stories or narratives.
 
 ### Exporting Collections of Factual Claims into Machine-utilizable Formats
 Factual claims services can export collections of factual claims into machine-utilizable formats.
