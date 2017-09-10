@@ -13,7 +13,6 @@ Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and
 ## Opinion Polls
 - http://www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/
 - http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/
-- http://www.gallup.com/poll/216320/republicans-democrats-views-media-accuracy-diverge.aspx
 
 ## Encyclopedia Articles
 ### Journalism
