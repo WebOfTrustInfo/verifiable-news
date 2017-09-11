@@ -1,7 +1,7 @@
 # References
 
 ## Publications
-Bradshaw, Samantha, and Philip N. Howard. "Troops, Trolls and Troublemakers: A Global Inventory of Organized Social Media Manipulation." [http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf]
+Bradshaw, Samantha, and Philip N. Howard. "Troops, trolls and troublemakers: A global inventory of organized social media manipulation." [http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf]
 
 Kümpel, Anna Sophie, Veronika Karnowski, and Till Keyling. "News sharing in social media: A review of current research on news sharing users, content, and networks." _Social Media + Society_ 1, no. 2 (2015). [http://journals.sagepub.com/doi/full/10.1177/2056305115610141]
 
