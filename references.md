@@ -15,28 +15,34 @@ Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and
 - [http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/](http://www.journalism.org/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/)
 
 ## Encyclopedia Articles
+
 ### Journalism
-- https://en.wikipedia.org/wiki/Journalism
-- https://en.wikipedia.org/wiki/Citizen_journalism
-- https://en.wikipedia.org/wiki/Computational_journalism
-- https://en.wikipedia.org/wiki/Computer-assisted_reporting
+- [https://en.wikipedia.org/wiki/Journalism](https://en.wikipedia.org/wiki/Journalism)
+- [https://en.wikipedia.org/wiki/Citizen_journalism](https://en.wikipedia.org/wiki/Citizen_journalism)
+- [https://en.wikipedia.org/wiki/Computational_journalism](https://en.wikipedia.org/wiki/Computational_journalism)
+- [https://en.wikipedia.org/wiki/Computer-assisted_reporting](https://en.wikipedia.org/wiki/Computer-assisted_reporting)
+
 ### Social Media
-- https://en.wikipedia.org/wiki/Social_media
+- [https://en.wikipedia.org/wiki/Social_media](https://en.wikipedia.org/wiki/Social_media)
+
 ### Social Media Marketing
-- https://en.wikipedia.org/wiki/Social_media_marketing
-- https://en.wikipedia.org/wiki/Social_media#Bots_and_social_media_marketing
-- https://en.wikipedia.org/wiki/Social_media_optimization
+- [https://en.wikipedia.org/wiki/Social_media_marketing](https://en.wikipedia.org/wiki/Social_media_marketing)
+- [https://en.wikipedia.org/wiki/Social_media#Bots_and_social_media_marketing](https://en.wikipedia.org/wiki/Social_media#Bots_and_social_media_marketing)
+- [https://en.wikipedia.org/wiki/Social_media_optimization](https://en.wikipedia.org/wiki/Social_media_optimization)
+
 ### Sockpuppetry, Social Bots and Cyborgs
-- https://en.wikipedia.org/wiki/Sockpuppet_(Internet)
-- https://en.wikipedia.org/wiki/Social_bot
-- https://en.wikipedia.org/wiki/Social_media#Cyborgs
+- [https://en.wikipedia.org/wiki/Sockpuppet_(Internet)](https://en.wikipedia.org/wiki/Sockpuppet_(Internet))
+- [https://en.wikipedia.org/wiki/Social_bot](https://en.wikipedia.org/wiki/Social_bot)
+- [https://en.wikipedia.org/wiki/Social_media#Cyborgs](https://en.wikipedia.org/wiki/Social_media#Cyborgs)
+
 ### Fake News
-- https://en.wikipedia.org/wiki/Fake_news
-- https://en.wikipedia.org/wiki/Fake_news_website
-- https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22
+- [https://en.wikipedia.org/wiki/Fake_news](https://en.wikipedia.org/wiki/Fake_news)
+- [https://en.wikipedia.org/wiki/Fake_news_website](https://en.wikipedia.org/wiki/Fake_news_website)
+- [https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22](https://en.wikipedia.org/wiki/Facebook_like_button#Fake_.22likes.22)
+
 ### Strategic Communication, Propaganda and Manipulation
-- https://en.wikipedia.org/wiki/Strategic_communication
-- https://en.wikipedia.org/wiki/Propaganda
-- https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda
-- https://en.wikipedia.org/wiki/Media_manipulation
-- https://en.wikipedia.org/wiki/Internet_manipulation
+- [https://en.wikipedia.org/wiki/Strategic_communication](https://en.wikipedia.org/wiki/Strategic_communication)
+- [https://en.wikipedia.org/wiki/Propaganda](https://en.wikipedia.org/wiki/Propaganda)
+- [https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda](https://en.wikipedia.org/wiki/State-sponsored_Internet_propaganda)
+- [https://en.wikipedia.org/wiki/Media_manipulation](https://en.wikipedia.org/wiki/Media_manipulation)
+- [https://en.wikipedia.org/wiki/Internet_manipulation](https://en.wikipedia.org/wiki/Internet_manipulation)
