@@ -58,8 +58,14 @@ Factual claims services can detect identical and similar factual claims from dif
 ### News Articles Utilizing and Corroborating Factual Claims
 Factual claims services can provide lists of distributed posts and news articles which utilize factual claims. Factual claims services can provide lists of distributed posts and news articles which corroborate factual claims.
 
+### Indexing Metadata
+Plugins can output factual claim metadata into claims' hypertext, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
+
 ### Trending or Popular Factual Claims
 Factual claims services can indicate which factual claims are trending or popular in terms of journalistic usage or in terms of sharing on social media, for example for fact-checking organizations.
+
+### Fact-checking Factual Claims
+Factual claims services can convenience fact-checking organizations.
 
 ### Hosting or Hosting Copies of Factual Claims
 Plugins can provide forms and API for users to create, edit and delete/revoke factual claims hosted or co-hosted by factual claims services.
@@ -68,9 +74,6 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 
 ### Discussing Factual Claims
 Factual claims services can provide areas for comments and discussions.
-
-### Fact-checking Factual Claims
-Factual claims services can convenience fact-checking organizations.
 
 ### Aggregating Factual Claims into Threads, Stories or Narratives
 Factual claims services can aggregate factual claims into threads, stories or narratives.
