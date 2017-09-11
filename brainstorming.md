@@ -83,4 +83,4 @@ Factual claims services can export collections of factual claims into machine-ut
 
 ## Other Producers and Consumers of Factual Claims
 
-Individuals and organizations other than journalistic can produce and consume factual claims. Organizations, companies, non-profits and public sector organizations, for example, can produce and consume factual claims.
+Individuals and organizations other than journalistic can produce and consume factual claims. Companies, non-profits, universities, laboratories and public-sector organizations, for example, can produce and consume factual claims.
