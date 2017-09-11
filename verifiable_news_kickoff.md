@@ -48,7 +48,7 @@ Realistically, even sites believed to contain many misleading stories do contain
 Making a claim at the site level is more likely to land the claimant in legal trouble
 Readers may self-partition themselves by picking claimants they trust, which may just prolong segmentation
 
-## Is it useful to identifying journalists/reviewers as sources of credible claims?
+## Is it useful to identify journalists/reviewers as sources of credible claims?
 
 There was consensus that identification of the sources of information (where possible) was useful, but mostly as a means to distinguish professional journalists from casual bloggers.
 
