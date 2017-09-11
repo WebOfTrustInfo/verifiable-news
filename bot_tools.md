@@ -6,5 +6,5 @@ Harnessing a browser as an encapsulated component is a software design methodolo
 
 Bot-enabling software allows its users to coordinate an open-ended number of accounts, to utilize proxy addresses, per account, and to perform social media activities corresponding to software features.
 
-- https://monstersocial.net/ (https://monstersocial.net/features/)
+- [https://monstersocial.net/](https://monstersocial.net/) ([https://monstersocial.net/features/](https://monstersocial.net/features/))
 - [http://www.massplanner.com/](http://web.archive.org/web/20170329071125/http://www.massplanner.com/) ([http://www.massplanner.com/features/](http://web.archive.org/web/20170221033436/http://www.massplanner.com/features/))
