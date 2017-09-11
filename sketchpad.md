@@ -6,7 +6,7 @@ Here is a sketch of a verifiable text-based claim:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
-  "type": "FactualClaim",
+  "type": "FactualTextClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
@@ -33,7 +33,7 @@ Here is another sketch of a verifiable text-based claim:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
-  "type": "FactualClaim",
+  "type": "FactualTextClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": "Lorem ipsum dolor sit amet.",
