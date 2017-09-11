@@ -74,3 +74,7 @@ Factual claims services can aggregate factual claims into threads, stories or na
 
 ### Exporting Collections of Factual Claims into Machine-utilizable Formats
 Factual claims services can export collections of factual claims into machine-utilizable formats.
+
+## Other Factual Claims Producers and Consumers
+
+Individuals and organizations other than journalistic can produce and consume factual claims. Organizations, companies, non-profits and public sector organizations, for example, can produce and consume such claims.
