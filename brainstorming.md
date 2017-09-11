@@ -70,7 +70,7 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 Factual claims services can provide areas for comments and discussions.
 
 ### Fact-checking Factual Claims
-Factual claims services can convenience fact checkers.
+Factual claims services can convenience fact-checking organizations.
 
 ### Aggregating Factual Claims into Threads, Stories or Narratives
 Factual claims services can aggregate factual claims into threads, stories or narratives.
