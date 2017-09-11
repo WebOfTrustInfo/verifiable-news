@@ -40,8 +40,8 @@ News articles depend on other articles and, pertinent to this discussion, news a
 
 Plugins can receive subscription requests and subscription cancelation requests with regard to the events of factual claims. Should local or remote factual claims used by journalists update or change, the journalists receive notifications. Plugins can email or message journalists should their news articles depend on factual claims which change.
 
-### Indexing Post Metadata
-Plugins can output post metadata into posts, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
+### Indexing Metadata
+Plugins can output post metadata into posts' hypertext, invisibly to readers but visibly to search engines, so that search engines indexing posts and factual claims for search and retrieval can see how specific posts and factual claims relate.
 
 ## Factual Claims Services and Supernodes
 
@@ -69,6 +69,9 @@ Plugins can provide forms and API for users to create, edit and delete/revoke fa
 ### Discussing Factual Claims
 Factual claims services can provide areas for comments and discussions.
 
+### Fact-checking Factual Claims
+Factual claims services can convenience fact checkers.
+
 ### Aggregating Factual Claims into Threads, Stories or Narratives
 Factual claims services can aggregate factual claims into threads, stories or narratives.
 
@@ -77,4 +80,4 @@ Factual claims services can export collections of factual claims into machine-ut
 
 ## Other Producers and Consumers of Factual Claims
 
-Individuals and organizations other than journalistic can produce and consume factual claims. Organizations, companies, non-profits and public sector organizations, for example, can produce and consume such claims.
+Individuals and organizations other than journalistic can produce and consume factual claims. Organizations, companies, non-profits and public sector organizations, for example, can produce and consume factual claims.
