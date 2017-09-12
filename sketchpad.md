@@ -54,7 +54,7 @@ Here is another sketch of a verifiable text-based claim:
 ```
 
 ## HTTP-based Revocation Scheme
-The idea here is that a URL can be provided which returns HTTP status code `200` if the claim is not revoked and a `404` or `410` if the claim is revoked.
+The idea here is that a URL can be provided which returns HTTP status code `404` or `410` if the claim is revoked and HTTP status code `200` if the claim is not revoked.
 
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
@@ -80,8 +80,6 @@ The idea here is that a URL can be provided which returns HTTP status code `200`
   }
 }
 ```
-
-or
 
 ```json
 {
