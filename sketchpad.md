@@ -76,7 +76,7 @@ and in the context of an example:
     "value": "The area of a circle with radius <math><mi>r</mi></math> is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo><msup><mi>r</mi><mn>2</mn></msup></math>.",
     "lang": "en",
     "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
-   }
+  }
 }
 ```
 2. What about interrelating claims, e.g. argumentation? (see also: [http://inference-web.org/](http://inference-web.org/))
