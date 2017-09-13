@@ -5,7 +5,7 @@ Here is a sketch of a text-based claim:
 ```json
 {
   "claim": {
-    "text": "Lorem ipsum dolor sit amet."
+    "value": "Lorem ipsum dolor sit amet."
    }
 }
 ```
@@ -17,7 +17,7 @@ and in the context of an example:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "text": "Lorem ipsum dolor sit amet."
+    "value": "Lorem ipsum dolor sit amet."
    },
   "revocation": {
     "id": "https://www.journalistblog.com/users/1/revocations/",
