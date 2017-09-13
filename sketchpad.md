@@ -63,9 +63,9 @@ Here is a sketch of a _verifiable factual claim_:
 ```
 
 ## HTTP-based Revocation
-The idea here is that a URL can be provided which returns HTTP status code [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the claim is revoked and HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the claim is not revoked.
-
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
+
+The idea here is that a URL can be provided which returns HTTP status code [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the claim is revoked and HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the claim is not revoked.
 
 Here is a sketch of HTTP-based revocation:
 ```json
@@ -103,9 +103,9 @@ and in the context of an example:
 ```
 
 ## Evidence and Reasoning Supporting Claims
-The idea here is that the evidence and reasoning supporting a claim can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
-
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
+
+The idea here is that the evidence and reasoning supporting a claim can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 
 Here is a sketch of HTML-embedded schema evidence:
 ```json
