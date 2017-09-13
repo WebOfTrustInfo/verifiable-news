@@ -2,7 +2,14 @@
 
 ## Verifiable Text-based Claims
 Here is a sketch of a verifiable text-based claim:
-
+```json
+{
+  "claim": {
+    "text": "Lorem ipsum dolor sit amet."
+   }
+}
+```
+in the context of a wider example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -27,9 +34,13 @@ Here is a sketch of a verifiable text-based claim:
   }
 }
 ```
-
 Here is another sketch of a verifiable text-based claim:
-
+```json
+{
+  "claim": "Lorem ipsum dolor sit amet."
+}
+```
+in the context of a wider example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
