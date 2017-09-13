@@ -79,4 +79,6 @@ and in the context of an example:
   }
 }
 ```
-2. What about interrelating claims, e.g. argumentation? (see also: [http://inference-web.org/](http://inference-web.org/))
+2. What about interrelating claims, e.g. argumentation?
+
+[https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
