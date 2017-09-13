@@ -9,7 +9,7 @@ Here is a sketch of a verifiable text-based claim:
    }
 }
 ```
-in the context of a wider example:
+in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -40,7 +40,7 @@ Here is another sketch of a verifiable text-based claim:
   "claim": "Lorem ipsum dolor sit amet."
 }
 ```
-in the context of a wider example:
+in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -71,6 +71,15 @@ The idea here is that a URL can be provided which returns HTTP status code `404`
 
 ```json
 {
+  "revocation": {
+    "id": "https://www.journalistblog.com/users/1/revocations/?id=ebfeb1f712ebc6f1c276e12ec21",
+    "type": "HTTPBasedRevocation"
+  }
+}
+```
+in the context of an example:
+```json
+{
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
   "type": "TextClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
@@ -91,7 +100,15 @@ The idea here is that a URL can be provided which returns HTTP status code `404`
   }
 }
 ```
-
+```json
+{
+  "revocation": {
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
+    "type": "HTTPBasedRevocation"
+  }
+}
+```
+in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
