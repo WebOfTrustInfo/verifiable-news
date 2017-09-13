@@ -5,7 +5,7 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/#claim
 
 The verifiable claims data model describes a datatype, `Credential`. A [credential](https://w3c.github.io/vc-data-model/#dfn-credential) is a set of one or more claims made by the same entity about a subject. A verifiable credential is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-Envisioning a new datatype, e.g. `Claim`, here are some sketches showing a variety of claims which are one or more RDF literals (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)). Adding verifiability to this data structure results in _factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
+Envisioning a new datatype, e.g. `Claim`, here are some sketches showing a variety of "claims" which are one or more RDF literals (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)). Adding verifiability to this data structure results in _factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
