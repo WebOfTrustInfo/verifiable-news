@@ -5,7 +5,7 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-Envisioning a new datatype, e.g. `Claim`, here are some sketches showing _factual claims_ which are one or more RDF literals asserted by the same entity (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)). Adding verifiability to this data structure results in _verifiable factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
+Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing _factual claims_ which are one or more RDF literals asserted by the same entity. Adding verifiability to this data structure results in _verifiable factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
@@ -39,12 +39,11 @@ Envisioning a new datatype, e.g. `Claim`, here are some sketches showing _factua
   }
 }
 ```
-
 Here is a sketch of a _verifiable factual claim_:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Claim",
+  "type": "FactualClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
@@ -80,7 +79,7 @@ and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Claim",
+  "type": "FactualClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
@@ -120,7 +119,7 @@ and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Claim",
+  "type": "FactualClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
