@@ -1,7 +1,7 @@
 # Sketchpad
 
 ## Verifiable Text-based Claims
-Here is a sketch of a verifiable text-based claim:
+Here is a sketch of a text-based claim:
 ```json
 {
   "claim": {
@@ -9,7 +9,7 @@ Here is a sketch of a verifiable text-based claim:
    }
 }
 ```
-in the context of an example:
+and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -34,13 +34,13 @@ in the context of an example:
   }
 }
 ```
-Here is another sketch of a verifiable text-based claim:
+Here is another sketch of a text-based claim:
 ```json
 {
   "claim": "Lorem ipsum dolor sit amet."
 }
 ```
-in the context of an example:
+and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -69,6 +69,7 @@ The idea here is that a URL can be provided which returns HTTP status code `404`
 
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
+Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
@@ -77,7 +78,7 @@ The idea here is that a URL can be provided which returns HTTP status code `404`
   }
 }
 ```
-in the context of an example:
+and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
@@ -100,6 +101,7 @@ in the context of an example:
   }
 }
 ```
+Here is another sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
@@ -108,7 +110,7 @@ in the context of an example:
   }
 }
 ```
-in the context of an example:
+and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
