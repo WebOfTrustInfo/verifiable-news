@@ -10,7 +10,7 @@ Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing 
 ```json
 {
   "claim": {
-    "value": "Earth is the third planet from the Sun."
+    "value": "Earth is the third planet of the Sun."
    }
 }
 ```
@@ -18,7 +18,7 @@ Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing 
 ```json
 {
   "claim": [{
-    "value": "Earth is the third planet from the Sun.",
+    "value": "Earth is the third planet of the Sun.",
     "lang": "en"
    },
    {
@@ -47,7 +47,7 @@ Here is a sketch of a _verifiable factual claim_:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Earth is the third planet from the Sun."
+    "value": "Earth is the third planet of the Sun."
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -83,7 +83,7 @@ and in the context of an example:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Earth is the third planet from the Sun."
+    "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
     "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
@@ -123,7 +123,7 @@ and in the context of an example:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Earth is the third planet from the Sun."
+    "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
     "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
