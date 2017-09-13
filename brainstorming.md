@@ -1,9 +1,9 @@
 # Brainstorming
 
 ## URI-addressable Factual Claims
-`https://www.journalistblog.com/facts/ebfeb1f712ebc6f1`
+`https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/`
 
-`https://facts.press.org/facts/ebfeb1f712ebc6f1`
+`https://facts.press.org/facts/ebfeb1f712ebc6f1/`
 
 ## Decentralized Systems and Blogging Platform Plugins
 We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/) plugins) for decentralized systems of verifiable factual claims.
@@ -11,7 +11,7 @@ We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/)
 ### Factual Claims as Custom Post Types
 Factual claims can be implemented as a [custom post type](https://codex.wordpress.org/Post_Types#Custom_Post_Types).
 
-`https://www.journalistblog.com/facts/ebfeb1f712ebc6f1`
+`https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/`
 
 ### Creating, Editing and Revoking Factual Claims
 Plugins can provide forms and API for users to create, edit, move/forward/redirect and delete/revoke factual claims. Plugins can ping lists of services and users whenever factual claims are created, updated or deleted (e.g. using [XML-RPC](https://codex.wordpress.org/XML-RPC_Extending)).
@@ -30,7 +30,7 @@ One way to attach posts and local or remote factual claims is to embed reference
 
 `[claim id="ebfeb1f712ebc6f1"]`
 
-`[claim id="https://www.remote.com/facts/ebfeb1f712ebc6f1"]`
+`[claim id="https://www.remote.com/facts/ebfeb1f712ebc6f1/"]`
 
 ### Modifying the Webpages for the Authoring of Posts
 Another way to attach posts and local or remote factual claims is to add form elements on post-authoring webpages to modify post metadata, attaching and detaching posts and local and remote claims.
@@ -70,7 +70,7 @@ Factual claims services can convenience fact-checking organizations.
 ### Hosting or Hosting Copies of Factual Claims
 Plugins can provide forms and API for users to create, edit and delete/revoke factual claims hosted or co-hosted by factual claims services.
 
-`https://facts.press.org/facts/ebfeb1f712ebc6f1`
+`https://facts.press.org/facts/ebfeb1f712ebc6f1/`
 
 ### Discussing Factual Claims
 Factual claims services can provide areas for comments and discussions.
