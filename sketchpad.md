@@ -1,6 +1,6 @@
 # Sketchpad
 
-## Text-based Claims
+## Factual Claims
 In the [verifiable claims data model](https://w3c.github.io/vc-data-model/#claims), a claim is a statement about a subject and claims may be merged together to express a graph of information about a particular subject. A verifiable claim is a claim that is tamper-resistant and whose authorship can be cryptographically verified.
 
 The verifiable claims data model describes a datatype, `Credential`. A [credential](https://w3c.github.io/vc-data-model/#dfn-credential) is a set of one or more claims made by the same entity about a subject. A verifiable credential is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
