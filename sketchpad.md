@@ -1,11 +1,11 @@
 # Sketchpad
 
-## Factual Claims
+## Verifiable Statements
 In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _[claim](https://w3c.github.io/vc-data-model/#dfn-claim)_ is a statement about a subject and claims may be merged together to express a graph of information about a particular subject. A _verifiable claim_ is a claim that is tamper-resistant and whose authorship can be cryptographically verified.
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing _factual claims_ which are one or more RDF literals asserting the same statement by the same entity. Adding verifiability to this data structure results in _verifiable factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
+We can envision a new datatype, `Statement` ("claim" is already used in the domain...). A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
@@ -39,11 +39,11 @@ Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing 
   }
 }
 ```
-Here is a sketch of a _verifiable factual claim_:
+Here is a sketch of a _verifiable statement_:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "FactualClaim",
+  "type": "Statement",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
@@ -79,7 +79,7 @@ and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "FactualClaim",
+  "type": "Statement",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
@@ -119,7 +119,7 @@ and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
-  "type": "FactualClaim",
+  "type": "Statement",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
