@@ -1,7 +1,7 @@
 # Sketchpad
 
 ## Text-based Claims
-Here is a sketch of a text-based claim:
+Here is a sketch of a text-based claim (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
 ```json
 {
   "claim": {
