@@ -69,7 +69,7 @@ and in the context of an example:
 }
 ```
 ## Discussion
-### What about mathematical expressions in claims, e.g. MathML?
+### What about mathematical expressions in claims?
 ```json
 {
   "claim": {
