@@ -44,7 +44,7 @@ Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   }
 }
@@ -52,7 +52,7 @@ Here is a sketch of HTTP-based revocation:
 and in the context of an example:
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
   "type": "Claim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
@@ -60,7 +60,7 @@ and in the context of an example:
     "value": "Lorem ipsum dolor sit amet."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   },
   "signature": {
@@ -84,7 +84,7 @@ Here is a sketch of HTML-embedded schema evidence:
 ```json
 {
   "evidence": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchema"
   }
 }
@@ -92,7 +92,7 @@ Here is a sketch of HTML-embedded schema evidence:
 and in the context of an example:
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
   "type": "Claim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
@@ -100,11 +100,11 @@ and in the context of an example:
     "value": "Lorem ipsum dolor sit amet."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   },
   "evidence": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchema"
   },
   "signature": {
