@@ -1,7 +1,7 @@
 # Sketchpad
 
 ## Text-based Claims
-Here is a sketch of a text-based claim (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
+In the [verifiable claims data model](https://w3c.github.io/vc-data-model/#claims), a claim is a statement about a subject. Here are some sketches showing a claim as one or more RDF literals (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
 ```json
 {
   "claim": {
@@ -9,7 +9,7 @@ Here is a sketch of a text-based claim (see also [https://www.w3.org/TR/rdf-json
    }
 }
 ```
-Here is another:
+
 ```json
 {
   "claim": [{
@@ -22,7 +22,7 @@ Here is another:
    }]
 }
 ```
-Here is a third sketch:
+
 ```json
 {
   "claim": {
