@@ -5,12 +5,12 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing _factual claims_ which are one or more RDF literals asserted by the same entity. Adding verifiability to this data structure results in _verifiable factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
+Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing _factual claims_ which are one or more RDF literals asserting the same statement by the same entity. Adding verifiability to this data structure results in _verifiable factual claims_ which are tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
   "claim": {
-    "value": "Lorem ipsum dolor sit amet."
+    "value": "Earth is the third planet from the Sun."
    }
 }
 ```
@@ -18,11 +18,11 @@ Envisioning a new datatype, e.g. `FactualClaim`, here are some sketches showing 
 ```json
 {
   "claim": [{
-    "value": "Lorem ipsum dolor sit amet.",
+    "value": "Earth is the third planet from the Sun.",
     "lang": "en"
    },
    {
-    "value": "Consectetur adipiscing elit.",
+    "value": "La Terre est la troisième planète du Soleil.",
     "lang": "fr"
    }]
 }
@@ -47,7 +47,7 @@ Here is a sketch of a _verifiable factual claim_:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Lorem ipsum dolor sit amet."
+    "value": "Earth is the third planet from the Sun."
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -83,7 +83,7 @@ and in the context of an example:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Lorem ipsum dolor sit amet."
+    "value": "Earth is the third planet from the Sun."
   },
   "revocation": {
     "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
@@ -123,7 +123,7 @@ and in the context of an example:
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
-    "value": "Lorem ipsum dolor sit amet."
+    "value": "Earth is the third planet from the Sun."
   },
   "revocation": {
     "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
