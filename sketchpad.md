@@ -75,8 +75,8 @@ and in the context of an example:
 }
 ```
 
-## HTML-embedded Schema of Evidence and Reasoning Supporting Claims
-The idea here is that the evidence and reasoning supporting a claim can be located at a specified URL, data embedded in the HTML as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+## Evidence and Reasoning Supporting Claims
+The idea here is that the evidence and reasoning supporting a claim can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
