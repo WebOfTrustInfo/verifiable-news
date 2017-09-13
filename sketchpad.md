@@ -38,7 +38,7 @@ Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
     "type": "HTTPBasedRevocation"
   }
 }
@@ -46,7 +46,7 @@ Here is a sketch of HTTP-based revocation:
 and in the context of an example:
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
+  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
   "type": "TextClaim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
@@ -54,7 +54,7 @@ and in the context of an example:
     "value": "Lorem ipsum dolor sit amet."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
     "type": "HTTPBasedRevocation"
   },
   "signature": {
@@ -62,9 +62,9 @@ and in the context of an example:
     "created": "2017-06-18T21:19:10Z",
     "creator": "https://www.journalistblog.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCRVpjOb
-    oDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+gGsutPTLzvu
-    eMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }
 }
 ```
