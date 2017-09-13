@@ -69,7 +69,7 @@ and in the context of an example:
 }
 ```
 ## Discussion
-1. What about mathematical expressions in claims, e.g. MathML?
+### What about mathematical expressions in claims, e.g. MathML?
 ```json
 {
   "claim": {
@@ -79,6 +79,5 @@ and in the context of an example:
   }
 }
 ```
-2. What about interrelating claims, e.g. argumentation?
-
+### What about interrelating claims, e.g. argumentation?
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
