@@ -74,6 +74,47 @@ and in the context of an example:
   }
 }
 ```
-## Discussion
-### What about interrelating claims, e.g. argumentation?
+
+## HTML-embedded Schema of Evidence and Reasoning Supporting Claims
+The idea here is that the evidence and reasoning supporting a claim can be located at a specified URL, data embedded in the HTML as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
+
+Here is a sketch of HTML-embedded schema evidence:
+```json
+{
+  "evidence": {
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "type": "HTMLEmbeddedSchema"
+  }
+}
+```
+and in the context of an example:
+```json
+{
+  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+  "type": "Claim",
+  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "claim": {
+    "value": "Lorem ipsum dolor sit amet."
+  },
+  "revocation": {
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "type": "HTTPBasedRevocation"
+  },
+  "evidence": {
+    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
+    "type": "HTMLEmbeddedSchema"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
