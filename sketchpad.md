@@ -4,18 +4,12 @@
 Here is a sketch of a text-based claim:
 ```json
 {
-  "claim": "Lorem ipsum dolor sit amet."
-}
-```
-Here is another sketch of a text-based claim:
-```json
-{
   "claim": {
     "value": "Lorem ipsum dolor sit amet."
    }
 }
 ```
-Advantages of the approach with the nested `value` attribute include internationalization (see also: [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
+Here is another:
 ```json
 {
   "claim": [{
@@ -26,6 +20,16 @@ Advantages of the approach with the nested `value` attribute include internation
     "value": "Consectetur adipiscing elit.",
     "lang": "fr"
    }]
+}
+```
+Here is a third sketch:
+```json
+{
+  "claim": {
+    "value": "The area of a circle with radius <math><mi>r</mi></math> is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo><msup><mi>r</mi><mn>2</mn></msup></math>.",
+    "lang": "en",
+    "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+  }
 }
 ```
 
@@ -69,15 +73,5 @@ and in the context of an example:
 }
 ```
 ## Discussion
-### What about mathematical expressions in claims?
-```json
-{
-  "claim": {
-    "value": "The area of a circle with radius <math><mi>r</mi></math> is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo><msup><mi>r</mi><mn>2</mn></msup></math>.",
-    "lang": "en",
-    "datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
-  }
-}
-```
 ### What about interrelating claims, e.g. argumentation?
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
