@@ -47,7 +47,7 @@ and in the context of an example:
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1",
-  "type": "TextClaim",
+  "type": "Claim",
   "issuer": "https://www.journalistblog.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
