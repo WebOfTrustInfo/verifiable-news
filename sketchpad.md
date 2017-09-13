@@ -18,7 +18,7 @@ Here is another sketch of a text-based claim:
 Advantages of the approach with the nested `value` attribute include internationalization (see also: [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
 ```json
 {
-  "claim": [ {
+  "claim": [{
     "value": "Lorem ipsum dolor sit amet.",
     "lang": "en"
    },
