@@ -1,7 +1,11 @@
 # Sketchpad
 
 ## Text-based Claims
-In the [verifiable claims data model](https://w3c.github.io/vc-data-model/#claims), a claim is a statement about a subject and claims may be merged together to express a graph of information about a particular subject. Here are some sketches showing a claim as one or more RDF literals (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
+In the [verifiable claims data model](https://w3c.github.io/vc-data-model/#claims), a claim is a statement about a subject and claims may be merged together to express a graph of information about a particular subject.
+
+The verifiable claims data model describes a type, `Credential`. A [credential](https://w3c.github.io/vc-data-model/#dfn-credential) is a set of one or more claims made by the same entity about a subject. A verifiable credential is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
+
+Envisioning a new type, e.g. `Claim`, here are some sketches showing claims as one or more RDF literals (see also [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/)):
 ```json
 {
   "claim": {
