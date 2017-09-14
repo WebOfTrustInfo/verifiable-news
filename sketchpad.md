@@ -5,7 +5,7 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-We can envision a new datatype, `Statement` ("claim" is already used in the domain...). A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
+We can envision a new datatype, `Statement` ("claim" is already used in the domain, "factual claim" may be confusing...). A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
