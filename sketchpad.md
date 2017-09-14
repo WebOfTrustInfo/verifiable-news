@@ -9,7 +9,7 @@ We can envision a new datatype, `Statement`. A _statement_ is a set of one or mo
 
 ```json
 {
-  "claim": {
+  "statement": {
     "value": "Earth is the third planet of the Sun."
    }
 }
@@ -17,7 +17,7 @@ We can envision a new datatype, `Statement`. A _statement_ is a set of one or mo
 
 ```json
 {
-  "claim": [{
+  "statement": [{
     "value": "Earth is the third planet of the Sun.",
     "lang": "en"
    },
@@ -30,7 +30,7 @@ We can envision a new datatype, `Statement`. A _statement_ is a set of one or mo
 
 ```json
 {
-  "claim": {
+  "statement": {
     "value": "The area of a circle with radius <math><mi>r</mi></math>
     is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo>
     <msup><mi>r</mi><mn>2</mn></msup></math>.",
@@ -46,7 +46,7 @@ Here is a sketch of a _verifiable statement_:
   "type": "Statement",
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
-  "claim": {
+  "statement": {
     "value": "Earth is the third planet of the Sun."
   },
   "signature": {
@@ -82,7 +82,7 @@ The scenario indicated below is where the revocation URL is the statement URL. A
   "type": "Statement",
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
-  "claim": {
+  "statement": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
@@ -107,7 +107,7 @@ The scenario indicated below is where the revocation URL is for a revocation obj
   "type": "Statement",
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
-  "claim": {
+  "statement": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
@@ -147,7 +147,7 @@ and in the context of an example:
   "type": "Statement",
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
-  "claim": {
+  "statement": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
