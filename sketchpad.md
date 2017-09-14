@@ -5,7 +5,7 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-We can envision a new datatype, `Statement` ("claim" is already used in the domain, "factual claim" may be confusing...). A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
+We can envision a new datatype, `Statement`. A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
@@ -64,7 +64,7 @@ Here is a sketch of a _verifiable statement_:
 ## HTTP-based Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the statement is there, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11). It makes sense to have both available for different systems.
+Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the statement is there, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) and it makes sense to have both available for different systems.
 
 Here is a sketch of HTTP-based revocation:
 ```json
