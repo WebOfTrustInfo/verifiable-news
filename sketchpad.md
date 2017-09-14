@@ -58,7 +58,10 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
     "contentType": "application/x-tex"
   },
   {
-    "value": "<OMA xmlns='http://www.openmath.org/OpenMath'><OMA><OMS cd='arith1' name='plus'/><OMA><OMS cd='transc1' name='cos'/><OMV name='x'/></OMA><OMI>5</OMI></OMA></OMA>",
+    "value": "<OMA xmlns='http://www.openmath.org/OpenMath'>
+    <OMA><OMS cd='arith1' name='plus'/>
+    <OMA><OMS cd='transc1' name='cos'/><OMV name='x'/></OMA>
+    <OMI>5</OMI></OMA>",
     "contentType": "application/openmath+xml"
   }]
 }
