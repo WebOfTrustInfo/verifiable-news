@@ -10,7 +10,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 ```json
 {
   "statement": {
-    "value": "Earth is the third planet of the Sun."
+    "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
    }
