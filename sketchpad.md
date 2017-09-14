@@ -64,7 +64,7 @@ Here is a sketch of a _verifiable statement_:
 ## HTTP-based Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-The idea here is that a URL can be provided which returns HTTP status code [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the claim is revoked and HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the claim is not revoked.
+Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the credential is there, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11). It makes sense to have both available for different systems.
 
 Here is a sketch of HTTP-based revocation:
 ```json
@@ -75,7 +75,7 @@ Here is a sketch of HTTP-based revocation:
   }
 }
 ```
-and in the context of an example:
+The scenario indicated here is where the revocation URL is the statement URL. A URL is provided which returns HTTP status code HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is not revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is revoked.
 ```json
 {
   "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
@@ -88,6 +88,31 @@ and in the context of an example:
   "revocation": {
     "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+The scenario indicated here is where the revocation URL is for a revocation object. A URL is provided which returns HTTP status code HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is not revoked.
+```json
+{
+  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+  "type": "Statement",
+  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "claim": {
+    "value": "Earth is the third planet of the Sun."
+  },
+  "revocation": {
+    "id": "https://www.journalistblog.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "type": "HTTPBasedRevocation2"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
