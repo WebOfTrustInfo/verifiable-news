@@ -42,9 +42,9 @@ We can envision a new datatype, `Statement` ("claim" is already used in the doma
 Here is a sketch of a _verifiable statement_:
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
     "value": "Earth is the third planet of the Sun."
@@ -52,7 +52,7 @@ Here is a sketch of a _verifiable statement_:
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "creator": "https://www.example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -70,7 +70,7 @@ Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   }
 }
@@ -78,21 +78,21 @@ Here is a sketch of HTTP-based revocation:
 The scenario indicated below is where the revocation URL is the statement URL. A URL is provided which returns HTTP status code HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is not revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is revoked.
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "creator": "https://www.example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -103,21 +103,21 @@ The scenario indicated below is where the revocation URL is the statement URL. A
 The scenario indicated below is where the revocation URL is for a revocation object. A URL is provided which returns HTTP status code HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is not revoked.
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation2"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "creator": "https://www.example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -135,7 +135,7 @@ Here is a sketch of HTML-embedded schema evidence:
 ```json
 {
   "evidence": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchema"
   }
 }
@@ -143,25 +143,25 @@ Here is a sketch of HTML-embedded schema evidence:
 and in the context of an example:
 ```json
 {
-  "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.journalistblog.com/users/1/issuer/",
+  "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "claim": {
     "value": "Earth is the third planet of the Sun."
   },
   "revocation": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTTPBasedRevocation"
   },
   "evidence": {
-    "id": "https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchema"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.journalistblog.com/users/1/keys/",
+    "creator": "https://www.example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
