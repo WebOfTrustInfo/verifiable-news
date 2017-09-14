@@ -52,7 +52,9 @@ Here is a sketch of a _verifiable statement_:
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
-    "value": "Earth is the third planet of the Sun."
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -88,7 +90,9 @@ The scenario indicated below is where the revocation URL is the statement URL. T
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
-    "value": "Earth is the third planet of the Sun."
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
   },
   "revocation": {
     "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
@@ -113,7 +117,9 @@ The scenario indicated below is where the revocation URL is for a revocation obj
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
-    "value": "Earth is the third planet of the Sun."
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
   },
   "revocation": {
     "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
@@ -153,7 +159,9 @@ and in the context of an example:
   "issuer": "https://www.example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
-    "value": "Earth is the third planet of the Sun."
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
   },
   "revocation": {
     "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
