@@ -75,7 +75,7 @@ Here is a sketch of HTTP-based revocation:
   }
 }
 ```
-The scenario indicated below is where the revocation URL is the statement URL. A URL is provided which returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is not revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is revoked.
+The scenario indicated below is where the revocation URL is the statement URL. The URL provided returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is not revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is revoked.
 ```json
 {
   "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
@@ -100,7 +100,7 @@ The scenario indicated below is where the revocation URL is the statement URL. A
   }
 }
 ```
-The scenario indicated below is where the revocation URL is for a revocation object. A URL is provided which returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is not revoked.
+The scenario indicated below is where the revocation URL is for a revocation object. The URL provided returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is not revoked.
 ```json
 {
   "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
@@ -112,7 +112,7 @@ The scenario indicated below is where the revocation URL is for a revocation obj
   },
   "revocation": {
     "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTTPBasedRevocation2"
+    "type": "HTTPBasedRevocationObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
