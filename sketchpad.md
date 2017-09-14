@@ -69,7 +69,7 @@ Here is a sketch of a _verifiable statement_:
 ## HTTP-based Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the statement is there, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) and it makes sense to have both available for different systems.
+Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the statement is there at a URL, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) and it makes sense to have both available for different systems.
 
 Here is a sketch of HTTP-based revocation:
 ```json
