@@ -47,22 +47,18 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 {
   "statement": [{
     "value": "cos(x) + 5",
-    "lang": "en",
     "contentType": "application/x-maple"
   },
   {
     "value": "Cos[x] + 5",
-    "lang": "en",
     "contentType": "application/vnd.wolfram.mathematica"
   },
   {
     "value": "\\cos x + 5",
-    "lang": "en",
     "contentType": "application/x-tex"
   },
   {
     "value": "<OMA xmlns='http://www.openmath.org/OpenMath'><OMA><OMS cd='arith1' name='plus'/><OMA><OMS cd='transc1' name='cos'/><OMV name='x'/></OMA><OMI>5</OMI></OMA></OMA>",
-    "lang": "en",
     "contentType": "application/openmath+xml"
   }]
 }
