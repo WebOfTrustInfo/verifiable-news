@@ -5,7 +5,7 @@ In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), a _
 
 The verifiable claims data model describes a datatype, `Credential`. A _[credential](https://w3c.github.io/vc-data-model/#dfn-credential)_ is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 
-We can envision a new datatype, `Statement`. A _statement_ is a set of one or more RDF literals which each assert the same content by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
+We can envision a new datatype, `Statement`. A _statement_ is a set of one or more content type variations of an assertion by the same entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
 
 ```json
 {
@@ -39,6 +39,30 @@ We can envision a new datatype, `Statement`. A _statement_ is a set of one or mo
   }
 }
 ```
+
+**Issue**: Could use RDF literal, could use HTTP content stylings, as per:
+```json
+{
+  "statement": {
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
+   }
+}
+```
+```json
+{
+  "statement": {
+    "value": "The area of a circle with radius <math><mi>r</mi></math>
+    is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo>
+    <msup><mi>r</mi><mn>2</mn></msup></math>.",
+    "lang": "en",
+    "contentType": "text/html"
+  }
+}
+```
+
+
 Here is a sketch of a _verifiable statement_:
 ```json
 {
