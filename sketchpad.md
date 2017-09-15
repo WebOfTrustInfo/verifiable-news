@@ -70,9 +70,9 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 Here is a sketch of a _verifiable statement_:
 ```json
 {
-  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.example.com/users/1/issuer/",
+  "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
@@ -82,7 +82,7 @@ Here is a sketch of a _verifiable statement_:
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.example.com/users/1/keys/",
+    "creator": "https://example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -98,17 +98,17 @@ Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
-    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchemaRevocationObject"
   }
 }
 ```
-The revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+A revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element. If a statement is not revoked, then the server should return HTTP status code 404 for the revocation object URL.
 ```json
 {
-  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.example.com/users/1/issuer/",
+  "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
@@ -116,13 +116,13 @@ The revocation object is a digitally-signed indication that a statement is revok
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchemaRevocationObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.example.com/users/1/keys/",
+    "creator": "https://example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -133,15 +133,15 @@ The revocation object is a digitally-signed indication that a statement is revok
 A revocation object might resemble:
 ```json
 {
-  "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
   "type": "Revocation",
-  "issuer": "https://www.example.com/users/1/issuer/",
+  "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
-  "revoked": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
-    "creator": "https://www.example.com/users/1/keys/",
+    "creator": "https://example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -158,7 +158,7 @@ Here is a sketch of HTML-embedded schema evidence:
 ```json
 {
   "evidence": {
-    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchemaEvidence"
   }
 }
@@ -166,9 +166,9 @@ Here is a sketch of HTML-embedded schema evidence:
 and in the context of an example:
 ```json
 {
-  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "type": "Statement",
-  "issuer": "https://www.example.com/users/1/issuer/",
+  "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
@@ -176,17 +176,17 @@ and in the context of an example:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchemaRevocationObject"
   },
   "evidence": {
-    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedSchemaEvidence"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.example.com/users/1/keys/",
+    "creator": "https://example.com/users/1/keys/",
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
