@@ -152,6 +152,8 @@ A revocation object might resemble:
 
 ## Supersession of Statements
 Supersession objects can facilitate the modification and forwarding/redirection of statements. Supersession can allow users the capability to edit statements and also to forward/redirect statements between domains.
+
+A supersession object might resemble:
 ```json
 {
   "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
