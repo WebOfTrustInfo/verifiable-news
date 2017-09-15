@@ -104,7 +104,7 @@ Here is a sketch of HTML-embedded revocation:
   }
 }
 ```
-A revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element. If a statement is not revoked, then the server should return HTTP status code `404` for the revocation object URL.
+An HTML-embedded revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element. If a statement is not revoked, then the server should return HTTP status code `404` for the revocation object URL.
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
@@ -215,7 +215,7 @@ There may be a variety of types of supersession and a `reason` field can specify
   }
 }
 ```
-There may also be a field which semantically relates the superseded statement to the superseding statement from an ontology.
+There also may be a field which semantically relates the superseded statement to the superseding statement from an ontology.
 
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
