@@ -138,6 +138,11 @@ A revocation object might resemble:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "statement": {
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
+  },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
