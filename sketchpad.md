@@ -203,7 +203,7 @@ There may be a variety of types of supersession and a `reason` field can specify
   "issued": "2017-06-19T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
-  "reason": "typographical",
+  "reason": "error",
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
