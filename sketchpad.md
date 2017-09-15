@@ -264,7 +264,7 @@ This is what a supersession object might resemble which links to a machine-utili
   }
 }
 ```
-There also may be a field which semantically relates the superseded statement to the superseding statement from an ontology.
+There also may be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology.
 
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
