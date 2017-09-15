@@ -94,12 +94,12 @@ Here is a sketch of a _verifiable statement_:
 ## Revocation of Statements
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-Here is a sketch of HTTP-based revocation:
+Here is a sketch of HTML-embedded revocation:
 ```json
 {
   "revocation": {
     "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchemaRevocationObject"
+    "type": "HTMLEmbeddedRevocationObject"
   }
 }
 ```
@@ -117,7 +117,7 @@ A revocation object is a digitally-signed indication that a statement is revoked
   },
   "revocation": {
     "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchemaRevocationObject"
+    "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -159,7 +159,7 @@ Here is a sketch of HTML-embedded schema evidence:
 {
   "evidence": {
     "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchemaEvidence"
+    "type": "HTMLEmbeddedEvidence"
   }
 }
 ```
@@ -177,11 +177,11 @@ and in the context of an example:
   },
   "revocation": {
     "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchemaRevocationObject"
+    "type": "HTMLEmbeddedRevocationObject"
   },
   "evidence": {
     "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchemaEvidence"
+    "type": "HTMLEmbeddedEvidence"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
