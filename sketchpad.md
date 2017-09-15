@@ -91,48 +91,19 @@ Here is a sketch of a _verifiable statement_:
 }
 ```
 
-## HTTP-based Revocation
+## Revocation of Statements
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
-
-Two possibilities exist for HTTP-based revocation. In one, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that the statement is there at a URL, thus not revoked. In the other, HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) means that a revocation object is available at a URL, indicating that a statement has been revoked. The two HTTP-based approaches have opposite uses for [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) and [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) / [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) and it makes sense to have both available for different systems.
 
 Here is a sketch of HTTP-based revocation:
 ```json
 {
   "revocation": {
-    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTTPBasedRevocation"
+    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedSchemaRevocationObject"
   }
 }
 ```
-The scenario indicated below is where the revocation URL is the statement URL. The URL provided returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is not revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is revoked.
-```json
-{
-  "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Statement",
-  "issuer": "https://www.example.com/users/1/issuer/",
-  "issued": "2017-06-18T21:19:10Z",
-  "statement": {
-    "value": "Earth is the third planet of the Sun.",
-    "lang": "en",
-    "contentType": "text/plain"
-  },
-  "revocation": {
-    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTTPBasedRevocation"
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-18T21:19:10Z",
-    "creator": "https://www.example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
-The scenario indicated below is where the revocation URL is for a revocation object. The URL provided returns HTTP status code [`200`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1) if the statement is revoked and status codes [`404`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5) or [`410`](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.11) if the statement is not revoked.
+The revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 ```json
 {
   "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
@@ -146,7 +117,7 @@ The scenario indicated below is where the revocation URL is for a revocation obj
   },
   "revocation": {
     "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTTPBasedRevocationObject"
+    "type": "HTMLEmbeddedSchemaRevocationObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -159,7 +130,25 @@ The scenario indicated below is where the revocation URL is for a revocation obj
   }
 }
 ```
-
+A revocation object might resemble:
+```json
+{
+  "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "type": "Revocation",
+  "issuer": "https://www.example.com/users/1/issuer/",
+  "issued": "2017-06-19T21:19:10Z",
+  "revoked": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-19T21:19:10Z",
+    "creator": "https://www.example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
@@ -170,7 +159,7 @@ Here is a sketch of HTML-embedded schema evidence:
 {
   "evidence": {
     "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchema"
+    "type": "HTMLEmbeddedSchemaEvidence"
   }
 }
 ```
@@ -187,12 +176,12 @@ and in the context of an example:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTTPBasedRevocation"
+    "id": "https://www.example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedSchemaRevocationObject"
   },
   "evidence": {
     "id": "https://www.example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSchema"
+    "type": "HTMLEmbeddedSchemaEvidence"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
