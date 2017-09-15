@@ -150,6 +150,27 @@ A revocation object might resemble:
   }
 }
 ```
+There may be a variety of types of revocation and a `reason` field can specify the reason for or variety of the revocation.
+A revocation object might resemble:
+```json
+{
+  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "type": "Revocation",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-19T21:19:10Z",
+  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "reason": "error",
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-19T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
 
 ## Supersession of Statements
 Supersession objects can facilitate the modification and forwarding/redirection of statements. Supersession can allow users the capability to edit statements and also to forward/redirect statements between domains.
@@ -175,7 +196,6 @@ A supersession object might resemble:
 }
 ```
 There may be a variety of types of supersession and a `reason` field can specify the reason for or variety of the supersession.
-
 ```json
 {
   "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
