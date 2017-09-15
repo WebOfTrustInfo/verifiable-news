@@ -173,7 +173,7 @@ A supersession object might resemble:
   }
 }
 ```
-A `reason` field can specify the reason for the supersession or versioning.
+A `reason` field can specify the reason for the supersession.
 
 ```json
 {
