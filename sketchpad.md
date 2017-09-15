@@ -195,7 +195,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
 ```
 
 ## Supersession of Statements
-Supersession objects can facilitate the modification and forwarding/redirection of statements. Supersession can allow users the capability to edit statements and also to forward/redirect statements between domains.
+Supersession objects can facilitate the modification, editing, revision, forwarding, redirection and replacement of statements.
 
 A supersession object might resemble:
 ```json
