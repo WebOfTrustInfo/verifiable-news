@@ -215,7 +215,7 @@ There may be a variety of types of supersession and a `reason` field can specify
   }
 }
 ```
-There may also be a field which semantically relates the previous statement to the superseding statement from an ontology.
+There may also be a field which semantically relates the superseded statement to the superseding statement from an ontology.
 
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
