@@ -43,6 +43,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
   }
 }
 ```
+
 ```json
 {
   "statement": [{
