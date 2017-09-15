@@ -151,7 +151,6 @@ A revocation object might resemble:
 }
 ```
 There may be a variety of types of revocation and a `reason` field can specify the reason for or variety of the revocation.
-A revocation object might resemble:
 ```json
 {
   "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
