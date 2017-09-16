@@ -264,7 +264,7 @@ This is what a supersession object might resemble which links to a machine-utili
 ```
 Scenarios for machine-utilizable rationale include where the superseding statement is the logical opposite of the superseded statement and the rationale is the refutation of the superseded statement or the argumentation which convinced the issuer of the statements to retract _S_ and to assert ¬_S_ instead.
 
-There are a number of supersession scenarios and relationships possible between superseded and superseding statements and there also may be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two statements.
+There are a number of supersession scenarios and relationships possible between superseded and superseding statements and there also may be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
