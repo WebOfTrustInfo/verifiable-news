@@ -150,7 +150,7 @@ A revocation object might resemble:
   }
 }
 ```
-There may be a variety of types of revocation and a `reason` field can specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
+There may be a variety of types of revocation and an optional `reason` field could specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
   "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
@@ -217,7 +217,7 @@ A supersession object might resemble:
   }
 }
 ```
-There may be a variety of types of supersession and a `reason` field can specify the reason for or variety of the supersession. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
+There may be a variety of types of supersession and an optional `reason` field could specify the reason for or variety of the supersession. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
   "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
