@@ -320,6 +320,8 @@ There are three time intervals pertinent in the context of digitally-signed asse
 
 We can envision a field, `assertionStart` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `assertionEnd` is specified, and if an issuance expires, and if a statement indicates a value for `revocation`, then a system may check for a supersession.
 
+In the following example, the issuances expire annually.
+
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
@@ -357,7 +359,7 @@ An example of the superseding statement:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2018-06-18T21:19:10Z",
   "expires": "2019-06-18T21:19:10Z",
-  "statementStart": "2017-06-18T21:19:10Z",
+  "assertionStart": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
