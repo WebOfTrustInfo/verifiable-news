@@ -277,7 +277,7 @@ Asserted statements can span one or multiple issuances.
 
 We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of a statement assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid.
 
-If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` occurs after `expires`, and if a statement indicates a value for `revocation`, then a system may check for a supersession when an issuance expires.
+If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` has a value which occurs after that of `expires`, and if a statement indicates a value for `revocation`, then a system may check for a supersession when an issuance expires.
 
 In the following example, the issuances expire annually and the statement assertion is open-ended:
 
