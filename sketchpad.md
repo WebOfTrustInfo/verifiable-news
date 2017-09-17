@@ -272,7 +272,7 @@ There are three time intervals pertinent in the context of digitally-signed asse
 - _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields. The assertion interval can span one or multiple issuances.
 - _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
 
-We can envision a field, `assertionStart` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `assertionEnd` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
+We can envision a field, `statementIssued` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `statementExpires` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
 
 In the following example, the issuances expire annually.
 
@@ -313,7 +313,7 @@ An example of the superseding statement:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2018-06-18T21:19:10Z",
   "expires": "2019-06-18T21:19:10Z",
-  "assertionStart": "2017-06-18T21:19:10Z",
+  "statementIssued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
