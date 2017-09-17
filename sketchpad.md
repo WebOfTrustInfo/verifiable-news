@@ -266,52 +266,6 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
-## Evidence and Reasoning Supporting Statements
-[https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
-
-The idea here is that the evidence and reasoning supporting a statement can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
-
-Here is a sketch of HTML-embedded schema evidence:
-```json
-{
-  "evidence": {
-    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedEvidence"
-  }
-}
-```
-and in the context of an example:
-```json
-{
-  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Statement",
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2017-06-18T21:19:10Z",
-  "statement": {
-    "value": "Earth is the third planet of the Sun.",
-    "lang": "en",
-    "contentType": "text/plain"
-  },
-  "revocation": {
-    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRevocationObject"
-  },
-  "evidence": {
-    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedEvidence"
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-18T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
-
 ## Issuance, Assertion and Statement Temporal Intervals
 There are three time intervals pertinent in the context of digitally-signed asserted statements:
 - _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic; revocation and supersession occur in the context of issuance.
@@ -368,6 +322,52 @@ An example of the superseding statement:
   "revocation": {
     "id": "https://example.com/users/1/revocations/a3cc92841ac9c3f2/",
     "type": "HTMLEmbeddedRevocationObject"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+
+## Evidence and Reasoning Supporting Statements
+[https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
+
+The idea here is that the evidence and reasoning supporting a statement can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+
+Here is a sketch of HTML-embedded schema evidence:
+```json
+{
+  "evidence": {
+    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedEvidence"
+  }
+}
+```
+and in the context of an example:
+```json
+{
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "type": "Statement",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "statement": {
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
+  },
+  "revocation": {
+    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedRevocationObject"
+  },
+  "evidence": {
+    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedEvidence"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
