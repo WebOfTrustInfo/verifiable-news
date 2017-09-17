@@ -94,9 +94,37 @@ Here is a sketch of a _verifiable statement_:
 
 ## Issuance, Assertion and Statement Time
 There are three time intervals pertinent in the context of digitally-signed asserted statements:
-- _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic.
-- _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring.
-- _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring.
+- _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic; revocation and supersession (discussed below) are discussed in the context of issuance time.
+- _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields.
+- _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
+
+We can envision a field, `assertionStart` which indicates the start of the assertion and which has a default value of `issued`.
+We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means the statement is asserted while the issuance is valid.
+
+```json
+{
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "type": "Statement",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
+  "assertionStart": "2017-06-18T21:19:10Z",
+  "statement": {
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
 
 ## Revocation of Statements
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
