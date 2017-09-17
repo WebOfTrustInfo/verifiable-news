@@ -99,7 +99,7 @@ There are three time intervals pertinent in the context of digitally-signed asse
 - _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
 
 We can envision a field, `assertionStart` which indicates the start of the assertion and which has a default value of `issued`.
-We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means the statement is asserted while the issuance is valid.
+We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means the statement is asserted while the issuance or superseding issuances are valid.
 
 ```json
 {
