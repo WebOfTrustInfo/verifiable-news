@@ -314,11 +314,11 @@ and in the context of an example:
 
 ## Issuance, Assertion and Statement Temporal Intervals
 There are three time intervals pertinent in the context of digitally-signed asserted statements:
-- _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic; revocation and supersession (discussed below) are discussed in the context of issuance time.
-- _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields.
+- _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic; revocation and supersession occur in the context of issuance.
+- _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields. The assertion interval can span one or multiple issuances.
 - _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
 
-We can envision a field, `assertionStart` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `assertionEnd` is specified, and if an issuance expires, and if a statement indicates a value for `revocation`, then a system may check for a supersession.
+We can envision a field, `assertionStart` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `assertionEnd` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
 
 In the following example, the issuances expire annually.
 
