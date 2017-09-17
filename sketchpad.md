@@ -269,13 +269,13 @@ There are a number of relationships possible between superseded and superseding 
 ## Issuance and Statement Assertion Intervals
 It is important to distinguish _issuance intervals_ from _statement assertion intervals_.
 
-_Issuance intervals_ are the start and duration of the validity of digitally-signed things, a cryptographic or systems security topic. Cryptographic keys might rotate or freshen daily, weekly, monthly or annually. Revocation and supersession occur in the context of issuance intervals.
+_Issuance intervals_ are the duration of the validity of digitally-signed things, a cryptographic or systems security topic. Cryptographic keys might rotate or freshen daily, weekly, monthly or annually. Revocation and supersession both occur in the context of issuance intervals.
 
 _Statement assertion intervals_ are the start and duration of the intended assertion of a statement, an instant or interval of time during which an assertion is occurring.
 
 Asserted statements can span one or multiple issuances.
 
-We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid.
+We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of a statement assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid.
 
 If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` occurs after `expires`, and if a statement indicates a value for `revocation`, then a system may check for a supersession when an issuance expires.
 
@@ -309,7 +309,7 @@ In the following example, the issuances expire annually and the statement assert
 }
 ```
 
-An example of the superseding statement:
+And the superseding statement:
 
 ```json
 {
