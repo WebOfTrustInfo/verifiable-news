@@ -98,8 +98,7 @@ There are three time intervals pertinent in the context of digitally-signed asse
 - _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields.
 - _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
 
-We can envision a field, `assertionStart` which indicates the start of the assertion and which has a default value of `issued`.
-We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means the statement is asserted while the issuance or superseding issuances are valid.
+We can envision a field, `assertionStart` which indicates the start of the assertion and which has a default value of `issued`. We can envision a field, `assertionEnd` which indicates the end of the assertion and which, if omitted, means the statement is asserted while the issuance or superseding issuances are valid.
 
 ```json
 {
@@ -108,7 +107,7 @@ We can envision a field, `assertionEnd` which indicates the end of the assertion
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
-  "assertionStart": "2017-06-18T21:19:10Z",
+  "assertionStart": "2017-06-19T00:00:00Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
