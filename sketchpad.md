@@ -266,13 +266,16 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
-## Issuance, Assertion and Statement Temporal Intervals
-There are three time intervals pertinent in the context of digitally-signed asserted statements:
-- _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic; revocation and supersession occur in the context of issuance.
-- _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring; might need to add fields. The assertion interval can span one or multiple issuances.
-- _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring; this could be in the text of the statements or could add fields.
+## Issuance and Statement Assertion Intervals
+It is important to distinguish _issuance intervals_ from _statement assertion intervals_.
 
-We can envision a field, `statementIssued` which indicates the start of the assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `statementExpires` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
+_Issuance intervals_ are the start and duration of the validity of digitally-signed things, a cryptographic or systems security topic. Cryptographic keys might rotate or freshen daily, weekly, monthly or annually. Revocation and supersession occur in the context of issuance intervals.
+
+_Statement assertion intervals_ are the start and duration of the intended assertion of a statement, an instant or interval of time during which an assertion is occurring.
+
+Asserted statements can span one or multiple issuances.
+
+We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `statementExpires` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
 
 In the following example, the issuances expire annually.
 
