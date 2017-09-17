@@ -93,7 +93,7 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Issuance, Assertion and Statement Time
-There are three pertinent time intervals in the context of digitally-signed asserted statements:
+There are three time intervals pertinent in the context of digitally-signed asserted statements:
 - _Issuance Time_ – the start and duration of the validity of a digitally-signed thing; this is a cryptographic or systems security topic.
 - _Assertion Time_ – the start and duration of the intended assertion of a statement; an instant or interval of time during which an assertion is occurring.
 - _Statement Time_ – the start and duration of that which is asserted, if that which is asserted has a temporal aspect; an instant or interval of time during which some stated matter is occurring.
