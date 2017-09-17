@@ -275,9 +275,11 @@ _Statement assertion intervals_ are the start and duration of the intended asser
 
 Asserted statements can span one or multiple issuances.
 
-We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid. If no `statementExpires` is specified, and if a statement indicates a value for `revocation`, and if an issuance expires, then a system may check for a supersession.
+We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of the assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid.
 
-In the following example, the issuances expire annually.
+If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` occurs after `expires`, and if a statement indicates a value for `revocation`, then a system may check for a supersession when an issuance expires.
+
+In the following example, the issuances expire annually and the statement assertion is open-ended:
 
 ```json
 {
