@@ -104,7 +104,7 @@ Here is a sketch of HTML-embedded revocation:
   }
 }
 ```
-An HTML-embedded revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element. If a statement is not revoked, then the server should return HTTP status code `404` for the revocation object URL.
+An HTML-embedded revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
