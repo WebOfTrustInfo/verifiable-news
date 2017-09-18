@@ -268,7 +268,7 @@ There are a number of relationships possible between superseded and superseding 
 
 ## Issuance and Statement Assertion Intervals
 
-https://w3c.github.io/vc-data-model/#expiration
+[https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
 
 It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals, the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
