@@ -314,7 +314,7 @@ And the superseding statement:
 
 ```json
 {
-  "id": "https://example.com/facts/a3cc92841ac9c3f2/",
+  "id": "https://example.com/facts/b4dca3952b4bd203/",
   "type": "Statement",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2018-06-18T21:19:10Z",
@@ -326,7 +326,7 @@ And the superseding statement:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/users/1/revocations/a3cc92841ac9c3f2/",
+    "id": "https://example.com/users/1/revocations/b4dca3952b4bd203/",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
