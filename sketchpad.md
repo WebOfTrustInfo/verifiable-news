@@ -267,11 +267,12 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
 ## Issuance and Statement Assertion Intervals
-It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals can span one or more issuance intervals, the duration of an intended assertion may span across one or more digitally-signed objects.
 
-A field, `statementIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `statementExpires` can indicate the end of a statement assertion and, if omitted, the statement is asserted while the issuance and any superseding issuances are valid.
+It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals, the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
-If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` has a value which occurs after that of `expires`, and if a statement indicates a value for `revocation`, then a system may check for a supersession when an issuance expires.
+A field, `statementIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `statementExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances are valid.
+
+If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
 
 In the following example, the issuances expire annually and the statement assertion is open-ended:
 
