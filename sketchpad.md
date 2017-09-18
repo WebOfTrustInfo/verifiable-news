@@ -272,9 +272,9 @@ There are a number of relationships possible between superseded and superseding 
 
 It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
-A field, `statementIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `statementExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances which contain the statement are valid.
+A field, `contentIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `contentExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances which contain the statement are valid.
 
-If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
+If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
 
 In the following example, the issuances expire annually and the statement assertion is open-ended:
 
@@ -315,7 +315,7 @@ And the superseding statement:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2018-06-18T21:19:10Z",
   "expires": "2019-06-18T21:19:10Z",
-  "statementIssued": "2017-06-18T21:19:10Z",
+  "contentIssued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
