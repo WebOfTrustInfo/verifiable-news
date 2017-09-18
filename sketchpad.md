@@ -333,7 +333,7 @@ And the superseding statement:
     "type": "LinkedDataSignature2017",
     "created": "2018-06-18T21:19:10Z",
     "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "nonce": "a1be2d9f-c7e7-469f-b252-97f7b1f8499a",
     "signatureValue": "A9xksT3/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+X43TW9="
