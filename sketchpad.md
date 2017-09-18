@@ -273,7 +273,7 @@ _Issuance intervals_ are the duration of the validity of digitally-signed things
 
 _Statement assertion intervals_ are the start and duration of the intended assertion of a statement, an instant or interval of time during which an assertion is occurring.
 
-Asserted statements can span one or multiple issuances.
+Asserted statements can span one or more issuances.
 
 We can envision a field, `statementIssued` which indicates the start of a statement assertion and which, if omitted, has a default value of `issued`. We can envision a field, `statementExpires` which indicates the end of a statement assertion and which, if omitted, means that the statement is asserted while the issuance and any superseding issuances are valid.
 
