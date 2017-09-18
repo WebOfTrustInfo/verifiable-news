@@ -99,7 +99,7 @@ Here is a sketch of HTML-embedded revocation:
 ```json
 {
   "revocation": {
-    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRevocationObject"
   }
 }
@@ -117,7 +117,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
@@ -134,7 +134,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
 A revocation object might resemble:
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -153,7 +153,7 @@ A revocation object might resemble:
 There may be a variety of types of revocation and an optional `reason` field could specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -173,13 +173,13 @@ There may be a variety of types of revocation and an optional `reason` field cou
 This is what a revocation object might resemble which links to a machine-utilizable rationale explaining the revocation:
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "reason": {
-    "id": "https://example.com/users/1/rationale/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/rationale/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRationale"
   },
   "signature": {
@@ -200,7 +200,7 @@ Supersession objects can facilitate the modification, editing, revision, forward
 A supersession object might resemble:
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -220,7 +220,7 @@ A supersession object might resemble:
 There are a variety of types of supersession and an optional `reason` field could specify the reason for or the variety of the supersession. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -291,7 +291,7 @@ In the following example, the issuances expire annually and the statement assert
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
@@ -322,7 +322,7 @@ And the superseding statement:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/users/1/revocations/b4dca3952b4bd203/",
+    "id": "https://example.com/revocations/b4dca3952b4bd203/",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
@@ -364,7 +364,7 @@ and in the context of an example:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "evidence": {
