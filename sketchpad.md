@@ -269,7 +269,7 @@ There are a number of relationships possible between superseded and superseding 
 ## Issuance and Statement Assertion Intervals
 It is important to distinguish _issuance intervals_ from _statement assertion intervals_.
 
-_Issuance intervals_ are the duration of the validity of digitally-signed things, a cryptographic or systems security topic. Revocation and supersession both occur in the context of issuance intervals.
+_Issuance intervals_ are the duration of the validity of digitally-signed things, a cryptographic or systems security topic.
 
 _Statement assertion intervals_ are the start and duration of the intended assertion of a statement, an instant or interval of time during which an assertion is occurring.
 
