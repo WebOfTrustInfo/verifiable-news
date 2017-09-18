@@ -283,7 +283,6 @@ In the following example, the issuances expire annually and the statement assert
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
-  "statementIssued": "2017-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
