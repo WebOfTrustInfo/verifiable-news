@@ -270,9 +270,9 @@ There are a number of relationships possible between superseded and superseding 
 
 [https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
 
-It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals, the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
+It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
-A field, `statementIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `statementExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances are valid.
+A field, `statementIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `statementExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances which contain the statement are valid.
 
 If a verifiable statement indicates `expires` without indicating `statementExpires`, or if `statementExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
 
