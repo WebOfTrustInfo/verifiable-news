@@ -241,14 +241,14 @@ There are a variety of types of supersession and an optional `reason` field coul
 This is what a supersession object might resemble which links to a machine-utilizable rationale explaining the supersession:
 ```json
 {
-  "id": "https://example.com/users/1/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "reason": {
-    "id": "https://example.com/users/1/rationale/a3cc92841ac9c3f2/",
+    "id": "https://example.com/rationale/a3cc92841ac9c3f2/",
     "type": "HTMLEmbeddedRationale"
   },
   "signature": {
