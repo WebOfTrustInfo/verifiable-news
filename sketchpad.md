@@ -95,12 +95,20 @@ Here is a sketch of a _verifiable statement_:
 ## Revocation of Statements
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-Here is a sketch of HTML-embedded revocation:
+Here are sketches of HTML-embedded revocation:
 ```json
 {
   "revocation": {
     "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRevocationObject"
+  }
+}
+```
+```json
+{
+  "revocation": {
+    "id": "https://example.com/revocations/",
+    "type": "HTMLEmbeddedRevocationObjectList"
   }
 }
 ```
