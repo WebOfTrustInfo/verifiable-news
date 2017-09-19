@@ -349,8 +349,8 @@ And the superseding statement:
 }
 ```
 
-## Pausing and Resuming of Statements
-The idea here is that revocations and supersessions are content atop the issuance layer. By using an explicit `contentExpires` field on a revocation, the revocation or supersession is temporary.
+## Pausing and Resuming Statements
+The idea here is that revocations and supersessions are content in the content layer atop the issuance layer. By using an explicit `contentExpires` field on a revocation, the revocation or supersession is temporary.
 ```json
 {
   "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
@@ -358,7 +358,6 @@ The idea here is that revocations and supersessions are content atop the issuanc
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2017-06-20T21:19:10Z",
-  "contentIssued": "2017-06-19T21:19:10Z",
   "contentExpires": "2017-06-20T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "reason": {
