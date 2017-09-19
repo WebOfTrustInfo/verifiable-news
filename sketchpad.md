@@ -276,11 +276,17 @@ There are a number of relationships possible between superseded and superseding 
 
 ## Issuance and Statement Assertion Intervals
 
+[https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
+
 [https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
 
-It is important to distinguish _issuance intervals_ from _statement assertion intervals_. Issuance intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Statement assertion intervals are the intervals of time that assertions of statements are intended. Statement assertion intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
+It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Content layer intervals are the intervals of time that assertions of statements are intended. Content layer intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
-A field, `contentIssued` can indicate the start of a statement assertion and, if omitted, has a default value of `issued`. A field, `contentExpires` can indicate the end of a statement assertion and, if omitted, the statement is intended to be asserted while the issuance and any superseding issuances which contain the statement are valid.
+Issuance layer fields include: `issued` and `expires`. In the [verifiable claims model](https://w3c.github.io/vc-data-model/), these are described as for _both_ the validity of the issuance and of the claim. Explored herein is a separate content layer atop an issuance layer.
+
+Content layer fields include: `contentIssued` and `contentExpires`.
+
+A field, `contentIssued` can indicate the start of an assertion and, if omitted, has a default value of `issued`. A field, `contentExpires` can indicate the end of an assertion and, if omitted, the assertion is intended while the issuance and any superseding issuances which contain the statement are valid.
 
 If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
 
