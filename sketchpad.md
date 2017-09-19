@@ -282,7 +282,7 @@ There are a number of relationships possible between superseded and superseding 
 
 It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed digital objects are valid or exist. It may be the case that a digital object is only be available at a URL while valid, until it expires. Content layer intervals are the intervals of time that content is asserted.
 
-Issuance layer fields are `issued` and `expires`. In the [verifiable claims model](https://w3c.github.io/vc-data-model/), these are described as for _both_ the validity of the issuance and of the claim. Explored herein is a separate content layer atop an issuance layer.
+Issuance layer fields are `issued` and `expires`. In the [verifiable claims model](https://w3c.github.io/vc-data-model/), these are defined as duration of the validity of the claims of a credential and of the credential.
 
 Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` indicates the start of an assertion and, if omitted, has a default value of the value of `issued`. `contentExpires` indicates the end of an assertion and, if omitted, the assertion is intended while the issuance and any superseding issuances which contain the statement are valid or exist.
 
