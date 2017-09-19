@@ -288,7 +288,7 @@ Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` i
 
 If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that resource expires.
 
-In the following example, the issuances expire annually and the statement assertion is open-ended:
+In the following example, the resources expire annually and the statement assertion is open-ended:
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
