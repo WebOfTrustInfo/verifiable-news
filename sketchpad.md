@@ -280,7 +280,7 @@ There are a number of relationships possible between superseded and superseding 
 
 [https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
 
-It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed digital objects are valid, a cryptographic or systems security topic. Content layer intervals are the intervals of time that assertions of statements are intended. Content layer intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
+It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed digital objects are valid or exist, a cryptographic or systems security topic. An issuance may only be available at a URL while valid, until it expires. Content layer intervals are the intervals of time that represented assertions of statements are intended. Content layer intervals may span one or more issuance intervals; the duration of an intended assertion may span across the durations of one or more digitally-signed objects.
 
 Issuance layer fields include: `issued` and `expires`. In the [verifiable claims model](https://w3c.github.io/vc-data-model/), these are described as for _both_ the validity of the issuance and of the claim. Explored herein is a separate content layer atop an issuance layer.
 
@@ -291,7 +291,6 @@ A field, `contentIssued` can indicate the start of an assertion and, if omitted,
 If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
 
 In the following example, the issuances expire annually and the statement assertion is open-ended:
-
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
@@ -321,7 +320,6 @@ In the following example, the issuances expire annually and the statement assert
 ```
 
 And the superseding statement:
-
 ```json
 {
   "id": "https://example.com/facts/b4dca3952b4bd203/",
@@ -347,6 +345,34 @@ And the superseding statement:
     "signatureValue": "A9xksT3/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+X43TW9="
+  }
+}
+```
+
+## Pausing and Resuming of Statements
+The idea here is that revocations and supersessions are content atop the issuance layer. By using an explicit `contentExpires` field on a revocation, the revocation or supersession is temporary.
+```json
+{
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "type": "Revocation",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-19T21:19:10Z",
+  "expires": "2017-06-20T21:19:10Z",
+  "contentIssued": "2017-06-19T21:19:10Z",
+  "contentExpires": "2017-06-20T21:19:10Z",
+  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "reason": {
+    "id": "https://example.com/rationale/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedRationale"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-19T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }
 }
 ```
