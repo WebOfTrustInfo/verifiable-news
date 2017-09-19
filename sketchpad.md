@@ -361,10 +361,6 @@ The ideas here are temporary revocations and supersessions. By using explicit `c
   "expires": "2017-06-20T21:19:10Z",
   "contentExpires": "2017-06-20T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "reason": {
-    "id": "https://example.com/rationale/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRationale"
-  },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
