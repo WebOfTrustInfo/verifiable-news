@@ -280,13 +280,13 @@ There are a number of relationships possible between superseded and superseding 
 
 [https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
 
-It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed resources are valid or exist. It may be the case that a resource is only available at a URL while valid, until it expires. Content layer intervals are the intervals of time that content is asserted.
+It is important to distinguish _issuance layer intervals_ from _content layer intervals_. Issuance layer intervals are the intervals of time that digitally-signed resources are valid or exist. It may be the case that a resource is only available at a URL while valid, before it expires. Content layer intervals are the intervals of time that content is asserted.
 
 Issuance layer fields are `issued` and `expires`. In the [verifiable claims model](https://w3c.github.io/vc-data-model/), these are defined as duration of the validity of the claims of a credential and of the credential.
 
-Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` indicates the start of an assertion of content and, if omitted, has a default value of the value of `issued`. `contentExpires` indicates the end of an assertion and, if omitted, the assertion is intended while the issuance and any superseding issuances which contain the statement are valid or exist.
+Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` indicates the start of an assertion of content and, if omitted, has a default value of the value of `issued`. `contentExpires` indicates the end of an assertion and, if omitted, the assertion is intended while the resource and any superseding resources which contain the statement are valid or exist.
 
-If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that issuance expires.
+If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that resource expires.
 
 In the following example, the issuances expire annually and the statement assertion is open-ended:
 ```json
