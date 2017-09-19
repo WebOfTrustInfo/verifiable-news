@@ -349,7 +349,7 @@ And the superseding statement:
 }
 ```
 
-## Suspension and Resumption of Statements
+## Temporary Revocations and Supersessions
 The ideas here are temporary revocations and supersessions. By using explicit `contentExpires` fields on revocations or supersessions, the revocations or supersessions are temporary, which supports suspension and resumption as well as temporary redirection.
 
 ```json
