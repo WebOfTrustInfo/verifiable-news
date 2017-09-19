@@ -350,7 +350,8 @@ And the superseding statement:
 ```
 
 ## Suspension and Resumption of Statements
-The idea here is that revocations and supersessions are content in the content layer atop the issuance layer. By using an explicit `contentExpires` field on a revocation or supersession, the revocation or supersession is temporary.
+The ideas here are temporary revocations and supersessions. By using explicit `contentExpires` fields on revocations or supersessions, the revocations or supersessions are temporary, which supports suspension and resumption as well as temporary redirection.
+
 ```json
 {
   "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
@@ -364,6 +365,27 @@ The idea here is that revocations and supersessions are content in the content l
     "id": "https://example.com/rationale/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedRationale"
   },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-19T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+```json
+{
+  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "type": ["Revocation", "Supersession"],
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-19T21:19:10Z",
+  "expires": "2017-06-20T21:19:10Z",
+  "contentExpires": "2017-06-20T21:19:10Z",
+  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
