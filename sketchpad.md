@@ -347,7 +347,7 @@ And the superseding statement:
 ```
 
 ## Temporary Revocations and Supersessions
-The ideas here are temporary revocations and supersessions. By using explicit `contentExpires` fields on revocations or supersessions, the revocations or supersessions are temporary, which supports suspension and resumption as well as temporary redirection.
+The ideas here are temporary revocations and supersessions, which support suspension and resumption as well as temporary redirection.
 
 ```json
 {
@@ -356,7 +356,6 @@ The ideas here are temporary revocations and supersessions. By using explicit `c
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2017-06-20T21:19:10Z",
-  "contentExpires": "2017-06-20T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -376,7 +375,6 @@ The ideas here are temporary revocations and supersessions. By using explicit `c
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2017-06-20T21:19:10Z",
-  "contentExpires": "2017-06-20T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "signature": {
