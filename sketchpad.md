@@ -349,6 +349,8 @@ And the superseding statement:
 ## Temporary Revocations and Supersessions
 The ideas here are temporary revocations and supersessions, which support suspension and resumption as well as temporary redirection.
 
+A temporary revocation might also be implemented by a supersession to a resource with a post-dated issuance.
+
 ```json
 {
   "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
