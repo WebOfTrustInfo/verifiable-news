@@ -98,16 +98,16 @@ Here are sketches of updating statements:
 ```json
 {
   "update": {
-    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
+    "id": "https://example.com/updates/",
+    "type": "HTMLEmbeddedUpdateObjectList"
   }
 }
 ```
 ```json
 {
   "update": {
-    "id": "https://example.com/updates/",
-    "type": "HTMLEmbeddedUpdateObjectList"
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedUpdateObject"
   }
 }
 ```
