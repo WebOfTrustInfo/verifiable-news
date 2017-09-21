@@ -10,7 +10,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 ## Statements
 ```json
 {
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -20,7 +20,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 
 ```json
 {
-  "statement": [{
+  "content": [{
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -35,7 +35,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 
 ```json
 {
-  "statement": {
+  "content": {
     "value": "The area of a circle with radius <math><mi>r</mi></math>
     is <math><mi>&pi;</mi><mo>&InvisibleTimes;</mo>
     <msup><mi>r</mi><mn>2</mn></msup></math>.",
@@ -47,7 +47,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
 
 ```json
 {
-  "statement": [{
+  "content": [{
     "value": "cos(x) + 5",
     "contentType": "application/x-maple"
   },
@@ -77,7 +77,7 @@ Here is a sketch of a _verifiable statement_:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -120,7 +120,7 @@ Digitally-signed resources are immutable and transitory. An `update` field allow
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -311,7 +311,7 @@ In the following example, the resources expire annually and the content assertio
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -340,7 +340,7 @@ And the superseding statement:
   "issued": "2018-06-18T21:19:10Z",
   "expires": "2019-06-18T21:19:10Z",
   "contentIssued": "2017-06-18T21:19:10Z",
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
@@ -383,7 +383,7 @@ and in the context of an example:
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
-  "statement": {
+  "content": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
