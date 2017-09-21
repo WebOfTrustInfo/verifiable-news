@@ -7,6 +7,7 @@ The verifiable claims data model describes a datatype, `Credential`. A _[credent
 
 We can envision a new datatype, `Statement`. A _statement_ is an assertion by an entity. A _verifiable statement_ is a statement that is tamper-resistant and whose authorship can be cryptographically verified.
 
+## Statements
 ```json
 {
   "statement": {
