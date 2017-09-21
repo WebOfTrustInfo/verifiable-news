@@ -276,8 +276,6 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
 ## Temporary Revocations and Supersessions
-The ideas here are temporary revocations and supersessions, which support suspension and resumption as well as temporary redirection.
-
 A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
 
 A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
