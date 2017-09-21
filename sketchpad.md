@@ -101,7 +101,7 @@ Here are sketches of HTML-embedded revocation:
 ```json
 {
   "revocation": {
-    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   }
 }
@@ -109,7 +109,7 @@ Here are sketches of HTML-embedded revocation:
 ```json
 {
   "revocation": {
-    "id": "https://example.com/revocations/",
+    "id": "https://example.com/updates/",
     "type": "HTMLEmbeddedUpdateObjectList"
   }
 }
@@ -128,7 +128,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
@@ -145,7 +145,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
 A revocation object might resemble:
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -165,7 +165,7 @@ A revocation object might resemble:
 There may be a variety of types of revocation and an optional `reason` field could specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -186,7 +186,7 @@ There may be a variety of types of revocation and an optional `reason` field cou
 This is what a revocation object might resemble which links to a machine-utilizable rationale explaining the revocation:
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -213,7 +213,7 @@ Supersession objects can facilitate the modification, editing, revision, forward
 A supersession object might resemble:
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -234,7 +234,7 @@ A supersession object might resemble:
 There are a variety of types of supersession and an optional `reason` field could specify the reason for or the variety of the supersession. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -256,7 +256,7 @@ There are a variety of types of supersession and an optional `reason` field coul
 This is what a supersession object might resemble which links to a machine-utilizable rationale explaining the supersession:
 ```json
 {
-  "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
@@ -271,6 +271,7 @@ This is what a supersession object might resemble which links to a machine-utili
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
     "creator": "https://example.com/users/1/keys/",
+
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
     VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
@@ -315,7 +316,7 @@ In the following example, the resources expire annually and the content assertio
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
@@ -344,7 +345,7 @@ And the superseding statement:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/revocations/b4dca3952b4bd203/",
+    "id": "https://example.com/updates/b4dca3952b4bd203/",
     "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
@@ -387,7 +388,7 @@ and in the context of an example:
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
   "evidence": {
