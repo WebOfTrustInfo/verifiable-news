@@ -398,3 +398,34 @@ and in the context of an example:
   }
 }
 ```
+
+## URI Schemes Other Than HTTP
+Here is an example using [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme):
+```json
+{
+  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "type": "Statement",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "statement": {
+    "value": "Earth is the third planet of the Sun.",
+    "lang": "en",
+    "contentType": "text/plain"
+  },
+  "revocation": {
+    "id": "magnet:?as=https%3A%2F%2Fexample.com%2Frevocations%2Febfeb1f712ebc6f1%2F
+          &xt=urn:md5:8a1651363660c2b37f5cd533bf065fc5
+          &dn=example.com.ebfeb1f712ebc6f1.revocations",
+    "type": "HTMLEmbeddedRevocationObject"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
