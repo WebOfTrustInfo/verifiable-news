@@ -76,6 +76,7 @@ Here is a sketch of a _verifiable statement_:
   "type": "Statement",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
@@ -94,7 +95,7 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Updating Statements: Revocation and Supersession
-Digitally-signed statements are immutable and transitory. An `update` field allows for statements to be revoked or replaced, superseded. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects.
+Digitally-signed resources are immutable and transitory. An `update` field allows for statements to be revoked or replaced. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects.
 
 ```json
 {
