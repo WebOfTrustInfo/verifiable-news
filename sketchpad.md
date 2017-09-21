@@ -148,7 +148,7 @@ A revocation object might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "update",
+  "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -168,7 +168,7 @@ There may be a variety of types of revocation and an optional `reason` field cou
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "update",
+  "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -189,7 +189,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "update",
+  "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -216,7 +216,7 @@ A supersession object might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["update", "Supersession"],
+  "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -237,7 +237,7 @@ There are a variety of types of supersession and an optional `reason` field coul
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["update", "Supersession"],
+  "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -259,7 +259,7 @@ This is what a supersession object might resemble which links to a machine-utili
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["update", "Supersession"],
+  "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
