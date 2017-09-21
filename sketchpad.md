@@ -95,7 +95,7 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Updating Statements: Revocation and Supersession
-Digitally-signed resources are immutable and transitory. An `update` field allows for statements to be revoked or replaced. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects where one is pertinent.
+Digitally-signed resources are immutable and transitory. An `update` field allows for statements to be revoked or superseded. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects where one is pertinent.
 
 ```json
 {
@@ -188,6 +188,7 @@ A supersession object might resemble:
   }
 }
 ```
+
 ### Temporary Revocations and Supersessions
 A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
 
