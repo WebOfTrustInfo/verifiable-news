@@ -94,13 +94,10 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Updating Statements: Revocation and Supersession
-### Revocation
-[https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
-
-Here are sketches of HTML-embedded revocation:
+Here are sketches of updating statements:
 ```json
 {
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   }
@@ -108,13 +105,12 @@ Here are sketches of HTML-embedded revocation:
 ```
 ```json
 {
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/",
     "type": "HTMLEmbeddedUpdateObjectList"
   }
 }
 ```
-An HTML-embedded revocation object is a digitally-signed indication that a statement is revoked, embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 ```json
 {
   "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
@@ -127,7 +123,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
     "lang": "en",
     "contentType": "text/plain"
   },
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
@@ -142,11 +138,15 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
   }
 }
 ```
+
+### Revocation
+[https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
+
 A revocation object might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "Revocation",
+  "type": "update",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -166,7 +166,7 @@ There may be a variety of types of revocation and an optional `reason` field cou
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "Revocation",
+  "type": "update",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -187,7 +187,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "Revocation",
+  "type": "update",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -214,7 +214,7 @@ A supersession object might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
+  "type": ["update", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -235,7 +235,7 @@ There are a variety of types of supersession and an optional `reason` field coul
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
+  "type": ["update", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -257,7 +257,7 @@ This is what a supersession object might resemble which links to a machine-utili
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
+  "type": ["update", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -271,6 +271,7 @@ This is what a supersession object might resemble which links to a machine-utili
     "type": "LinkedDataSignature2017",
     "created": "2017-06-19T21:19:10Z",
     "creator": "https://example.com/users/1/keys/",
+
 
     "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
     "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
@@ -315,7 +316,7 @@ In the following example, the resources expire annually and the content assertio
     "lang": "en",
     "contentType": "text/plain"
   },
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
@@ -344,7 +345,7 @@ And the superseding statement:
     "lang": "en",
     "contentType": "text/plain"
   },
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/b4dca3952b4bd203/",
     "type": "HTMLEmbeddedUpdateObject"
   },
@@ -387,7 +388,7 @@ and in the context of an example:
     "lang": "en",
     "contentType": "text/plain"
   },
-  "revocation": {
+  "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
