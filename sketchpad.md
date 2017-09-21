@@ -413,9 +413,9 @@ Here is an example using [Magnet URI scheme](https://en.wikipedia.org/wiki/Magne
     "contentType": "text/plain"
   },
   "revocation": {
-    "id": "magnet:?as=https%3A%2F%2Fexample.com%2Frevocations%2Febfeb1f712ebc6f1%2F
-          &xt=urn:md5:8a1651363660c2b37f5cd533bf065fc5
-          &dn=example.com.ebfeb1f712ebc6f1.revocations",
+    "id": "magnet:?xt=urn:md5:8a1651363660c2b37f5cd533bf065fc5
+    &as=https%3A%2F%2Fexample.com%2Frevocations%2Febfeb1f712ebc6f1%2F
+    &dn=example.com.ebfeb1f712ebc6f1.revocations",
     "type": "HTMLEmbeddedRevocationObject"
   },
   "signature": {
