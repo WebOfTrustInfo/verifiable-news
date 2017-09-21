@@ -94,7 +94,8 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Updating Statements: Revocation and Supersession
-Here are sketches of updating statements:
+Digitally-signed statements are immutable and transitory. An `update` field allows for statements to be revoked or replaced, superseded. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects.
+
 ```json
 {
   "update": {
