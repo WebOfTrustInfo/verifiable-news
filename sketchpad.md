@@ -355,7 +355,7 @@ And the superseding statement:
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
-The idea here is that the evidence and reasoning supporting a statement can be located at a specified URL, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+The idea here is that the evidence and reasoning supporting a statement can be located at a specified URI, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 
 Here is a sketch of HTML-embedded schema evidence:
 ```json
