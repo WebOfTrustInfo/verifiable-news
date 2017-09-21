@@ -95,7 +95,7 @@ Here is a sketch of a _verifiable statement_:
 ```
 
 ## Updating Statements: Revocation and Supersession
-Digitally-signed resources are immutable and transitory. An `update` field allows for statements to be revoked or replaced. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects.
+Digitally-signed resources are immutable and transitory. An `update` field allows for statements to be revoked or replaced. The `update` field points to a _revocation object_, to a _supersession object_ or to a list of such objects where one is pertinent.
 
 ```json
 {
@@ -164,6 +164,36 @@ A revocation object might resemble:
   }
 }
 ```
+### Supersession
+Supersession objects can facilitate the modification, editing, revision, forwarding, redirection and replacement of statements.
+
+A supersession object might resemble:
+```json
+{
+  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
+  "type": ["Revocation", "Supersession"],
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
+  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-19T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+### Temporary Revocations and Supersessions
+A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
+
+A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
+
+### Rationale for Revocation or Supersession
 There may be a variety of types of revocation and an optional `reason` field could specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
@@ -209,30 +239,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
   }
 }
 ```
-### Supersession
-Supersession objects can facilitate the modification, editing, revision, forwarding, redirection and replacement of statements.
 
-A supersession object might resemble:
-```json
-{
-  "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2017-06-19T21:19:10Z",
-  "expires": "2018-06-18T21:19:10Z",
-  "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-19T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
 There are a variety of types of supersession and an optional `reason` field could specify the reason for or the variety of the supersession. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
@@ -283,11 +290,6 @@ This is what a supersession object might resemble which links to a machine-utili
 Scenarios for machine-utilizable rationale include where the superseding statement is the logical opposite of the superseded statement and the rationale is the refutation of the superseded statement or the argumentation which convinced the issuer of the statements to retract _S_ and to assert _¬S_ instead.
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
-
-### Temporary Revocations and Supersessions
-A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
-
-A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
 
 ## Resource Layer and Content Layer Intervals
 
