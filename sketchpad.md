@@ -93,7 +93,8 @@ Here is a sketch of a _verifiable statement_:
 }
 ```
 
-## Revocation of Statements
+## Revocation and Supersession
+### Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
 Here are sketches of HTML-embedded revocation:
@@ -101,7 +102,7 @@ Here are sketches of HTML-embedded revocation:
 {
   "revocation": {
     "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRevocationObject"
+    "type": "HTMLEmbeddedUpdateObject"
   }
 }
 ```
@@ -109,7 +110,7 @@ Here are sketches of HTML-embedded revocation:
 {
   "revocation": {
     "id": "https://example.com/revocations/",
-    "type": "HTMLEmbeddedRevocationObjectList"
+    "type": "HTMLEmbeddedUpdateObjectList"
   }
 }
 ```
@@ -128,7 +129,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
   },
   "revocation": {
     "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRevocationObject"
+    "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -206,8 +207,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
   }
 }
 ```
-
-## Supersession of Statements
+### Supersession
 Supersession objects can facilitate the modification, editing, revision, forwarding, redirection and replacement of statements.
 
 A supersession object might resemble:
@@ -316,7 +316,7 @@ In the following example, the resources expire annually and the content assertio
   },
   "revocation": {
     "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRevocationObject"
+    "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -345,7 +345,7 @@ And the superseding statement:
   },
   "revocation": {
     "id": "https://example.com/revocations/b4dca3952b4bd203/",
-    "type": "HTMLEmbeddedRevocationObject"
+    "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -388,7 +388,7 @@ and in the context of an example:
   },
   "revocation": {
     "id": "https://example.com/revocations/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedRevocationObject"
+    "type": "HTMLEmbeddedUpdateObject"
   },
   "evidence": {
     "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
