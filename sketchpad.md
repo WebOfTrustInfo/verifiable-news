@@ -93,7 +93,7 @@ Here is a sketch of a _verifiable statement_:
 }
 ```
 
-## Revocation and Supersession
+## Updating Statements: Revocation and Supersession
 ### Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
