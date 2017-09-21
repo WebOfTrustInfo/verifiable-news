@@ -120,6 +120,7 @@ An HTML-embedded revocation object is a digitally-signed indication that a state
   "type": "Statement",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",  
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
@@ -147,6 +148,7 @@ A revocation object might resemble:
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",  
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -166,6 +168,7 @@ There may be a variety of types of revocation and an optional `reason` field cou
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",  
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "reason": "typographical-error",
   "signature": {
@@ -186,6 +189,7 @@ This is what a revocation object might resemble which links to a machine-utiliza
   "type": "Revocation",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",  
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "reason": {
     "id": "https://example.com/rationale/ebfeb1f712ebc6f1/",
@@ -213,6 +217,7 @@ A supersession object might resemble:
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "signature": {
@@ -233,6 +238,7 @@ There are a variety of types of supersession and an optional `reason` field coul
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "reason": "typographical-error",
@@ -254,6 +260,7 @@ This is what a supersession object might resemble which links to a machine-utili
   "type": ["Revocation", "Supersession"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
   "revoked": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "reason": {
@@ -373,6 +380,7 @@ and in the context of an example:
   "type": "Statement",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
   "statement": {
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
