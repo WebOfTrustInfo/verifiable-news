@@ -275,6 +275,13 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
+## Temporary Revocations and Supersessions
+The ideas here are temporary revocations and supersessions, which support suspension and resumption as well as temporary redirection.
+
+A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
+
+A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
+
 ## Issuance Layer and Content Layer Intervals
 
 [https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
@@ -347,13 +354,6 @@ And the superseding statement:
 }
 ```
 
-## Temporary Revocations and Supersessions
-The ideas here are temporary revocations and supersessions, which support suspension and resumption as well as temporary redirection.
-
-A temporary revocation or supersession can be implemented by a revocation or supersession which expires before the revoked or superseded resource expires.
-
-A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
-
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
@@ -400,5 +400,5 @@ and in the context of an example:
 }
 ```
 
-## URI Schemes Other Than HTTP
-URI schemes other than HTTP/HTTPS can be utilized, for example the [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme).
+## URI Schemes Other Than HTTP/HTTPS
+URI schemes other than HTTP/HTTPS can be utilized, for example the [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme) or [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System).
