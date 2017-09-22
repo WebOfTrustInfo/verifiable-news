@@ -195,7 +195,7 @@ A temporary revocation or supersession can be implemented by a revocation or sup
 A temporary revocation can also be implemented by a supersession to a resource with a post-dated issuance.
 
 ### Rationale for Revocations or Supersessions
-There may be a variety of types of revocation and an optional `reason` field could specify the reason for or variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
+There may be a variety of types of revocation and supersession. An optional `reason` field can specify the reason for or the variety of the revocation. A `reason` field could be for text values, values from an enumerated set, and/or link to machine-utilizable rationale.
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
