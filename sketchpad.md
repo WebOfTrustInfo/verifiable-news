@@ -330,7 +330,7 @@ Here is a sketch of HTML-embedded schema support:
 {
   "support": {
     "id": "https://example.com/support/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedArgument"
+    "type": "HTMLEmbeddedSupport"
   }
 }
 ```
