@@ -265,7 +265,7 @@ There are a number of relationships possible between superseded and superseding 
 ## Supporting Statements: Evidence and Reasoning
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
-This section discusses reasoning, rules, templates, evidence and the citation of reference materials.
+This section discusses reasoning, rules, templates, evidence and the citation of referenced materials.
 
 Here is a sketch of HTML-embedded schema support:
 ```json
