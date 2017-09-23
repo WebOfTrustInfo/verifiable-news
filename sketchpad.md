@@ -265,7 +265,7 @@ There are a number of relationships possible between superseded and superseding 
 ## Supporting Statements: Evidence and Reasoning
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
-The idea here is that the evidence and reasoning supporting statements can be located at specified URI's, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+This section discusses reasoning, rules, templates, evidence and the citation of reference materials.
 
 Here is a sketch of HTML-embedded schema support:
 ```json
