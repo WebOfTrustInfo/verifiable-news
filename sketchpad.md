@@ -351,10 +351,14 @@ and in the context of an example:
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
-  "support": {
+  "support": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
     "type": "HTMLEmbeddedArgument"
   },
+  {
+    "id": "https://example.com/support/0d10d319340de813/",
+    "type": "HTMLEmbeddedArgument"  
+  }],
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
