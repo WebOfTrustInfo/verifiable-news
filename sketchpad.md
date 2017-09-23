@@ -248,7 +248,7 @@ Scenarios for machine-utilizable rationale include where the superseding stateme
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
 
-## Resource Layer and Content Layer Intervals
+## Resource Layer and Content Layer
 
 [https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
 
