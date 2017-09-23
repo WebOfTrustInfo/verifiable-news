@@ -354,8 +354,7 @@ and in the context of an example:
   "support": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
     "type": "HTMLEmbeddedArgument"
-  },
-  {
+  },{
     "id": "https://example.com/support/0d10d319340de813/",
     "type": "HTMLEmbeddedArgument"  
   }],
@@ -382,8 +381,7 @@ Here is a sketch of an argument:
   "premises": [{
     "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
     "type": "HTMLEmbeddedStatement"
-  },
-  {
+  },{
     "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
     "type": "HTMLEmbeddedStatement"
   }],
