@@ -325,12 +325,12 @@ And the superseding statement:
 
 The idea here is that the evidence and reasoning supporting a statement can be located at a specified URI, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 
-Here is a sketch of HTML-embedded schema evidence:
+Here is a sketch of HTML-embedded schema support:
 ```json
 {
-  "evidence": {
-    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedEvidence"
+  "support": {
+    "id": "https://example.com/support/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedArgument"
   }
 }
 ```
@@ -351,9 +351,45 @@ and in the context of an example:
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
     "type": "HTMLEmbeddedUpdateObject"
   },
-  "evidence": {
-    "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedEvidence"
+  "support": {
+    "id": "https://example.com/support/fc0fc20823fcd702/",
+    "type": "HTMLEmbeddedArgument"
+  },
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+Here is a sketch of an argument:
+```json
+{
+  "id": "https://example.com/support/fc0fc20823fcd702/",
+  "type": ["Argument", "Inference"],
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
+  "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
+  "premises": [{
+    "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
+    "type": "HTMLEmbeddedStatement"
+  },
+  {
+    "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
+    "type": "HTMLEmbeddedStatement"
+  }],
+  "rule": {
+    "id": "...",
+    "type": "HTMLEmbeddedRule"
+  },
+  "update": {
+    "id": "https://example.com/updates/fc0fc20823fcd702/",
+    "type": "HTMLEmbeddedUpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
