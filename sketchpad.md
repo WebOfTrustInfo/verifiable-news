@@ -320,16 +320,19 @@ Here is a sketch of an argument supporting a statement:
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "premises": [{
-    "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
-    "type": "HTMLEmbeddedStatement"
-  },{
-    "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
-    "type": "HTMLEmbeddedStatement"
-  }],
   "rule": {
     "id": "https://rules.org/rules/example-inference-rule/",
     "type": "HTMLEmbeddedRule"
+  },
+  "inputs": {
+    "X": {
+      "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
+      "type": "HTMLEmbeddedStatement"
+    },
+    "Y": {
+      "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
+      "type": "HTMLEmbeddedStatement"
+    }
   },
   "update": {
     "id": "https://example.com/updates/fc0fc20823fcd702/",
