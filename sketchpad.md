@@ -94,6 +94,20 @@ Here is a sketch of a _verifiable statement_:
 }
 ```
 
+## Resource Layer and Content Layer
+
+[https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
+
+[https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
+
+It is important to distinguish _resource layer intervals_ from _content layer intervals_.
+
+Resource layer intervals are the intervals of time that digitally-signed resources are valid or exist. It may be the case that resources are only available at URI's while valid, before they expire. Resource layer fields are `issued` and `expires`. In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), these fields are defined as describing the duration of the validity of the claims of a credential and of the credential.
+
+Content layer intervals are the intervals of time that content is to be asserted. The content layer exists atop the resource layer. Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` indicates the start of an assertion of content and, if omitted, has a default value of the value of `issued`. `contentExpires` indicates the end of an assertion and, if omitted, the assertion is intended while the resource and any superseding resources which contain the content are valid.
+
+If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `update`, then a system may check for an update, a supersession, when that resource expires.
+
 ## Updating Statements: Revocation and Supersession
 Digitally-signed resources are immutable and transitory. The `update` field allows digitally-signed resources to be revoked or superseded. The `update` field points to lists or instances of _revocation objects_ or _supersession objects_.
 
@@ -247,78 +261,6 @@ This is what a supersession object might resemble which links to a machine-utili
 Scenarios for machine-utilizable rationale include where the superseding statement is the logical opposite of the superseded statement and the rationale is the refutation of the superseded statement or the argumentation which convinced the issuer of the statements to retract _S_ and to assert _¬S_ instead.
 
 There are a number of relationships possible between superseded and superseding statements and there also could be a field which semantically relates the superseded statement to the superseding statement from an extensible ontology. A verifiable claim could also be used to express a semantic relationship between two verifiable statements.
-
-## Resource Layer and Content Layer
-
-[https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
-
-[https://w3c.github.io/vc-data-model/#expiration](https://w3c.github.io/vc-data-model/#expiration)
-
-It is important to distinguish _resource layer intervals_ from _content layer intervals_.
-
-Resource layer intervals are the intervals of time that digitally-signed resources are valid or exist. It may be the case that resources are only available at URI's while valid, before they expire. Resource layer fields are `issued` and `expires`. In the [verifiable claims data model](https://w3c.github.io/vc-data-model/), these fields are defined as describing the duration of the validity of the claims of a credential and of the credential.
-
-Content layer intervals are the intervals of time that content is to be asserted. The content layer exists atop the resource layer. Content layer fields are `contentIssued` and `contentExpires`. `contentIssued` indicates the start of an assertion of content and, if omitted, has a default value of the value of `issued`. `contentExpires` indicates the end of an assertion and, if omitted, the assertion is intended while the resource and any superseding resources which contain the content are valid.
-
-If a verifiable statement indicates `expires` without indicating `contentExpires`, or if `contentExpires` has a value which occurs after that of `expires`, and if that statement indicates a value for `revocation`, then a system may check for a supersession when that resource expires.
-
-In the following example, the resources expire annually and the content assertion is open-ended:
-```json
-{
-  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Statement",
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2017-06-18T21:19:10Z",
-  "expires": "2018-06-18T21:19:10Z",
-  "content": {
-    "value": "Earth is the third planet of the Sun.",
-    "lang": "en",
-    "contentType": "text/plain"
-  },
-  "update": {
-    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-18T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
-And the superseding statement:
-```json
-{
-  "id": "https://example.com/facts/b4dca3952b4bd203/",
-  "type": "Statement",
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2018-06-18T21:19:10Z",
-  "expires": "2019-06-18T21:19:10Z",
-  "contentIssued": "2017-06-18T21:19:10Z",
-  "content": {
-    "value": "Earth is the third planet of the Sun.",
-    "lang": "en",
-    "contentType": "text/plain"
-  },
-  "update": {
-    "id": "https://example.com/updates/b4dca3952b4bd203/",
-    "type": "HTMLEmbeddedUpdateObject"
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2018-06-18T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "a1be2d9f-c7e7-469f-b252-97f7b1f8499a",
-    "signatureValue": "A9xksT3/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+X43TW9="
-  }
-}
-```
 
 ## Supporting Statements: Evidence and Reasoning
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
