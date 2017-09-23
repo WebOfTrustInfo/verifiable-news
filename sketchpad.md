@@ -324,14 +324,18 @@ Here is a sketch of an argument supporting a statement:
     "id": "https://rules.org/rules/example-inference-rule/",
     "type": "HTMLEmbeddedRule"
   },
-  "inputs": {
+  "symbols": {
     "X": {
-      "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
+      "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
       "type": "HTMLEmbeddedStatement"
     },
     "Y": {
-      "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
+      "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
       "type": "HTMLEmbeddedStatement"
+    },
+    "Z": {
+      "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
+      "type": "HTMLEmbeddedStatement"      
     }
   },
   "update": {
