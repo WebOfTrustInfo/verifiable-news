@@ -263,7 +263,7 @@ There are a number of relationships possible between superseded and superseding 
 
 This section discusses reasoning, rules, templates, evidence, sources and the citing and referencing of materials.
 
-Here is a sketch of HTML-embedded schema support:
+Here is a sketch of support:
 ```json
 {
   "support": {
