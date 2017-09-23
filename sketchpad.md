@@ -94,7 +94,7 @@ Here is a sketch of a _verifiable statement_:
 }
 ```
 
-## Resource Layer and Content Layer
+## Resource and Content Layers
 
 [https://w3c.github.io/vc-data-model/#issuer](https://w3c.github.io/vc-data-model/#issuer)
 
