@@ -24,8 +24,7 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
     "value": "Earth is the third planet of the Sun.",
     "lang": "en",
     "contentType": "text/plain"
-   },
-   {
+   },{
     "value": "La Terre est la troisième planète du Soleil.",
     "lang": "fr",
     "contentType": "text/plain"
@@ -50,16 +49,13 @@ We can envision a new datatype, `Statement`. A _statement_ is an assertion by an
   "content": [{
     "value": "cos(x) + 5",
     "contentType": "application/x-maple"
-  },
-  {
+  },{
     "value": "Cos[x] + 5",
     "contentType": "application/vnd.wolfram.mathematica"
-  },
-  {
+  },{
     "value": "\\cos x + 5",
     "contentType": "application/x-tex"
-  },
-  {
+  },{
     "value": "<OMA xmlns='http://www.openmath.org/OpenMath'>
     <OMA><OMS cd='arith1' name='plus'/>
     <OMA><OMS cd='transc1' name='cos'/><OMV name='x'/></OMA>
