@@ -245,7 +245,7 @@ This is what a supersession object might resemble which links to a machine-utili
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "reason": {
     "id": "https://example.com/rationale/a3cc92841ac9c3f2/",
-    "type": "HTMLEmbeddedRationale"
+    "type": "HTMLEmbeddedSupport"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
