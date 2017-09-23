@@ -311,6 +311,7 @@ and in the context of an example:
   }
 }
 ```
+### Reasoning
 Here is a sketch of an argument supporting a statement:
 ```json
 {
