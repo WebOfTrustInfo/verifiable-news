@@ -323,7 +323,7 @@ And the superseding statement:
 ## Evidence and Reasoning Supporting Statements
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
-The idea here is that the evidence and reasoning supporting a statement can be located at a specified URI, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
+The idea here is that the evidence and reasoning supporting statements can be located at specified URI's, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
 
 Here is a sketch of HTML-embedded schema support:
 ```json
@@ -353,10 +353,10 @@ and in the context of an example:
   },
   "support": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
-    "type": "HTMLEmbeddedArgument"
+    "type": "HTMLEmbeddedSupport"
   },{
     "id": "https://example.com/support/0d10d319340de813/",
-    "type": "HTMLEmbeddedArgument"  
+    "type": "HTMLEmbeddedSupport"  
   }],
   "signature": {
     "type": "LinkedDataSignature2017",
