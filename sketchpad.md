@@ -320,7 +320,7 @@ And the superseding statement:
 }
 ```
 
-## Evidence and Reasoning Supporting Statements
+## Supporting Statements: Evidence and Reasoning
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
 The idea here is that the evidence and reasoning supporting statements can be located at specified URI's, the data embedded in a hypertext document as per [schema.org](http://schema.org) schemas or JSON-LD in a `<script>` element.
@@ -347,10 +347,6 @@ and in the context of an example:
     "lang": "en",
     "contentType": "text/plain"
   },
-  "update": {
-    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
-  },
   "support": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
     "type": "HTMLEmbeddedSupport"
@@ -358,6 +354,10 @@ and in the context of an example:
     "id": "https://example.com/support/0d10d319340de813/",
     "type": "HTMLEmbeddedSupport"  
   }],
+  "update": {
+    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
+    "type": "HTMLEmbeddedUpdateObject"
+  },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
