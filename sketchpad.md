@@ -311,7 +311,7 @@ and in the context of an example:
   }
 }
 ```
-Here is a sketch of an argument:
+Here is a sketch of an argument supporting a statement:
 ```json
 {
   "id": "https://example.com/support/fc0fc20823fcd702/",
@@ -328,7 +328,7 @@ Here is a sketch of an argument:
     "type": "HTMLEmbeddedStatement"
   }],
   "rule": {
-    "id": "...",
+    "id": "https://rules.org/rules/example-inference-rule/",
     "type": "HTMLEmbeddedRule"
   },
   "update": {
