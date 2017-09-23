@@ -319,7 +319,7 @@ Here is a sketch of an argument supporting a statement:
   "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "rule": {
     "id": "https://rules.org/rules/example-inference-rule/",
-    "type": "HTMLEmbeddedRule"
+    "type": "HTMLEmbeddedTemplate"
   },
   "symbols": {
     "X": {
