@@ -405,7 +405,7 @@ Here is a sketch of an argument supporting a statement:
       "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
       "type": "Statement"      
     }
-  }
+  },
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
