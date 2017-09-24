@@ -111,7 +111,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
 {
   "update": {
     "id": "https://example.com/updates/",
-    "type": "UpdateObjectList"
+    "type": "UpdateList"
   }
 }
 ```
@@ -119,7 +119,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
 {
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "UpdateObject"
+    "type": "Update"
   }
 }
 ```
@@ -137,7 +137,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
   },
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "UpdateObject"
+    "type": "Update"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -294,7 +294,7 @@ and in the context of an example:
   }],
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "UpdateObject"
+    "type": "Update"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -337,7 +337,7 @@ Here is a sketch of an argument supporting a statement:
   },
   "update": {
     "id": "https://example.com/updates/fc0fc20823fcd702/",
-    "type": "UpdateObject"
+    "type": "Update"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
