@@ -311,7 +311,7 @@ and in the context of an example:
 A template is a digitally-signed, reusable resource with variables. Here is a rough-draft sketch:
 ```json
 {
-  "id": "https://templates.org/templates/astronomical-observation/",
+  "id": "https://templates.org/astronomical-observation/",
   "type": "Template",
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
@@ -341,7 +341,7 @@ Utilization of templates involves referencing a specific template and providing 
 ```json
 {
   "template": {
-    "id": "https://templates.org/templates/astronomical-observation/",
+    "id": "https://templates.org/astronomical-observation/",
     "type": "Template"
   },
   "data": {
@@ -361,7 +361,7 @@ Utilization of templates involves referencing a specific template and providing 
 Templating could be built into a dialect of JSON. Resembling [JSON Pointers](https://tools.ietf.org/html/rfc6901) and [JSON References](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03), a syntax could indicate the JSON from a processed template for transclusion:
 ```json
 {
-  "$template": "https://templates.org/templates/astronomical-observation/",
+  "$template": "https://templates.org/astronomical-observation/",
   "$data": {
      "CONCLUSION": [{
       "value": "Earth is the third planet of the Sun.",
