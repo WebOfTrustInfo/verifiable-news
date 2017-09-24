@@ -308,8 +308,58 @@ and in the context of an example:
 }
 ```
 ### Templates
-Coming soon.
-
+A template is a digitally-signed, reusable resource with placeholder variables. Here is a rough-draft sketch of a template:
+```json
+{
+  "id": "https://templates.org/templates/astronomical-observation/",
+  "type": "Template",
+  "issuer": "https://example.com/users/1/issuer/",
+  "issued": "2017-06-18T21:19:10Z",
+  "expires": "2018-06-18T21:19:10Z",
+  "content": [{
+    "value": "{{CONCLUSION|lang='en',contentType='text/plain'}}",
+    "lang": "en",
+    "contentType": "text/plain"
+  },{
+    "value": "{{CONCLUSION|lang='fr',contentType='text/plain'}}",
+    "lang": "fr",
+    "contentType": "text/plain"
+  }],
+  "support": [{
+    "url": "{{OBSERVATION}}"
+  }],
+  "signature": {
+    "type": "LinkedDataSignature2017",
+    "created": "2017-06-18T21:19:10Z",
+    "creator": "https://example.com/users/1/keys/",
+    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+  }
+}
+```
+Then another object references the specific template and matches its variables to values:
+```json
+{
+  "template": {
+    "id": "https://templates.org/templates/astronomical-observation/",
+    "type": "Template"
+  },
+  "symbols": {
+    "CONCLUSION": [{
+      "value": "Earth is the third planet of the Sun.",
+      "lang": "en",
+      "contentType": "text/plain"
+    },{
+      "value": "La Terre est la troisième planète du Soleil.",
+      "lang": "fr",
+      "contentType": "text/plain"
+    }],
+    "OBSERVATION": "https://en.wikipedia.org/wiki/Earth"
+  }
+}
+```
 ### Reasoning
 Here is a sketch of an argument supporting a statement:
 ```json
