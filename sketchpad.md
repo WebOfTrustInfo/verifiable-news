@@ -309,7 +309,7 @@ and in the context of an example:
 ```
 ### Templates
 A template is a digitally-signed, reusable resource with placeholder variables. Here is a rough-draft sketch of a template:
-```
+```json
 {
   "id": "https://templates.org/templates/astronomical-observation/",
   "type": "Template",
@@ -317,11 +317,11 @@ A template is a digitally-signed, reusable resource with placeholder variables. 
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "content": [{
-    "value": "{{CONCLUSION|lang='en',contentType='text/plain'}}",
+    "value": "\{\{CONCLUSION|lang='en',contentType='text/plain'\}\}",
     "lang": "en",
     "contentType": "text/plain"
   },{
-    "value": "{{CONCLUSION|lang='fr',contentType='text/plain'}}",
+    "value": "\{\{CONCLUSION|lang='fr',contentType='text/plain'\}\}",
     "lang": "fr",
     "contentType": "text/plain"
   }],
