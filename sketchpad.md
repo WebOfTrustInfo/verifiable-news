@@ -354,7 +354,7 @@ Utilization of templates involves referencing a specific template and providing 
       "lang": "fr",
       "contentType": "text/plain"
     }],
-    "OBSERVATION": "https://en.wikipedia.org/wiki/Earth"
+    "OBSERVATIONS": ["https://en.wikipedia.org/wiki/Earth"]
   }
 }
 ```
