@@ -273,10 +273,10 @@ A template is a digitally-signed, reusable resource with variables. Here is a ro
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "content": [{
-    "value": "...lengthy JSON templates string...",
+    "value": "...lengthy JSON template string...",
     "contentType": "text/template"
   },{
-    "value": "...lengthy JSON templates string...",
+    "value": "...lengthy JSON template string...",
     "contentType": "text/x-handlebars-template"
   }],
   "signature": {
