@@ -335,6 +335,8 @@ A template is a digitally-signed, reusable resource with variables. Here is a ro
 ```
 A template may also indicate a list of its variables and acceptable schema per variable.
 
+A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
+
 Utilization of templates involves referencing a specific template and providing values for its variables:
 ```json
 {
