@@ -261,7 +261,7 @@ There are a number of relationships possible between superseded and superseding 
 ## Supporting Statements: Evidence and Reasoning
 [https://w3c.github.io/vc-data-model/#evidence](https://w3c.github.io/vc-data-model/#evidence)
 
-This section discusses reasoning, rules, templates, evidence, sources and the citing and referencing of materials.
+This section discusses templates, rules, sources, the citing and referencing of materials, evidence, reasoning and argumentation.
 
 ### Templates
 A template is a digitally-signed, reusable resource with variables. Here is a rough-draft sketch:
