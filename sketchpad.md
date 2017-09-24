@@ -264,7 +264,7 @@ There are a number of relationships possible between superseded and superseding 
 This section discusses templates, rules, sources, the citing and referencing of materials, evidence, reasoning and argumentation.
 
 ### Templates
-A template is a digitally-signed, reusable resource with variables. Here is a rough-draft sketch:
+A template is a digitally-signed, reusable resource. Here is a rough-draft sketch:
 ```json
 {
   "id": "https://templates.org/astronomical-observation/",
@@ -289,11 +289,11 @@ A template is a digitally-signed, reusable resource with variables. Here is a ro
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }  
 ```
-A template may also indicate a list of its variables and acceptable schema per variable.
+A template may also indicate a list of its variables and the schema acceptable per variable.
 
 A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
 
-Utilization of templates involves referencing a specific template and providing values for its variables:
+Utilization of templates involves referencing a specific template and providing a data model:
 ```json
 {
   "template": {
