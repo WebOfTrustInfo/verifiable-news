@@ -333,7 +333,7 @@ A template is a digitally-signed, reusable resource with placeholder variables. 
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }  
 ```
-A template may also indicate its variables and acceptable schema per variable.
+A template may also indicate a list of its variables and acceptable schema per variable.
 
 Utilization of templates involves referencing a specific template and providing values for its variables:
 ```json
