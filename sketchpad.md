@@ -160,7 +160,7 @@ A _revocation object_ might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "Revocation",
+  "type": ["Revocation", "Update"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -184,7 +184,7 @@ A _supersession object_ might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
+  "type": ["Revocation", "Supersession", "Update"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -212,7 +212,7 @@ There may be a variety of types of revocation and supersession. An optional `rea
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": "Revocation",
+  "type": ["Revocation", "Update"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",  
@@ -233,7 +233,7 @@ This is what a supersession object might resemble which links to a machine-utili
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-  "type": ["Revocation", "Supersession"],
+  "type": ["Revocation", "Supersession", "Update"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-19T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
@@ -312,7 +312,7 @@ Here is a sketch of an argument supporting a statement:
 ```json
 {
   "id": "https://example.com/support/fc0fc20823fcd702/",
-  "type": ["Argument", "Inference"],
+  "type": ["Support", "Argument", "Inference"],
   "issuer": "https://example.com/users/1/issuer/",
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
