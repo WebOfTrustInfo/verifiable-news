@@ -344,7 +344,7 @@ Utilization of templates involves referencing a specific template and providing 
     "id": "https://templates.org/templates/astronomical-observation/",
     "type": "Template"
   },
-  "symbols": {
+  "data": {
     "CONCLUSION": [{
       "value": "Earth is the third planet of the Sun.",
       "lang": "en",
@@ -388,11 +388,11 @@ Here is a sketch of an argument supporting a statement:
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "argument": {
+  "template": {
     "id": "https://rules.org/rules/example-inference-rule/",
     "type": "Template"
   },
-  "symbols": {
+  "data": {
     "X": {
       "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
       "type": "Statement"
@@ -405,11 +405,7 @@ Here is a sketch of an argument supporting a statement:
       "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
       "type": "Statement"      
     }
-  },
-  "update": {
-    "id": "https://example.com/updates/fc0fc20823fcd702/",
-    "type": "Update"
-  },
+  }
   "signature": {
     "type": "LinkedDataSignature2017",
     "created": "2017-06-18T21:19:10Z",
