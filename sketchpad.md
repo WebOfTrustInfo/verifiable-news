@@ -339,7 +339,7 @@ A template is a digitally-signed, reusable resource with placeholder variables. 
   }
 }
 ```
-Then another object references the specific template and matches its variables to values:
+Then, another object references the specific template and matches its variables to values:
 ```json
 {
   "template": {
