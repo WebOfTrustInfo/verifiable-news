@@ -309,7 +309,7 @@ and in the context of an example:
 ```
 ### Templates
 A template is a digitally-signed, reusable resource with placeholder variables. Here is a rough-draft sketch of a template:
-```json
+```
 {
   "id": "https://templates.org/templates/astronomical-observation/",
   "type": "Template",
