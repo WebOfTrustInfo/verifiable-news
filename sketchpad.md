@@ -366,7 +366,7 @@ Another rough-draft sketch includes the templates as content:
 ```
 A template can also indicate its variables and acceptable schema per variable.
 
-Utilization of templates involves referencing a specific template and matching its variables to values:
+Utilization of templates involves referencing a specific template and providing values for its variables:
 ```json
 {
   "template": {
