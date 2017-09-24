@@ -154,9 +154,9 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
 ### Revocation
 [https://w3c.github.io/vc-data-model/#revocation](https://w3c.github.io/vc-data-model/#revocation)
 
-Revocation objects can facilitate the retraction, deletion, conclusion and cancellation of resources and statements.
+Revocation can facilitate the retraction, deletion, conclusion and cancellation of resources and statements.
 
-A revocation object might resemble:
+A _revocation object_ might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
@@ -178,9 +178,9 @@ A revocation object might resemble:
 ```
 
 ### Supersession
-Supersession objects can facilitate the modification, editing, revision, forwarding, redirection and replacement of resources and statements.
+Supersession can facilitate the modification, editing, revision, forwarding, redirection and replacement of resources and statements.
 
-A supersession object might resemble:
+A _supersession object_ might resemble:
 ```json
 {
   "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
