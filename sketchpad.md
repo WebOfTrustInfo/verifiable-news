@@ -266,7 +266,7 @@ This section discusses reasoning, rules, templates, evidence, sources and the ci
 Here is a sketch of support:
 ```json
 {
-  "support": {
+  "supportedBy": {
     "id": "https://example.com/support/ebfeb1f712ebc6f1/",
     "type": "Support"
   }
@@ -285,7 +285,7 @@ and in the context of an example:
     "lang": "en",
     "contentType": "text/plain"
   },
-  "support": [{
+  "supportedBy": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
     "type": "Support"
   },{
@@ -379,44 +379,7 @@ Templating could be built into a dialect of JSON. Resembling [JSON Pointers](htt
 Interesting topics include recursion, templates which process into resources which invoke templates.
 
 ### Reasoning
-Here is a sketch of an argument supporting a statement:
-```json
-{
-  "id": "https://example.com/support/fc0fc20823fcd702/",
-  "type": ["Support", "Argument", "Inference"],
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2017-06-18T21:19:10Z",
-  "expires": "2018-06-18T21:19:10Z",
-  "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "template": {
-    "id": "https://rules.org/rules/example-inference-rule/",
-    "type": "Template"
-  },
-  "data": {
-    "X": {
-      "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
-      "type": "Statement"
-    },
-    "Y": {
-      "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
-      "type": "Statement"
-    },
-    "Z": {
-      "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-      "type": "Statement"      
-    }
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-18T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
+Coming soon.
 
 ## URI Schemes Other Than HTTP/HTTPS
 URI schemes other than HTTP/HTTPS can be utilized, for example the [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme) or [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System).
