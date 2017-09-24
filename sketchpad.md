@@ -361,6 +361,8 @@ Another rough-draft sketch includes the entire template as content:
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }  
 ```
+A template can also indicate its variables and acceptable schema per variable.
+
 Utilization of templates involves referencing a specific template and matching its variables to values:
 ```json
 {
