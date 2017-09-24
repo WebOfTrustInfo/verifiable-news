@@ -111,7 +111,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
 {
   "update": {
     "id": "https://example.com/updates/",
-    "type": "HTMLEmbeddedUpdateObjectList"
+    "type": "UpdateObjectList"
   }
 }
 ```
@@ -119,7 +119,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
 {
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
+    "type": "UpdateObject"
   }
 }
 ```
@@ -137,7 +137,7 @@ Digitally-signed resources are immutable and transitory. The `update` field allo
   },
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
+    "type": "UpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -241,7 +241,7 @@ This is what a supersession object might resemble which links to a machine-utili
   "supersededBy": "https://example.com/facts/a3cc92841ac9c3f2/",
   "reason": {
     "id": "https://example.com/rationale/a3cc92841ac9c3f2/",
-    "type": "HTMLEmbeddedSupport"
+    "type": "Support"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -268,7 +268,7 @@ Here is a sketch of support:
 {
   "support": {
     "id": "https://example.com/support/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedSupport"
+    "type": "Support"
   }
 }
 ```
@@ -287,14 +287,14 @@ and in the context of an example:
   },
   "support": [{
     "id": "https://example.com/support/fc0fc20823fcd702/",
-    "type": "HTMLEmbeddedSupport"
+    "type": "Support"
   },{
     "id": "https://example.com/support/0d10d319340de813/",
-    "type": "HTMLEmbeddedSupport"  
+    "type": "Support"  
   }],
   "update": {
     "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "HTMLEmbeddedUpdateObject"
+    "type": "UpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
@@ -319,25 +319,25 @@ Here is a sketch of an argument supporting a statement:
   "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
   "rule": {
     "id": "https://rules.org/rules/example-inference-rule/",
-    "type": "HTMLEmbeddedTemplate"
+    "type": "Template"
   },
   "symbols": {
     "X": {
       "id": "https://example.com/facts/ebfeb1f712ebc6ef/",
-      "type": "HTMLEmbeddedStatement"
+      "type": "Statement"
     },
     "Y": {
       "id": "https://example.com/facts/ebfeb1f712ebc6f0/",
-      "type": "HTMLEmbeddedStatement"
+      "type": "Statement"
     },
     "Z": {
       "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-      "type": "HTMLEmbeddedStatement"      
+      "type": "Statement"      
     }
   },
   "update": {
     "id": "https://example.com/updates/fc0fc20823fcd702/",
-    "type": "HTMLEmbeddedUpdateObject"
+    "type": "UpdateObject"
   },
   "signature": {
     "type": "LinkedDataSignature2017",
