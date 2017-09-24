@@ -358,6 +358,26 @@ Utilization of templates involves referencing a specific template and providing 
   }
 }
 ```
+Templating could be built into a dialect of JSON. Resembling [JSON Pointers](https://tools.ietf.org/html/rfc6901) and [JSON References](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03), a syntax could indicate the JSON from a processed template for transclusion:
+```json
+{
+  $template: "https://templates.org/templates/astronomical-observation/",
+  $data: {
+     "CONCLUSION": [{
+      "value": "Earth is the third planet of the Sun.",
+      "lang": "en",
+      "contentType": "text/plain"
+    },{
+      "value": "La Terre est la troisième planète du Soleil.",
+      "lang": "fr",
+      "contentType": "text/plain"
+    }],
+    "OBSERVATIONS": ["https://en.wikipedia.org/wiki/Earth"]
+  }
+}
+```
+Interesting topics include recursion, templates which process into resources which invoke templates.
+
 ### Reasoning
 Here is a sketch of an argument supporting a statement:
 ```json
