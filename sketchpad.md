@@ -314,7 +314,7 @@ Utilization of templates involves referencing a specific template and providing 
   }
 }
 ```
-Templating could be built into JSON, JSON-LD, or a dialect. Resembling [JSON Pointers](https://tools.ietf.org/html/rfc6901) and [JSON References](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03), a syntax could indicate the JSON from a processed template for transclusion:
+Templating could be built into JSON, JSON-LD, or a dialect. Resembling [JSON Pointers](https://tools.ietf.org/html/rfc6901) and [JSON References](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03), a syntax can indicate the JSON from a processed template for transclusion:
 ```json
 {
   "$template": "https://templates.org/astronomical-observation/",
