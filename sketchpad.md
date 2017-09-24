@@ -352,8 +352,5 @@ A path to content from the processed template for transclusion can be specified:
 ```
 Interesting topics include recursion, templates which process into resources which invoke templates.
 
-### Reasoning
-Coming soon.
-
 ## URI Schemes Other Than HTTP/HTTPS
 URI schemes other than HTTP/HTTPS can be utilized, for example the [Magnet URI scheme](https://en.wikipedia.org/wiki/Magnet_URI_scheme) or [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System).
