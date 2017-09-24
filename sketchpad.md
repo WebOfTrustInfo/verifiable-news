@@ -332,6 +332,24 @@ Templating could be built into a dialect of JSON. Resembling [JSON Pointers](htt
   }
 }
 ```
+A path to content from the processed template for transclusion can be specified:
+```json
+{
+  "$template": "https://templates.org/astronomical-observation/#foo/baz",
+  "$data": {
+     "CONCLUSION": [{
+      "value": "Earth is the third planet of the Sun.",
+      "lang": "en",
+      "contentType": "text/plain"
+    },{
+      "value": "La Terre est la troisième planète du Soleil.",
+      "lang": "fr",
+      "contentType": "text/plain"
+    }],
+    "OBSERVATIONS": ["https://en.wikipedia.org/wiki/Earth"]
+  }
+}
+```
 Interesting topics include recursion, templates which process into resources which invoke templates.
 
 ### Reasoning
