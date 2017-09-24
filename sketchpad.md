@@ -339,7 +339,7 @@ A template is a digitally-signed, reusable resource with placeholder variables. 
   }
 }
 ```
-Another sketch includes the entire template as a string:
+Another rough-draft sketch includes the entire template as content:
 ```json
 {
   "id": "https://templates.org/templates/astronomical-observation/",
@@ -348,8 +348,7 @@ Another sketch includes the entire template as a string:
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "content": {
-    "value": "...lengthy JSON string...\"\"",
-    "lang": "en",
+    "value": "...lengthy JSON templates string...",
     "contentType": "text/template"
   },
   "signature": {
@@ -362,7 +361,7 @@ Another sketch includes the entire template as a string:
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }  
 ```
-Utilization of templates involves referencing the specific template and matching its variables to values:
+Utilization of templates involves referencing a specific template and matching its variables to values:
 ```json
 {
   "template": {
