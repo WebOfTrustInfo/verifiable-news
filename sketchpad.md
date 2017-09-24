@@ -263,50 +263,6 @@ There are a number of relationships possible between superseded and superseding 
 
 This section discusses reasoning, rules, templates, evidence, sources and the citing and referencing of materials.
 
-Here is a sketch of support:
-```json
-{
-  "supportedBy": {
-    "id": "https://example.com/support/ebfeb1f712ebc6f1/",
-    "type": "Support"
-  }
-}
-```
-and in the context of an example:
-```json
-{
-  "id": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "type": "Statement",
-  "issuer": "https://example.com/users/1/issuer/",
-  "issued": "2017-06-18T21:19:10Z",
-  "expires": "2018-06-18T21:19:10Z",
-  "content": {
-    "value": "Earth is the third planet of the Sun.",
-    "lang": "en",
-    "contentType": "text/plain"
-  },
-  "supportedBy": [{
-    "id": "https://example.com/support/fc0fc20823fcd702/",
-    "type": "Support"
-  },{
-    "id": "https://example.com/support/0d10d319340de813/",
-    "type": "Support"  
-  }],
-  "update": {
-    "id": "https://example.com/updates/ebfeb1f712ebc6f1/",
-    "type": "Update"
-  },
-  "signature": {
-    "type": "LinkedDataSignature2017",
-    "created": "2017-06-18T21:19:10Z",
-    "creator": "https://example.com/users/1/keys/",
-    "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-    "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-    VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-    GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
-  }
-}
-```
 ### Templates
 A template is a digitally-signed, reusable resource with variables. Here is a rough-draft sketch:
 ```json
