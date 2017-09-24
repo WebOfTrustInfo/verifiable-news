@@ -307,6 +307,9 @@ and in the context of an example:
   }
 }
 ```
+### Templates
+Coming soon.
+
 ### Reasoning
 Here is a sketch of an argument supporting a statement:
 ```json
@@ -317,7 +320,7 @@ Here is a sketch of an argument supporting a statement:
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "conclusion": "https://example.com/facts/ebfeb1f712ebc6f1/",
-  "rule": {
+  "argument": {
     "id": "https://rules.org/rules/example-inference-rule/",
     "type": "Template"
   },
