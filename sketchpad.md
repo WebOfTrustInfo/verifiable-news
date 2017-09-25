@@ -264,7 +264,9 @@ There are a number of relationships possible between superseded and superseding 
 This section discusses templates, rules, sources, the citing and referencing of materials, evidence, reasoning and argumentation.
 
 ### Templates
-A template is a digitally-signed, reusable resource. Here is a rough-draft sketch:
+A template is a digitally-signed, reusable resource. A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
+
+In the following rough-draft sketch, the templates of types `text/template` and of type `text/x-handlebars-template` are strings which process into identical JSON outputs, identical outputs of type `application/json` or of type `application/ld+json`.
 ```json
 {
   "id": "https://templates.org/astronomical-observation/",
@@ -273,10 +275,10 @@ A template is a digitally-signed, reusable resource. Here is a rough-draft sketc
   "issued": "2017-06-18T21:19:10Z",
   "expires": "2018-06-18T21:19:10Z",
   "content": [{
-    "value": "...lengthy JSON template string...",
+    "value": "...template string which processes to JSON...",
     "contentType": "text/template"
   },{
-    "value": "...lengthy JSON template string...",
+    "value": "...template string which processes to JSON...",
     "contentType": "text/x-handlebars-template"
   }],
   "signature": {
@@ -290,8 +292,6 @@ A template is a digitally-signed, reusable resource. Here is a rough-draft sketc
   }  
 ```
 A template may also indicate a list of its variables and the schema acceptable per variable.
-
-A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
 
 Utilization of templates involves referencing a specific template and providing a data model:
 ```json
