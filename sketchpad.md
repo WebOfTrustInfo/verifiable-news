@@ -282,7 +282,7 @@ It could be that a general-purpose "JSON include" solution might resemble:
 ### Templates
 A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
 
-In the following rough-draft sketch, the templates of types `text/template` and `text/x-handlebars-template` are strings which, for identical inputs, process into identical JSON outputs, identical outputs of type `application/json` or of type `application/ld+json`.
+In the following rough-draft sketch, the templates of types `text/template` and `text/x-handlebars-template` are strings which, for identical inputs, process into identical JSON outputs.
 ```json
 {
   "id": "https://templates.org/astronomical-observation/",
