@@ -273,10 +273,14 @@ This section discusses templates, rules, sources, the citing and referencing of 
 
 [https://www.w3.org/TR/xinclude-11/](https://www.w3.org/TR/xinclude-11/)
 
-It could be that a general-purpose "JSON include" solution might resemble:
-
+It could be that a general-purpose "JSON include" solution resembles:
 ```json
-{ "$include": "..." }
+{ "$include": "https://web.com/content/resource.json" }
+```
+
+and that a path to content can be specified:
+```json
+{ "$include": "https://web.com/content/resource.json#foo/baz" }
 ```
 
 ### Templates
