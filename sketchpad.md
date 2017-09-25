@@ -269,6 +269,8 @@ This section discusses templates, rules, sources, the citing and referencing of 
 
 [https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03)
 
+[http://json-schema.org/latest/json-schema-core.html#rfc.section.8](http://json-schema.org/latest/json-schema-core.html#rfc.section.8)
+
 [https://tools.ietf.org/html/draft-luff-relative-json-pointer-00](https://tools.ietf.org/html/draft-luff-relative-json-pointer-00)
 
 [https://www.w3.org/TR/xinclude-11/](https://www.w3.org/TR/xinclude-11/)
