@@ -314,7 +314,7 @@ Utilization of templates involves referencing a specific template and providing 
   }
 }
 ```
-Templating could be built into JSON, JSON-LD, or a dialect. A syntax can indicate the JSON from a processed template for transclusion:
+Templating could be built into JSON, JSON-LD, or a dialect. A syntax can indicate the JSON from a processed template for [transclusion](https://en.wikipedia.org/wiki/Transclusion):
 ```json
 {
   "$template": "https://templates.org/astronomical-observation/",
@@ -332,7 +332,7 @@ Templating could be built into JSON, JSON-LD, or a dialect. A syntax can indicat
   }
 }
 ```
-A path to content from the processed template for transclusion can be specified:
+A path to content from the processed template for [transclusion](https://en.wikipedia.org/wiki/Transclusion) can be specified:
 ```json
 {
   "$template": "https://templates.org/astronomical-observation/#foo/baz",
