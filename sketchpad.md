@@ -263,6 +263,22 @@ There are a number of relationships possible between superseded and superseding 
 
 This section discusses templates, rules, sources, the citing and referencing of materials, evidence, reasoning and argumentation.
 
+### JSON Include
+
+[https://tools.ietf.org/html/rfc6901](https://tools.ietf.org/html/rfc6901)
+
+[https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03](https://tools.ietf.org/html/draft-pbryan-zyp-json-ref-03)
+
+[https://tools.ietf.org/html/draft-luff-relative-json-pointer-00](https://tools.ietf.org/html/draft-luff-relative-json-pointer-00)
+
+[https://www.w3.org/TR/xinclude-11/](https://www.w3.org/TR/xinclude-11/)
+
+It could be that a general-purpose "JSON include" solution might resemble:
+
+```json
+{ "$include": "..." }
+```
+
 ### Templates
 A template is a digitally-signed, reusable resource. A [template processor](https://en.wikipedia.org/wiki/Template_processor) (also known as a template engine or template parser) is software designed to combine templates with a data model to produce result documents.
 
@@ -332,7 +348,7 @@ Templating could be built into JSON, JSON-LD, or a dialect. A syntax can indicat
   }
 }
 ```
-A path to content from the processed template for [transclusion](https://en.wikipedia.org/wiki/Transclusion) can be specified:
+A path to content from the processed template for transclusion can be specified:
 ```json
 {
   "$template": "https://templates.org/astronomical-observation/#foo/baz",
