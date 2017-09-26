@@ -1,6 +1,7 @@
 - [Kickoff Discussion](verifiable_news_kickoff.md)
 - [Account Verification](account_verification.md)
 - [Brainstorming](brainstorming.md)
+  - [Metadata](journalistic-html-metadata.md)
   - [Sketchpad](sketchpad.md)
 - [Hyperlinks](hyperlinks.md)
 - [References](references.md)
