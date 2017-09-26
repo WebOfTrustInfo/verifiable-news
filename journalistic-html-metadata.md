@@ -1,3 +1,5 @@
+Here is an idea for how we could extend the HTML metadata system and models to facilitate the use of [decentralized identifiers](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/did-primer.md) (DID's) to indicate authors, editors, contributors and organizations pertinent to HTML journalistic content:
+
 ```html
 <html>
   <head>
