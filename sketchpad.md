@@ -275,12 +275,11 @@ This section discusses templates, rules, sources, the citing and referencing of 
 
 [https://www.w3.org/TR/xinclude-11/](https://www.w3.org/TR/xinclude-11/)
 
-It could be that a general-purpose "JSON include" solution resembles:
+A general-purpose "JSON include" solution resembles:
 ```json
 { "$include": "https://web.com/content/resource.json" }
 ```
-
-and that a path to content can be specified:
+and a path to content can be specified:
 ```json
 { "$include": "https://web.com/content/resource.json#foo/baz" }
 ```
@@ -313,7 +312,7 @@ In the following rough-draft sketch, the templates of types `text/template` and 
     GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
   }  
 ```
-A template may also indicate a list of its variables and the schema acceptable per variable.
+A template may also describe its data model, indicating a list of variables and the schema acceptable per variable.
 
 Utilization of templates involves referencing a specific template and providing a data model:
 ```json
