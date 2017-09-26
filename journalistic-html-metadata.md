@@ -3,10 +3,12 @@ Here is an idea for how the HTML metadata system and models can be extended to f
 ```html
 <html>
   <head>
+    <meta name="model:type" content="article" />
+    <meta name="model:canonical" content="https://www.news.org/article.html" />
     <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
   </head>
   <body>
-    …journalistic content…
+    ...journalistic content...
   </body>
 </html>
 ```
