@@ -1,3 +1,5 @@
+# Journalistic Metadata
+
 Here is an idea for how the HTML metadata system and models can be extended to facilitate the use of [decentralized identifiers](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/did-primer.md) (DID's) to indicate authors, editors, contributors and organizations pertinent to HTML journalistic content:
 
 ```html
@@ -12,3 +14,8 @@ Here is an idea for how the HTML metadata system and models can be extended to f
   </body>
 </html>
 ```
+
+## See Also
+[HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
+
+[The Open Graph Protocol](http://ogp.me/)
