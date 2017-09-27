@@ -15,7 +15,7 @@ Here is an idea for how the HTML metadata system and models can be extended to f
 </html>
 ```
 
-Metadata models envisioned include types: `journalism` and `opinion`, the latter encompassing newspaper columns, editorials, op-eds, editorial cartoons, and punditry.
+Metadata models envisioned include types: `journalism` and `opinion`, the latter encompassing newspaper columns, editorials, op-eds, editorial cartoons and punditry.
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
