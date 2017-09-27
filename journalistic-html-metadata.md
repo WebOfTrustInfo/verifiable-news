@@ -15,7 +15,7 @@ Here is an idea for how the HTML metadata system and models can be extended to f
 </html>
 ```
 
-Models envisioned include types `article` and `editorial`. Use of `model:type` in hypertext content metadata would differentiate news content from other forms of content, e.g. news comedy or news satire. By processing journalistic metadata, social media websites could rapidly determine whether content shared, from journalism organizations or citizen journalists, were news.
+Metadata models envisioned include types `article` and `editorial`.
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
