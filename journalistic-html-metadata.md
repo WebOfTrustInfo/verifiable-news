@@ -13,7 +13,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
     <meta name="og:title" content="News Article" />
     <meta name="og:description" content="..." />
     <meta name="og:url" content="https://www.news.com/article.html" />
-    <meta name="og:image" content="..." />
+    <meta name="og:image" content="https://www.news.com/img.png" />
   </head>
   <body>
     ...journalistic content...
