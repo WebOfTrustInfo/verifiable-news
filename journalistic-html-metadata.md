@@ -10,8 +10,8 @@ In the following example, the `model` namespace indicates the new ideas alongsid
     <meta name="og:type" content="article" />
     <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
     <meta name="article:author" content="John Smith" />
-    <meta name="og:title" content="News Article" />
-    <meta name="og:description" content="..." />
+    <meta name="og:title" content="Example News Article" />
+    <meta name="og:description" content="An example news article." />
     <meta name="og:url" content="https://www.news.com/article.html" />
     <meta name="og:image" content="https://www.news.com/img.png" />
   </head>
