@@ -27,3 +27,5 @@ Metadata models envisioned include types: `journalism` and `opinion`, the latter
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
 
 [The Open Graph Protocol](http://ogp.me/)
+
+[Facebook Metadata: Article](https://developers.facebook.com/docs/reference/opengraph/object-type/article/)
