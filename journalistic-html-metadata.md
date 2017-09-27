@@ -5,7 +5,7 @@ Here is an idea for how the HTML metadata system and models can be extended to f
 ```html
 <html>
   <head>
-    <meta name="model:type" content="article" />
+    <meta name="model:type" content="journalism" />
     <meta name="model:canonical" content="https://www.news.com/article.html" />
     <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
   </head>
@@ -15,7 +15,7 @@ Here is an idea for how the HTML metadata system and models can be extended to f
 </html>
 ```
 
-Metadata models envisioned include types `article` and `editorial`.
+Metadata models envisioned include types: `journalism` and `opinion`.
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
