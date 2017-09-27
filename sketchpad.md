@@ -275,6 +275,8 @@ This section discusses templates, rules, sources, the citing and referencing of 
 
 [https://www.w3.org/TR/xinclude-11/](https://www.w3.org/TR/xinclude-11/)
 
+[https://wiki.whatwg.org/wiki/Link_Hashes](https://wiki.whatwg.org/wiki/Link_Hashes)
+
 A general-purpose "JSON include" solution resembles:
 ```json
 { "$include": "https://web.com/content/resource.json" }
