@@ -21,7 +21,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 </html>
 ```
 
-Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`. See also: [Journalistic Schemas](journalistic-schemas.md).
+Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review` (see also: [Journalistic Schemas](journalistic-schemas.md)).
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
