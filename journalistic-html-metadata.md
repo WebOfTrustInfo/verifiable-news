@@ -21,7 +21,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 </html>
 ```
 
-Metadata models envisioned include types: `journalism` and `opinion`, the latter encompassing newspaper columns, editorials, op-eds, editorial cartoons and punditry.
+Types envisioned for `model:type` include: `journalism` and `opinion`, the latter encompassing newspaper columns, editorials, op-eds, editorial cartoons and punditry.
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
