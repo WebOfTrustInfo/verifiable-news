@@ -1,4 +1,4 @@
-[http://schema.org/](http://schema.org/)
+# Journalistic Schemas
 - [http://schema.org/CreativeWork](http://schema.org/CreativeWork)
   - [http://schema.org/NewsArticle](http://schema.org/NewsArticle)
     - [https://pending.schema.org/AnalysisNewsArticle](https://pending.schema.org/AnalysisNewsArticle)
