@@ -7,7 +7,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
     <meta name="og:type" content="article" />
-    <meta name="model:type" content="journalism" />
+    <meta name="model:type" content="reportage" />
     <meta name="article:author" content="John Smith" />
     <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
     <meta name="og:title" content="Example News Article" />
@@ -21,7 +21,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 </html>
 ```
 
-Types envisioned for `model:type` include: `journalism` and `opinion`, the latter encompassing newspaper columns, editorials, op-eds, editorial cartoons and punditry.
+Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`. See also: [Journalistic Schemas](journalistic-schemas.md).
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
