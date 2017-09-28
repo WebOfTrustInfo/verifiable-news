@@ -3,6 +3,7 @@
 - Brainstorming
   - [Blogging Platform Plugins](blogging-platform-plugins.md)
   - [Journalistic Metadata](journalistic-html-metadata.md)
+  - [Journalistic Schemas](journalistic-schemas.md)
   - [Sketchpad](sketchpad.md)
 - [Hyperlinks](hyperlinks.md)
 - [References](references.md)
