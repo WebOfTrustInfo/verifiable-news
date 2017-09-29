@@ -27,7 +27,7 @@ Due to the modular and extensible manner in which CMS plugins generate `<meta>` 
 For example:
 ```html
 <html>
-  <head>
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
     <meta name="og:type" content="article" />
     <meta name="model:type" content="reportage" />
     <meta name="article:author" content="John Smith" />
