@@ -61,14 +61,39 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
         "familyName": "Smith",
         "did": "did:example:ebfeb1f712ebc6f1c276e12ec21"
       },
-      "signature": {
-        "type": "LinkedDataSignature2017",
-        "created": "2017-06-18T21:19:10Z",
-        "creator": "...",
-        "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
-        "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
-        VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
-        GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
+      "profile": {
+        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+        "credential": [{
+          "id": "...",
+          "type": ["Credential"],
+          "issuer": "...",
+          "issued": "2010-01-01T19:73:24Z",
+          "claim": {
+            "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+            "name": "John Smith",
+            "givenName": "John",
+            "familyName": "Smith",
+          },
+          "signature": {
+            "type": "LinkedDataSignature2017",
+            "created": "2017-06-17T10:03:48Z",
+            "creator": "...",
+            "nonce": "d61c4599-0cc2-4479-9efc-c63add3a43b2",
+            "signatureValue": "pYw8XNi1bgVg/sCneO4BavEll0/I1zJugez8RwDg/+
+            ibcC1wpsMCRVpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuF
+            zvueMWmFPRdW+gGsutPTLhwYmfIFpbBu95t501+rSLHIEuujM/+PXr+W3JT24
+            9Cky6Ed="
+        }],
+        "signature": [{
+          "type": "LinkedDataSignature2017",
+          "created": "2017-06-18T21:19:10Z",
+          "creator": "did:example:ebfeb1f712ebc6f1c276e12ec21/keys/2",
+          "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+          "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+
+          MCRVpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wps
+          PRdW+gGsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed
+          +W3JT24="
+        }]
       }
     }
     </script>
