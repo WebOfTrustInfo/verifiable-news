@@ -20,7 +20,7 @@ In the following example, the `model` namespace indicates some new ideas alongsi
 </html>
 ```
 
-Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schema](journalistic-schemas.md).
+Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
 Due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex. It could be that a plugin outputs embedded, digitally-signed JSON-LD content.
 
