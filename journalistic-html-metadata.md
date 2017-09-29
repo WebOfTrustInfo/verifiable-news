@@ -22,9 +22,8 @@ In the following example, the `model` namespace indicates some new ideas alongsi
 
 Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
-Due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex. It could be that a plugin outputs embedded, digitally-signed JSON-LD content.
+Due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex. A plugin could output digitally-signed, embedded JSON-LD content. For example:
 
-For example:
 ```html
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
