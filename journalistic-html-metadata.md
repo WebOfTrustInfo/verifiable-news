@@ -57,6 +57,7 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
               ibcC1wpsMCRVpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuF
               zvueMWmFPRdW+gGsutPTLhwYmfIFpbBu95t501+rSLHIEuujM/+PXr+W3JT24
               9Cky6Ed="
+            }
           }],
           "signature": [{
             "type": "LinkedDataSignature2017",
