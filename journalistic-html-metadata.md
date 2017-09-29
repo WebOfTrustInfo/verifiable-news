@@ -1,30 +1,6 @@
 # Journalistic Metadata
 
-In the following example, the `model` namespace indicates some ideas alongside Open Graph metadata:
-```html
-<html>
-  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
-    <meta name="og:type" content="article" />
-    <meta name="model:type" content="reportage" />
-    <meta name="article:author" content="John Smith" />
-    <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
-    <meta name="og:title" content="Example News Article" />
-    <meta name="og:description" content="An example news article." />
-    <meta name="og:url" content="https://www.news.com/article.html" />
-    <meta name="og:image" content="https://www.news.com/img.png" />
-    <meta name="model:signature" content="..." />
-  </head>
-  <body>
-    ...journalistic content...
-  </body>
-</html>
-```
-
 Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
-
-Due to the extensible nature of HTML metadata and due to the modular manner in which multiple CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex.
-
-A plugin could, however, easily output digitally-signed, embedded JSON-LD content. For example:
 
 **Hypothesis 1: Add `profile` Field to `Person`**
 ```html
@@ -33,7 +9,6 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
     <meta name="og:type" content="article" />
     <meta name="model:type" content="reportage" />
     <meta name="article:author" content="John Smith" />
-    <meta name="model:author" content="did:example:ebfeb1f712ebc6f1c276e12ec21" />
     <meta name="og:title" content="Example News Article" />
     <meta name="og:description" content="An example news article." />
     <meta name="og:url" content="https://www.news.com/article.html" />
