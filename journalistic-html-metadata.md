@@ -1,8 +1,6 @@
 # Journalistic Metadata
 
-Here is an idea for how the HTML metadata system and models can be extended to facilitate the use of [decentralized identifiers](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2017/blob/master/topics-and-advance-readings/did-primer.md) (DID's) to indicate authors, editors, contributors and organizations pertinent to HTML journalistic content:
-
-In the following example, the `model` namespace indicates the new ideas alongside Open Graph metadata:
+In the following example, the `model` namespace indicates some new ideas alongside Open Graph metadata:
 ```html
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
@@ -22,11 +20,11 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 </html>
 ```
 
-Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`.
+Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schema](journalistic-schemas.md).
 
-Digitally signing across multiple `<meta>` and `<link>` metadata elements is difficult due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements.
+Due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex. It could be that a plugin outputs embedded, digitally-signed JSON-LD content.
 
-It could be that a plugin outputs embedded, digitally-signed JSON-LD content:
+For example:
 ```html
 <html>
   <head>
