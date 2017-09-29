@@ -24,6 +24,29 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 
 Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`.
 
+Digitally signing HTML metadata across elements is difficult due to the modular and extensible manner in which CMS plugins generate the `<meta>` and `<link>` metadata elements.
+
+It could be that one plugin outputs an embedded JSON-LD section in a `<script>` element with a digitally-signed object.
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ReportageNewsArticle",
+  "headline": "Example News Article",
+  "image": "https://www.news.com/img.png",
+  "description": "An example news article."
+  "author": {
+    "@type": "Person",
+    "givenName": "John",
+    "familyName": "Smith"
+    ...
+  }
+  ...
+}
+</script>
+```
+
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
 
