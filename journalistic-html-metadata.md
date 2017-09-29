@@ -46,7 +46,7 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
               "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
               "name": "John Smith",
               "givenName": "John",
-              "familyName": "Smith",
+              "familyName": "Smith"
             },
             "signature": {
               "type": "LinkedDataSignature2017",
