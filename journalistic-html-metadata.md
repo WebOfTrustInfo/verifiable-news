@@ -88,6 +88,8 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
 
 [Journalistic Schemas](journalistic-schemas.md)
 
+[Markup for News](https://schema.org/docs/news.html)
+
 [Embedding JSON-LD in HTML Documents](https://json-ld.org/spec/latest/json-ld/#embedding-json-ld-in-html-documents)
 
 [Linked Data Signatures](https://w3c-dvcg.github.io/ld-signatures/)
