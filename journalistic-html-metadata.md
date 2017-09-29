@@ -28,7 +28,7 @@ Digitally signing HTML metadata across elements is difficult due to the modular 
 
 It could be that one plugin outputs an embedded JSON-LD section in a `<script>` element with a digitally-signed object.
 
-```xhtml
+```html
 <html>
   <head>
     <meta name="og:type" content="article" />
@@ -59,6 +59,13 @@ It could be that one plugin outputs an embedded JSON-LD section in a `<script>` 
         "did": "did:example:ebfeb1f712ebc6f1c276e12ec21"
       },
       "signature": {
+        "type": "LinkedDataSignature2017",
+        "created": "2017-06-18T21:19:10Z",
+        "creator": "...",
+        "nonce": "c0ae1c8e-c7e7-469f-b252-86e6a0e7387e",
+        "signatureValue": "BavEll0/I1zpYw8XNi1bgVg/sCneO4Jugez8RwDg/+MCR
+        VpjOboDoe4SxxKjkCOvKiCHGDvc4krqi6Z1n0UfqzxGfmatCuFibcC1wpsPRdW+g
+        GsutPTLzvueMWmFhwYmfIFpbBu95t501+rSLHIEuujM/+PXr9Cky6Ed+W3JT24="
       }
     }
     </script>
