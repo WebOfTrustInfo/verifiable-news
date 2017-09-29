@@ -41,6 +41,7 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
     {
       "@context": [
         "http://schema.org",
+        "https://w3id.org/identity/v1",
         "https://w3id.org/security/v1"
       ],
       "@type": "ReportageNewsArticle",
@@ -50,11 +51,12 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
       "image": {
         "@type": "ImageObject",
         "url": "https://www.news.com/img.png",
-        "height": "400",
-        "width": "300"
+        "width": "1200",
+        "height": "630"
       },
       "author": {
         "@type": "Person",
+        "name": "John Smith",
         "givenName": "John",
         "familyName": "Smith",
         "did": "did:example:ebfeb1f712ebc6f1c276e12ec21"
