@@ -24,10 +24,9 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 
 Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`.
 
-Digitally signing HTML metadata across elements is difficult due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements.
+Digitally signing across multiple `<meta>` and `<link>` metadata elements is difficult due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements.
 
-It could be that one plugin outputs an embedded JSON-LD section in a `<script>` element with a digitally-signed object.
-
+It could be that a plugin outputs embedded, digitally-signed JSON-LD content:
 ```html
 <html>
   <head>
