@@ -14,6 +14,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
     <meta name="og:description" content="An example news article." />
     <meta name="og:url" content="https://www.news.com/article.html" />
     <meta name="og:image" content="https://www.news.com/img.png" />
+    <meta name="model:signature" content="..." />
   </head>
   <body>
     ...journalistic content...
@@ -21,7 +22,7 @@ In the following example, the `model` namespace indicates the new ideas alongsid
 </html>
 ```
 
-Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review` (see also: [Journalistic Schemas](journalistic-schemas.md)).
+Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`.
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
@@ -29,3 +30,7 @@ Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, 
 [The Open Graph Protocol](http://ogp.me/)
 
 [Facebook Metadata: Article](https://developers.facebook.com/docs/reference/opengraph/object-type/article/)
+
+[Journalistic Schemas](journalistic-schemas.md)
+
+[Embedding JSON-LD in HTML Documents](https://json-ld.org/spec/latest/json-ld/#embedding-json-ld-in-html-documents)
