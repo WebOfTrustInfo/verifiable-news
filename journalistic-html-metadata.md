@@ -2,7 +2,9 @@
 
 Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
-**Hypothesis 1: Add `profile` Field to `Person` and Sign JSON-LD Content with DID Record Key**
+**Hypothesis 1: Add `profile` Field to `Person` and Sign the JSON-LD Content with DID Record Keys**
+
+Signing the JSON-LD content with the DID record keys of the indicated article authors is a means of signing the assertions that the individuals indicated are the authors of the indicated news article.
 ```html
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# news: http://example.com#">
