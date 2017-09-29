@@ -1,13 +1,13 @@
 # Journalistic Metadata
 
-Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
+Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
 **Hypothesis 1: Add `profile` Field to `Person`**
 ```html
 <html>
-  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# model: http://example.com#">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# news: http://example.com#">
     <meta name="og:type" content="article" />
-    <meta name="model:type" content="reportage" />
+    <meta name="news:type" content="reportage" />
     <meta name="article:author" content="John Smith" />
     <meta name="og:title" content="Example News Article" />
     <meta name="og:description" content="An example news article." />
