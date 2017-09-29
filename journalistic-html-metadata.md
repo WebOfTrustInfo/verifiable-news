@@ -2,9 +2,6 @@
 
 Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
-**Hypothesis 1: Add `profile` Field to `Person` and Sign the JSON-LD Content with DID Record Keys**
-
-Signing the JSON-LD content with the DID record keys of the indicated article authors is a means of signing the assertions that the individuals indicated are the authors of the indicated news article.
 ```html
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# news: http://example.com#">
@@ -15,6 +12,20 @@ Signing the JSON-LD content with the DID record keys of the indicated article au
     <meta name="og:description" content="An example news article." />
     <meta name="og:url" content="https://www.news.com/article.html" />
     <meta name="og:image" content="https://www.news.com/img.png" />
+  </head>
+  <body>
+    ...journalistic content...
+  </body>
+</html>  
+```
+
+# Verifiable Claims, Schema.org and Embedded JSON-LD
+**Hypothesis 1: Add `profile` Field to `Person` and Sign the JSON-LD Content with DID Record Keys**
+
+Signing the JSON-LD content with the DID record keys of the indicated article authors is a means of signing the assertions that the individuals indicated are the authors of the indicated news article.
+```html
+<html>
+  <head>
     <script type="application/ld+json">
     {
       "@context": [
