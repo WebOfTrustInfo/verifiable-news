@@ -28,7 +28,7 @@ Digitally signing HTML metadata across elements is difficult due to the modular 
 
 It could be that one plugin outputs an embedded JSON-LD section in a `<script>` element with a digitally-signed object.
 
-```json
+```jsonld
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -45,7 +45,8 @@ It could be that one plugin outputs an embedded JSON-LD section in a `<script>` 
   "author": {
     "@type": "Person",
     "givenName": "John",
-    "familyName": "Smith"
+    "familyName": "Smith",
+    "did": "did:example:ebfeb1f712ebc6f1c276e12ec21"
   },
   "signature": {
   }
