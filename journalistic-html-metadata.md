@@ -36,14 +36,21 @@ It could be that one plugin outputs an embedded JSON-LD section in a `<script>` 
   "headline": "Example News Article",
   "description": "An example news article.",
   "url": "https://www.news.com/article.html",
-  "image": "https://www.news.com/img.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.news.com/img.png",
+    "height": "400",
+    "width": "300"
+  },
   "author": {
     "@type": "Person",
     "givenName": "John",
     "familyName": "Smith"
     ...
   }
-  ...
+  "signature": {
+    ...
+  }
 }
 </script>
 ```
