@@ -39,7 +39,10 @@ A plugin could, however, easily output digitally-signed, embedded JSON-LD conten
     <meta name="og:image" content="https://www.news.com/img.png" />
     <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": [
+        "http://schema.org",
+        "https://w3id.org/security/v1"
+      ],
       "@type": "ReportageNewsArticle",
       "headline": "Example News Article",
       "description": "An example news article.",
