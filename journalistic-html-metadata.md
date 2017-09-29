@@ -84,3 +84,5 @@ A plugin could output digitally-signed, embedded JSON-LD content. For example:
 [Journalistic Schemas](journalistic-schemas.md)
 
 [Embedding JSON-LD in HTML Documents](https://json-ld.org/spec/latest/json-ld/#embedding-json-ld-in-html-documents)
+
+[Linked Data Signatures](https://w3c-dvcg.github.io/ld-signatures/)
