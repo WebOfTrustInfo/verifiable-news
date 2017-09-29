@@ -28,7 +28,7 @@ Digitally signing HTML metadata across elements is difficult due to the modular 
 
 It could be that one plugin outputs an embedded JSON-LD section in a `<script>` element with a digitally-signed object.
 
-```html
+```xhtml
 <html>
   <head>
     <meta name="og:type" content="article" />
