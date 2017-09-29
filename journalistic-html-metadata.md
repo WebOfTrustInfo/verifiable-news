@@ -2,7 +2,7 @@
 
 Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `reportage` and `review`, as per [journalistic schemas](journalistic-schemas.md).
 
-**Hypothesis 1: Add `profile` Field to `Person`**
+**Hypothesis 1: Add `profile` Field to `Person` and Sign JSON-LD Content with DID Record Key**
 ```html
 <html>
   <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# news: http://example.com#">
@@ -70,7 +70,17 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
             +W3JT24="
           }]
         }
-      }
+      },
+      "signature": [{
+        "type": "LinkedDataSignature2017",
+        "created": "2017-09-29T22:55:50Z",
+        "creator": "did:example:ebfeb1f712ebc6f1c276e12ec21/keys/2",
+        "nonce": "d1bf2d9f-d8f8-57a0-c363-97f7b1f8498f",
+        "signatureValue": "rSeVAO2CpMoI6AitKyAyZwwHdSh448iimcY5Rp4XWT
+        TuJwkWXlBF2iAq/1g/kg82Tb+fZmXJOdqzJe+xOFUCpRLdf2Rwi2pj3hTpvSi
+        fFJ0v3ze8YQeH0HeFrlu+Re78XT4Lluo6Hv88BoqGqi3gjD70di+wCwg4329H
+        x8idxy8="
+      }]
     }
     </script>
   </head>
