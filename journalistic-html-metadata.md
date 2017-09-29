@@ -24,7 +24,7 @@ Types envisioned for `model:type` include: `analysis`, `background`, `opinion`, 
 
 Due to the modular and extensible manner in which CMS plugins generate `<meta>` and `<link>` metadata elements, digitally signing across multiple `<meta>` and `<link>` metadata elements is complex.
 
-A plugin could output digitally-signed, embedded JSON-LD content. For example:
+A plugin could, however, easily output digitally-signed, embedded JSON-LD content. For example:
 
 ```html
 <html>
