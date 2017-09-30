@@ -14,7 +14,7 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
     <meta name="og:image" content="https://www.news.com/img.png" />
   </head>
   <body>
-    ...journalistic content...
+    <!-- journalistic content -->
   </body>
 </html>  
 ```
@@ -98,7 +98,7 @@ Digitally signing the JSON-LD content with the DID document keys of the article'
     </script>
   </head>
   <body>
-    ...journalistic content...
+    <!-- journalistic content -->
   </body>
 </html>
 ```
