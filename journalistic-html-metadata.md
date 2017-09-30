@@ -43,7 +43,7 @@ Digitally signing the JSON-LD content with the DID record keys of the article's 
         "width": "1200",
         "height": "630"
       },
-      "author": {
+      "author": [{
         "@type": "Person",
         "name": "John Smith",
         "givenName": "John",
@@ -83,7 +83,7 @@ Digitally signing the JSON-LD content with the DID record keys of the article's 
             +W3JT24="
           }]
         }
-      },
+      }],
       "signature": [{
         "type": "LinkedDataSignature2017",
         "created": "2017-09-29T22:55:50Z",
