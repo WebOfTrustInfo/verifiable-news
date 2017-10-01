@@ -8,3 +8,6 @@
       - [https://pending.schema.org/ReportageNewsArticle](https://pending.schema.org/ReportageNewsArticle)
       - [https://pending.schema.org/ReviewNewsArticle](https://pending.schema.org/ReviewNewsArticle)
 - [http://schema.org/Person](http://schema.org/Person)
+
+# See Also
+[Markup for News](https://schema.org/docs/news.html)
