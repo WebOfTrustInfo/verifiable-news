@@ -174,6 +174,53 @@ Digitally signing the JSON-LD content with the DID document keys of the article'
 </html>
 ```
 
+**Approach 3: Add `did` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys**
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="application/ld+json">
+{
+  "@context": [
+    "http://schema.org",
+    "https://w3id.org/identity/v1",
+    "https://w3id.org/security/v1"
+  ],
+  "@type": "ReportageNewsArticle",
+  "headline": "Example News Article",
+  "description": "An example news article.",
+  "url": "https://www.news.com/article.html",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.news.com/img.png",
+    "width": "1200",
+    "height": "630"
+  },
+  "author": [{
+    "@type": "Person",
+    "name": "John Smith",
+    "givenName": "John",
+    "familyName": "Smith",
+    "did": "did:example:ebfeb1f712ebc6f1c276e12ec21"
+  }],
+  "signature": [{
+    "type": "LinkedDataSignature2017",
+    "created": "2017-09-29T22:55:50Z",
+    "creator": "did:example:ebfeb1f712ebc6f1c276e12ec21/keys/2",
+    "nonce": "d1bf2d9f-d8f8-57a0-c363-97f7b1f8498f",
+    "signatureValue": "rSeVAO2CpMoI6AitKyAyZwwHdSh448iimcY5Rp4XWT
+    TuJwkWXlBF2iAq/1g/kg82Tb+fZmXJOdqzJe+xOFUCpRLdf2Rwi2pj3hTpvSi
+    fFJ0v3ze8YQeH0HeFrlu+Re78XT4Lluo6Hv88BoqGqi3gjD70di+wCwg4329H
+    x8idxy8="
+  }]
+}
+    </script>
+  </head>
+  <body>
+    <!-- journalistic content -->
+  </body>
+</html>
+```
 
 ## See Also
 [HTML5 Metadata](https://www.w3.org/TR/html5/document-metadata.html)
