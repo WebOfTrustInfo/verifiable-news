@@ -21,7 +21,7 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
 ```
 
 # Verifiable Claims, Schema.org and Embedded JSON-LD
-**Approach 1: Add `profile` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys**
+## Approach 1: Add `profile` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys
 
 Digitally signing the JSON-LD content with the DID document keys of the article's authors is a means of digitally signing the assertions that the indicated individuals are the authors of the news article.
 ```html
@@ -105,7 +105,7 @@ Digitally signing the JSON-LD content with the DID document keys of the article'
 </html>
 ```
 
-**Approach 2: Add `credentials` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys**
+## Approach 2: Add `credentials` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys
 ```html
 <!DOCTYPE html>
 <html>
@@ -174,7 +174,7 @@ Digitally signing the JSON-LD content with the DID document keys of the article'
 </html>
 ```
 
-**Approach 3: Add `did` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys**
+## Approach 3: Add `did` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys
 ```html
 <!DOCTYPE html>
 <html>
