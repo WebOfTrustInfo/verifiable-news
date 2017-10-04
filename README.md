@@ -2,8 +2,8 @@
 - [Account Verification](account_verification.md)
 - Brainstorming
   - [Blogging Platform Plugins](blogging-platform-plugins.md)
-  - [Journalistic Metadata](journalistic-html-metadata.md)
   - [Journalistic Schemas](journalistic-schemas.md)
+  - [Journalistic Metadata](journalistic-html-metadata.md)
   - [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
   - [Sketchpad](sketchpad.md)
 - [Hyperlinks](hyperlinks.md)
