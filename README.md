@@ -1,10 +1,10 @@
 - [Kickoff Discussion](verifiable_news_kickoff.md)
 - [Account Verification](account_verification.md)
 - Brainstorming
-  - [Blogging Platform Plugins](blogging-platform-plugins.md)
   - [Journalistic Schemas](journalistic-schemas.md)
   - [Journalistic Metadata](journalistic-html-metadata.md)
   - [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
+  - [Blogging Platform Plugins](blogging-platform-plugins.md)
   - [Sketchpad](sketchpad.md)
 - [Hyperlinks](hyperlinks.md)
 - [References](references.md)
