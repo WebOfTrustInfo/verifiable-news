@@ -21,6 +21,7 @@ Types envisioned for `news:type` include: `analysis`, `background`, `opinion`, `
 ```
 
 # Verifiable Claims, Schema.org and Embedded JSON-LD
+See also: [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
 ### Approach 1: Add `profile` to `Person` and Digitally Sign JSON-LD Content with DID Document Keys
 ```html
 <!DOCTYPE html>
