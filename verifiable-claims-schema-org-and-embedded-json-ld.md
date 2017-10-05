@@ -1,5 +1,5 @@
 # Verifiable Claims, Schema.org and Embedded JSON-LD
-### Approach 1: Add `profile` to `Person` and Digitally Sign JSON-LD Content using DID Document Keys
+### Approach 1: Add `profile` to `Person` and Digitally Sign JSON-LD Content Using DID Document Keys
 A [_profile_](https://w3c.github.io/vc-data-model/#dfn-profile) is a set of one or more credentials typically related to the same subject. An entity may have multiple profiles and each profile may contain verifiable credentials issued by multiple issuers. A _verifiable profile_ is a profile that is tamper-resistant and whose contents are typically counter-signed by the holder or subject.
 ```html
 <!DOCTYPE html>
@@ -82,7 +82,7 @@ A [_profile_](https://w3c.github.io/vc-data-model/#dfn-profile) is a set of one 
 </html>
 ```
 
-### Approach 2: Add `credentials` to `Person` and Digitally Sign JSON-LD Content using DID Document Keys
+### Approach 2: Add `credentials` to `Person` and Digitally Sign JSON-LD Content Using DID Document Keys
 A [_credential_](https://w3c.github.io/vc-data-model/#dfn-credential) is a set of one or more claims made by the same entity about a subject. A _verifiable credential_ is a credential that is tamper-resistant and whose authorship can be cryptographically verified.
 ```html
 <!DOCTYPE html>
@@ -152,7 +152,7 @@ A [_credential_](https://w3c.github.io/vc-data-model/#dfn-credential) is a set o
 </html>
 ```
 
-### Approach 3: Add `did` to `Person` and Digitally Sign JSON-LD Content using DID Document Keys
+### Approach 3: Add `did` to `Person` and Digitally Sign JSON-LD Content Using DID Document Keys
 ```html
 <!DOCTYPE html>
 <html>
@@ -200,7 +200,7 @@ A [_credential_](https://w3c.github.io/vc-data-model/#dfn-credential) is a set o
 </html>
 ```
 
-### Approach 4: Use DID for `@id` on `Person` and Digitally Sign JSON-LD Content using DID Document Keys
+### Approach 4: Use DID for `@id` on `Person` and Digitally Sign JSON-LD Content Using DID Document Keys
 ```html
 <!DOCTYPE html>
 <html>
