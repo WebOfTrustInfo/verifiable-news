@@ -253,6 +253,8 @@ A [_profile_](https://w3c.github.io/vc-data-model/#dfn-profile) is a set of one 
 ```
 
 ## See Also
+[Verifiable Claims Data Model 1.0](https://w3c.github.io/vc-data-model/)
+
 [Embedding JSON-LD in HTML Documents](https://json-ld.org/spec/latest/json-ld/#embedding-json-ld-in-html-documents)
 
 [Linked Data Signatures](https://w3c-dvcg.github.io/ld-signatures/)
