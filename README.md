@@ -3,6 +3,7 @@
 - Brainstorming
   - [Journalistic Schemas](journalistic-schemas.md)
   - [Journalistic Metadata](journalistic-html-metadata.md)
+  - [Social Media and Contextual Information for News Articles](news-article-context.md)
   - [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
   - [Blogging Platform Plugins](blogging-platform-plugins.md)
   - [Sketchpad](sketchpad.md)
