@@ -4,6 +4,4 @@
 
 "Helping people access this important contextual information can help them evaluate if articles are from a publisher they trust, and if the story itself is credible. This is just the beginning of the test. We’ll continue to listen to people’s feedback and work with publishers to provide people easy access to the contextual information that helps people decide which stories to read, share, and trust, and to improve the experiences people have on Facebook."
 
-## See Also
-
 [https://newsroom.fb.com/news/2017/10/news-feed-fyi-new-test-to-provide-context-about-articles/](https://newsroom.fb.com/news/2017/10/news-feed-fyi-new-test-to-provide-context-about-articles/)
