@@ -1,4 +1,4 @@
-# Blogging Platform Plugins
+# Content Management System Plugins
 
 ## URI-addressable Factual Statements
 `https://www.journalistblog.com/facts/ebfeb1f712ebc6f1/`
