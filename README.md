@@ -5,7 +5,7 @@
   - [Journalistic Metadata](journalistic-html-metadata.md)
   - [Social Media and Contextual Information for News Articles](news-article-context.md)
   - [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
-  - [Content Management System Plugins](blogging-platform-plugins.md)
+  - [Content Management System Plugins](content-management-system-plugins.md)
   - [Sketchpad](sketchpad.md)
 - [Hyperlinks](hyperlinks.md)
 - [References](references.md)
