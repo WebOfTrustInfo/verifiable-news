@@ -5,8 +5,8 @@
 
 `https://facts.press.org/facts/ebfeb1f712ebc6f1/`
 
-## Decentralized Systems and Blogging Platform Plugins
-We can consider blogging platform plugins (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/) plugins) for decentralized systems of verifiable factual statements.
+## Decentralized Systems and Content Management System Plugins
+We can consider content management system (e.g. [Drupal](http://www.drupal.com/), [Joomla](https://www.joomla.com/) and [WordPress](https://wordpress.org/)) plugins for decentralized systems of verifiable factual statements.
 
 ### Factual Statements as Custom Post Types
 Factual statements can be implemented as a [custom post type](https://codex.wordpress.org/Post_Types#Custom_Post_Types).
