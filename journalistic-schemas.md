@@ -9,7 +9,7 @@
         - [https://pending.schema.org/ReportageNewsArticle](https://pending.schema.org/ReportageNewsArticle)
         - [https://pending.schema.org/ReviewNewsArticle](https://pending.schema.org/ReviewNewsArticle)
   - [http://schema.org/Person](http://schema.org/Person)
-  - [https://pending.schema.org/Organization](https://pending.schema.org/Organization)
+  - [https://schema.org/Organization](https://schema.org/Organization)
     - [https://pending.schema.org/NewsMediaOrganization](https://pending.schema.org/NewsMediaOrganization)
 
 ## See Also
