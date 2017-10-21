@@ -1,5 +1,5 @@
 # Journalistic Schemas
-- [https://pending.schema.org/Thing](https://pending.schema.org/Thing)
+- [https://schema.org/Thing](https://schema.org/Thing)
   - [http://schema.org/CreativeWork](http://schema.org/CreativeWork)
     - [http://schema.org/Article](http://schema.org/Article)
       - [http://schema.org/NewsArticle](http://schema.org/NewsArticle)
