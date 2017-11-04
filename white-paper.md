@@ -89,9 +89,9 @@ One productive area of response is to standardize the way we signal disputes and
 ## References
 [1] Bradshaw, Samantha, and Philip N. Howard. “Troops, trolls and troublemakers: A global inventory of organized social media manipulation.”
 
-[2] International Fact-Checking Network. https://www.poynter.org/channels/fact-checking
+[2] International Fact-Checking Network. [https://www.poynter.org/channels/fact-checking](https://www.poynter.org/channels/fact-checking)
 
-[3] Jack, Caroline. Lexicon of Lies, Data & Society. https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf 
+[3] Jack, Caroline. “Lexicon of Lies: Terms for Problematic Information.” [https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
 
 [4] Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. “The spread of fake news by social bots.” arXiv preprint arXiv:1707.07592 (2017).
 
