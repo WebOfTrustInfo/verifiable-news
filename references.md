@@ -3,9 +3,13 @@
 ## Publications
 Bradshaw, Samantha, and Philip N. Howard. "Troops, trolls and troublemakers: A global inventory of organized social media manipulation." [[http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf](http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf)]
 
+Jack, Caroline. “Lexicon of lies: Terms for problematic information.” [[https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)]
+
 Kümpel, Anna Sophie, Veronika Karnowski, and Till Keyling. "News sharing in social media: A review of current research on news sharing users, content, and networks." _Social Media + Society_ 1, no. 2 (2015). [[http://journals.sagepub.com/doi/full/10.1177/2056305115610141](http://journals.sagepub.com/doi/full/10.1177/2056305115610141)]
 
 Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. "The spread of fake news by social bots." _arXiv preprint arXiv:1707.07592_ (2017). [[https://arxiv.org/pdf/1707.07592.pdf](https://arxiv.org/pdf/1707.07592.pdf)]
+
+Wardle, Claire and Hossein Derakhshan. “Information disorder: Toward an interdisciplinary framework for research and policy making.” [[https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c)]
 
 ## Articles
 - [https://webfoundation.org/2017/03/web-turns-28-letter/](https://webfoundation.org/2017/03/web-turns-28-letter/)
