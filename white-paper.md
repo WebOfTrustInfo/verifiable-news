@@ -91,8 +91,8 @@ One productive area of response is to standardize the way we signal disputes and
 
 [2] International Fact-Checking Network. [https://www.poynter.org/channels/fact-checking](https://www.poynter.org/channels/fact-checking)
 
-[3] Jack, Caroline. “Lexicon of Lies: Terms for Problematic Information.” [https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
+[3] Jack, Caroline. “Lexicon of lies: Terms for problematic information.” [https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
 
 [4] Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. “The spread of fake news by social bots.” arXiv preprint arXiv:1707.07592 (2017).
 
-[5] Wardle, Claire and Hossein Derakhshan. INFORMATION DISORDER: Toward an interdisciplinary framework for research and policy making.
+[5] Wardle, Claire and Hossein Derakhshan. “INFORMATION DISORDER: Toward an interdisciplinary framework for research and policy making.”
