@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-In 2017, our global media landscape finds itself in a precarious situation: trust in media is at an all time low, and decentralized production and centralized, algorithmic distribution have created a perfect storm for the rise of misinformation, disinformation and the scourge generally referred to as fake news. This is not a partisan problem but rather one that is driving polarization while simultaneously undermining public trust in institutions.
+In 2017, our global media landscape finds itself in a precarious situation: trust in media is at an all time low, and decentralized production and centralized, algorithmic distribution have created a perfect storm for the rise of misinformation, disinformation and the scourge generally referred to as _fake news_. This is not a partisan problem but rather one that is driving polarization while simultaneously undermining public trust in institutions.
 
 This white paper seeks to address these challenges and to produce solutions. This white paper seeks to propose policy, standards, and technologies to help curb inauthentic agents (bots), to mitigate the spread of online misinformation and to defend society from both wholesale and targetable online disinformation campaigns and manipulation.
 
