@@ -87,12 +87,12 @@ The current Internet media landscape has proven a hospitable domain for those ch
 One productive area of response is to standardize the way we signal disputes and the evidence we provide in support of those signals. The work of digital identity and digital credentialing combined with a robust effort to expand the existing annotation standard to accept a vocabulary specific to disputes, fact-checks, and verification is, perhaps, the most productive response we can take at this point in time to a challenge which will evolve and persist.
 
 ## References
-[1] Bradshaw, Samantha, and Philip N. Howard. “Troops, trolls and troublemakers: A global inventory of organized social media manipulation.”
+[1] Bradshaw, Samantha, and Philip N. Howard. “Troops, trolls and troublemakers: A global inventory of organized social media manipulation.” [[http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf](http://comprop.oii.ox.ac.uk/wp-content/uploads/sites/89/2017/07/Troops-Trolls-and-Troublemakers.pdf)]
 
-[2] International Fact-Checking Network. [https://www.poynter.org/channels/fact-checking](https://www.poynter.org/channels/fact-checking)
+[2] International Fact-Checking Network. [[https://www.poynter.org/channels/fact-checking](https://www.poynter.org/channels/fact-checking)]
 
-[3] Jack, Caroline. “Lexicon of lies: Terms for problematic information.” [https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)
+[3] Jack, Caroline. “Lexicon of lies: Terms for problematic information.” [[https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf](https://datasociety.net/pubs/oh/DataAndSociety_LexiconofLies.pdf)]
 
-[4] Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. “The spread of fake news by social bots.” arXiv preprint arXiv:1707.07592 (2017).
+[4] Shao, Chengcheng, Giovanni Luca Ciampaglia, Onur Varol, Alessandro Flammini, and Filippo Menczer. “The spread of fake news by social bots.” arXiv preprint arXiv:1707.07592 (2017). [[https://arxiv.org/pdf/1707.07592.pdf](https://arxiv.org/pdf/1707.07592.pdf)]
 
-[5] Wardle, Claire and Hossein Derakhshan. “INFORMATION DISORDER: Toward an interdisciplinary framework for research and policy making.”
+[5] Wardle, Claire and Hossein Derakhshan. “Information disorder: Toward an interdisciplinary framework for research and policy making.” [[https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c)]
