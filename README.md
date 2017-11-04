@@ -7,6 +7,7 @@
   - [Verifiable Claims, Schema.org and Embedded JSON-LD](verifiable-claims-schema-org-and-embedded-json-ld.md)
   - [Content Management System Plugins](content-management-system-plugins.md)
   - [Sketchpad](sketchpad.md)
+- [White Paper](white-paper.md)
 - [Hyperlinks](hyperlinks.md)
 - [References](references.md)
 - [Bot Tools](bot_tools.md)
